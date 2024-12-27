@@ -1,0 +1,30 @@
+name: Raspagem Semanal
+
+on:
+  schedule:
+    - cron: '0 3 * * 1' # Executa toda segunda-feira às 03:00 UTC (ajuste conforme necessário)
+  workflow_dispatch: # Permite executar o workflow manualmente
+
+jobs:
+  raspagem:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout do código
+        uses: actions/checkout@v3
+
+      - name: Configurar Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.9' # Ou uma versão compatível
+
+      - name: Instalar dependências
+        run: pip install requests beautifulsoup4
+
+      - name: Executar raspagem
+        run: python raspagem/raspagem.py
+
+      - name: Commitar alterações (se houver)
+        uses: stefanzweifel/git-commit-message@v4
+        with:
+          commit_message: Atualização dos dados de ônibus
+          new_file_pattern: dados_onibus.json
