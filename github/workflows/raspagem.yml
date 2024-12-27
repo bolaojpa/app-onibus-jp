@@ -2,7 +2,7 @@ name: Raspagem Semanal
 
 on:
   schedule:
-    - cron: '0 3 * * 1' # Executa toda segunda-feira às 03:00 UTC (ajuste conforme necessário)
+    - cron: '0 6 * * 1' # Executa toda segunda-feira às 03:00 UTC (ajuste conforme necessário)
   workflow_dispatch: # Permite executar o workflow manualmente
 
 jobs:
