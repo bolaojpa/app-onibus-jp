@@ -1,0 +1,402 @@
+[
+    {
+        "codigo": "0002 - ROGER",
+        "itinerario_link": "https://servicos.semobjp.pb.gov.br/linhas-de-onibus/0002/itinerario/",
+        "horario_link": "https://servicos.semobjp.pb.gov.br/linhas-de-onibus/0002/horario/"
+    },
+    {
+        "codigo": "0003 - JAGUARIBE",
+        "itinerario_link": "https://servicos.semobjp.pb.gov.br/linhas-de-onibus/0003/itinerario/",
+        "horario_link": "https://servicos.semobjp.pb.gov.br/linhas-de-onibus/0003/horario/"
+    },
+    {
+        "codigo": "0101 - GROTÃO/COLINAS DO SUL",
+        "itinerario_link": "https://servicos.semobjp.pb.gov.br/linhas-de-onibus/0101/itinerario/",
+        "horario_link": "https://servicos.semobjp.pb.gov.br/linhas-de-onibus/0101/horario/"
+    },
+    {
+        "codigo": "0102 - ESPLANADA - JOAO PAULO II",
+        "itinerario_link": "https://servicos.semobjp.pb.gov.br/linhas-de-onibus/0102/itinerario/",
+        "horario_link": "https://servicos.semobjp.pb.gov.br/linhas-de-onibus/0102/horario/"
+    },
+    {
+        "codigo": "0103 - GRAMAME",
+        "itinerario_link": "https://servicos.semobjp.pb.gov.br/linhas-de-onibus/0103/itinerario/",
+        "horario_link": "https://servicos.semobjp.pb.gov.br/linhas-de-onibus/0103/horario/"
+    },
+    {
+        "codigo": "0104 - BAIRRO DAS INDUSTRIAS",
+        "itinerario_link": "https://servicos.semobjp.pb.gov.br/linhas-de-onibus/0104/itinerario/",
+        "horario_link": "https://servicos.semobjp.pb.gov.br/linhas-de-onibus/0104/horario/"
+    },
+    {
+        "codigo": "0105 - CIDADE",
+        "itinerario_link": "https://servicos.semobjp.pb.gov.br/linhas-de-onibus/0105/itinerario/",
+        "horario_link": "https://servicos.semobjp.pb.gov.br/linhas-de-onibus/0105/horario/"
+    },
+    {
+        "codigo": "0106 - GEISEL VIA CRUZ DAS ARMAS",
+        "itinerario_link": "https://servicos.semobjp.pb.gov.br/linhas-de-onibus/0106/itinerario/",
+        "horario_link": "https://servicos.semobjp.pb.gov.br/linhas-de-onibus/0106/horario/"
+    },
+    {
+        "codigo": "0107 - JOSÉ AMÉRICO",
+        "itinerario_link": "https://servicos.semobjp.pb.gov.br/linhas-de-onibus/0107/itinerario/",
+        "horario_link": "https://servicos.semobjp.pb.gov.br/linhas-de-onibus/0107/horario/"
+    },
+    {
+        "codigo": "0108 - ALTO DO MATEUS",
+        "itinerario_link": "https://servicos.semobjp.pb.gov.br/linhas-de-onibus/0108/itinerario/",
+        "horario_link": "https://servicos.semobjp.pb.gov.br/linhas-de-onibus/0108/horario/"
+    },
+    {
+        "codigo": "0109 - RUA DO RIO",
+        "itinerario_link": "https://servicos.semobjp.pb.gov.br/linhas-de-onibus/0109/itinerario/",
+        "horario_link": "https://servicos.semobjp.pb.gov.br/linhas-de-onibus/0109/horario/"
+    },
+    {
+        "codigo": "0110 - JARDIM PLANALTO",
+        "itinerario_link": "https://servicos.semobjp.pb.gov.br/linhas-de-onibus/0110/itinerario/",
+        "horario_link": "https://servicos.semobjp.pb.gov.br/linhas-de-onibus/0110/horario/"
+    },
+    {
+        "codigo": "0115 - DISTRITO",
+        "itinerario_link": "https://servicos.semobjp.pb.gov.br/linhas-de-onibus/0115/itinerario/",
+        "horario_link": "https://servicos.semobjp.pb.gov.br/linhas-de-onibus/0115/horario/"
+    },
+    {
+        "codigo": "0116 - COLINAS DO SUL",
+        "itinerario_link": "https://servicos.semobjp.pb.gov.br/linhas-de-onibus/0116/itinerario/",
+        "horario_link": "https://servicos.semobjp.pb.gov.br/linhas-de-onibus/0116/horario/"
+    },
+    {
+        "codigo": "0118 - PARATIBE",
+        "itinerario_link": "https://servicos.semobjp.pb.gov.br/linhas-de-onibus/0118/itinerario/",
+        "horario_link": "https://servicos.semobjp.pb.gov.br/linhas-de-onibus/0118/horario/"
+    },
+    {
+        "codigo": "0120 - PARQUE DO SOL",
+        "itinerario_link": "https://servicos.semobjp.pb.gov.br/linhas-de-onibus/0120/itinerario/",
+        "horario_link": "https://servicos.semobjp.pb.gov.br/linhas-de-onibus/0120/horario/"
+    },
+    {
+        "codigo": "0123 - COLINAS DO SUL/PERIMETRAL",
+        "itinerario_link": "https://servicos.semobjp.pb.gov.br/linhas-de-onibus/0123/itinerario/",
+        "horario_link": "https://servicos.semobjp.pb.gov.br/linhas-de-onibus/0123/horario/"
+    },
+    {
+        "codigo": "0202 - ERNESTO GEISEL",
+        "itinerario_link": "https://servicos.semobjp.pb.gov.br/linhas-de-onibus/0202/itinerario/",
+        "horario_link": "https://servicos.semobjp.pb.gov.br/linhas-de-onibus/0202/horario/"
+    },
+    {
+        "codigo": "0203 - MANGABEIRA / RANGEL",
+        "itinerario_link": "https://servicos.semobjp.pb.gov.br/linhas-de-onibus/0203/itinerario/",
+        "horario_link": "https://servicos.semobjp.pb.gov.br/linhas-de-onibus/0203/horario/"
+    },
+    {
+        "codigo": "0204 - CRISTO",
+        "itinerario_link": "https://servicos.semobjp.pb.gov.br/linhas-de-onibus/0204/itinerario/",
+        "horario_link": "https://servicos.semobjp.pb.gov.br/linhas-de-onibus/0204/horario/"
+    },
+    {
+        "codigo": "0207 - PENHA",
+        "itinerario_link": "https://servicos.semobjp.pb.gov.br/linhas-de-onibus/0207/itinerario/",
+        "horario_link": "https://servicos.semobjp.pb.gov.br/linhas-de-onibus/0207/horario/"
+    },
+    {
+        "codigo": "0208 - CRISTO - VALE DAS PALMEIRAS",
+        "itinerario_link": "https://servicos.semobjp.pb.gov.br/linhas-de-onibus/0208/itinerario/",
+        "horario_link": "https://servicos.semobjp.pb.gov.br/linhas-de-onibus/0208/horario/"
+    },
+    {
+        "codigo": "0229 - MANGABEIRA VII/RANGEL",
+        "itinerario_link": "https://servicos.semobjp.pb.gov.br/linhas-de-onibus/0229/itinerario/",
+        "horario_link": "https://servicos.semobjp.pb.gov.br/linhas-de-onibus/0229/horario/"
+    },
+    {
+        "codigo": "0301 - MANGABEIRA PEDRO II - DIRETO",
+        "itinerario_link": "https://servicos.semobjp.pb.gov.br/linhas-de-onibus/0301/itinerario/",
+        "horario_link": "https://servicos.semobjp.pb.gov.br/linhas-de-onibus/0301/horario/"
+    },
+    {
+        "codigo": "0302 - CIDADE VERDE",
+        "itinerario_link": "https://servicos.semobjp.pb.gov.br/linhas-de-onibus/0302/itinerario/",
+        "horario_link": "https://servicos.semobjp.pb.gov.br/linhas-de-onibus/0302/horario/"
+    },
+    {
+        "codigo": "0303 - CIDADE VERDE - PEDRO II",
+        "itinerario_link": "https://servicos.semobjp.pb.gov.br/linhas-de-onibus/0303/itinerario/",
+        "horario_link": "https://servicos.semobjp.pb.gov.br/linhas-de-onibus/0303/horario/"
+    },
+    {
+        "codigo": "0304 - BANCÁRIOS/CASTELO BRANCO - PEDRO II",
+        "itinerario_link": "https://servicos.semobjp.pb.gov.br/linhas-de-onibus/0304/itinerario/",
+        "horario_link": "https://servicos.semobjp.pb.gov.br/linhas-de-onibus/0304/horario/"
+    },
+    {
+        "codigo": "0307 - PENHA/PEDRO II",
+        "itinerario_link": "https://servicos.semobjp.pb.gov.br/linhas-de-onibus/0307/itinerario/",
+        "horario_link": "https://servicos.semobjp.pb.gov.br/linhas-de-onibus/0307/horario/"
+    },
+    {
+        "codigo": "0401 - ALTIPLANO",
+        "itinerario_link": "https://servicos.semobjp.pb.gov.br/linhas-de-onibus/0401/itinerario/",
+        "horario_link": "https://servicos.semobjp.pb.gov.br/linhas-de-onibus/0401/horario/"
+    },
+    {
+        "codigo": "0402 - TORRE",
+        "itinerario_link": "https://servicos.semobjp.pb.gov.br/linhas-de-onibus/0402/itinerario/",
+        "horario_link": "https://servicos.semobjp.pb.gov.br/linhas-de-onibus/0402/horario/"
+    },
+    {
+        "codigo": "0500 - TAMBAÚ",
+        "itinerario_link": "https://servicos.semobjp.pb.gov.br/linhas-de-onibus/0500/itinerario/",
+        "horario_link": "https://servicos.semobjp.pb.gov.br/linhas-de-onibus/0500/horario/"
+    },
+    {
+        "codigo": "0502 - GEISEL/EPITÁCIO",
+        "itinerario_link": "https://servicos.semobjp.pb.gov.br/linhas-de-onibus/0502/itinerario/",
+        "horario_link": "https://servicos.semobjp.pb.gov.br/linhas-de-onibus/0502/horario/"
+    },
+    {
+        "codigo": "0503 - TREZE DE MAIO",
+        "itinerario_link": "https://servicos.semobjp.pb.gov.br/linhas-de-onibus/0503/itinerario/",
+        "horario_link": "https://servicos.semobjp.pb.gov.br/linhas-de-onibus/0503/horario/"
+    },
+    {
+        "codigo": "0504 - MANDACARU",
+        "itinerario_link": "https://servicos.semobjp.pb.gov.br/linhas-de-onibus/0504/itinerario/",
+        "horario_link": "https://servicos.semobjp.pb.gov.br/linhas-de-onibus/0504/horario/"
+    },
+    {
+        "codigo": "0506 - BAIRRO DOS ESTADOS",
+        "itinerario_link": "https://servicos.semobjp.pb.gov.br/linhas-de-onibus/0506/itinerario/",
+        "horario_link": "https://servicos.semobjp.pb.gov.br/linhas-de-onibus/0506/horario/"
+    },
+    {
+        "codigo": "0507 - CABO BRANCO",
+        "itinerario_link": "https://servicos.semobjp.pb.gov.br/linhas-de-onibus/0507/itinerario/",
+        "horario_link": "https://servicos.semobjp.pb.gov.br/linhas-de-onibus/0507/horario/"
+    },
+    {
+        "codigo": "0508 - CABO BRANCO/PENHA",
+        "itinerario_link": "https://servicos.semobjp.pb.gov.br/linhas-de-onibus/0508/itinerario/",
+        "horario_link": "https://servicos.semobjp.pb.gov.br/linhas-de-onibus/0508/horario/"
+    },
+    {
+        "codigo": "0509 - JOÃO AGRIPINO",
+        "itinerario_link": "https://servicos.semobjp.pb.gov.br/linhas-de-onibus/0509/itinerario/",
+        "horario_link": "https://servicos.semobjp.pb.gov.br/linhas-de-onibus/0509/horario/"
+    },
+    {
+        "codigo": "0510 - TAMBAU VIA TAMANDARÉ",
+        "itinerario_link": "https://servicos.semobjp.pb.gov.br/linhas-de-onibus/0510/itinerario/",
+        "horario_link": "https://servicos.semobjp.pb.gov.br/linhas-de-onibus/0510/horario/"
+    },
+    {
+        "codigo": "0512 - BAIRRO SÃO JOSÉ",
+        "itinerario_link": "https://servicos.semobjp.pb.gov.br/linhas-de-onibus/0512/itinerario/",
+        "horario_link": "https://servicos.semobjp.pb.gov.br/linhas-de-onibus/0512/horario/"
+    },
+    {
+        "codigo": "0517 - MANGABEIRA CIDADE VERDE EPITÁCIO",
+        "itinerario_link": "https://servicos.semobjp.pb.gov.br/linhas-de-onibus/0517/itinerario/",
+        "horario_link": "https://servicos.semobjp.pb.gov.br/linhas-de-onibus/0517/horario/"
+    },
+    {
+        "codigo": "0518 - BANCÁRIOS - EPITÁCIO",
+        "itinerario_link": "https://servicos.semobjp.pb.gov.br/linhas-de-onibus/0518/itinerario/",
+        "horario_link": "https://servicos.semobjp.pb.gov.br/linhas-de-onibus/0518/horario/"
+    },
+    {
+        "codigo": "0520 - ALTIPLANO/EPITÁCIO",
+        "itinerario_link": "https://servicos.semobjp.pb.gov.br/linhas-de-onibus/0520/itinerario/",
+        "horario_link": "https://servicos.semobjp.pb.gov.br/linhas-de-onibus/0520/horario/"
+    },
+    {
+        "codigo": "0521 - MANAIRA/BESSA",
+        "itinerario_link": "https://servicos.semobjp.pb.gov.br/linhas-de-onibus/0521/itinerario/",
+        "horario_link": "https://servicos.semobjp.pb.gov.br/linhas-de-onibus/0521/horario/"
+    },
+    {
+        "codigo": "0522 - RENASCER/CARREFOUR",
+        "itinerario_link": "https://servicos.semobjp.pb.gov.br/linhas-de-onibus/0522/itinerario/",
+        "horario_link": "https://servicos.semobjp.pb.gov.br/linhas-de-onibus/0522/horario/"
+    },
+    {
+        "codigo": "0523 - COLINAS DO SUL/ EPITÁCIO",
+        "itinerario_link": "https://servicos.semobjp.pb.gov.br/linhas-de-onibus/0523/itinerario/",
+        "horario_link": "https://servicos.semobjp.pb.gov.br/linhas-de-onibus/0523/horario/"
+    },
+    {
+        "codigo": "0527 - CASTELO BRANCO EPITÁCIO",
+        "itinerario_link": "https://servicos.semobjp.pb.gov.br/linhas-de-onibus/0527/itinerario/",
+        "horario_link": "https://servicos.semobjp.pb.gov.br/linhas-de-onibus/0527/horario/"
+    },
+    {
+        "codigo": "0530 - CIDADE VERDE EPITÁCIO",
+        "itinerario_link": "https://servicos.semobjp.pb.gov.br/linhas-de-onibus/0530/itinerario/",
+        "horario_link": "https://servicos.semobjp.pb.gov.br/linhas-de-onibus/0530/horario/"
+    },
+    {
+        "codigo": "0600 - BESSA SHOPPING",
+        "itinerario_link": "https://servicos.semobjp.pb.gov.br/linhas-de-onibus/0600/itinerario/",
+        "horario_link": "https://servicos.semobjp.pb.gov.br/linhas-de-onibus/0600/horario/"
+    },
+    {
+        "codigo": "0601 - BESSA",
+        "itinerario_link": "https://servicos.semobjp.pb.gov.br/linhas-de-onibus/0601/itinerario/",
+        "horario_link": "https://servicos.semobjp.pb.gov.br/linhas-de-onibus/0601/horario/"
+    },
+    {
+        "codigo": "0602 - ILHA DO BISPO",
+        "itinerario_link": "https://servicos.semobjp.pb.gov.br/linhas-de-onibus/0602/itinerario/",
+        "horario_link": "https://servicos.semobjp.pb.gov.br/linhas-de-onibus/0602/horario/"
+    },
+    {
+        "codigo": "0604 - BAIRRO DOS IPÊS/VIA AYRTON SENNA",
+        "itinerario_link": "https://servicos.semobjp.pb.gov.br/linhas-de-onibus/0604/itinerario/",
+        "horario_link": "https://servicos.semobjp.pb.gov.br/linhas-de-onibus/0604/horario/"
+    },
+    {
+        "codigo": "0701 - ALTO DO MATEUS/ACESSO OESTE",
+        "itinerario_link": "https://servicos.semobjp.pb.gov.br/linhas-de-onibus/0701/itinerario/",
+        "horario_link": "https://servicos.semobjp.pb.gov.br/linhas-de-onibus/0701/horario/"
+    },
+    {
+        "codigo": "0702 - ALTO DO MATEUS/TIRADENTES",
+        "itinerario_link": "https://servicos.semobjp.pb.gov.br/linhas-de-onibus/0702/itinerario/",
+        "horario_link": "https://servicos.semobjp.pb.gov.br/linhas-de-onibus/0702/horario/"
+    },
+    {
+        "codigo": "1001M - BAIRRO DAS INDUSTRIAS/ MANDACARU",
+        "itinerario_link": "https://servicos.semobjp.pb.gov.br/linhas-de-onibus/1001M/itinerario/",
+        "horario_link": "https://servicos.semobjp.pb.gov.br/linhas-de-onibus/1001M/horario/"
+    },
+    {
+        "codigo": "1001S - BAIRRO DAS INDUSTRIAS/MANDACARU - SJ02",
+        "itinerario_link": "https://servicos.semobjp.pb.gov.br/linhas-de-onibus/1001S/itinerario/",
+        "horario_link": "https://servicos.semobjp.pb.gov.br/linhas-de-onibus/1001S/horario/"
+    },
+    {
+        "codigo": "1500 - CIRCULAR 1500",
+        "itinerario_link": "https://servicos.semobjp.pb.gov.br/linhas-de-onibus/1500/itinerario/",
+        "horario_link": "https://servicos.semobjp.pb.gov.br/linhas-de-onibus/1500/horario/"
+    },
+    {
+        "codigo": "1510 - CIRCULAR 1510",
+        "itinerario_link": "https://servicos.semobjp.pb.gov.br/linhas-de-onibus/1510/itinerario/",
+        "horario_link": "https://servicos.semobjp.pb.gov.br/linhas-de-onibus/1510/horario/"
+    },
+    {
+        "codigo": "1519 - VALENTINA/CRUZ DAS ARMAS",
+        "itinerario_link": "https://servicos.semobjp.pb.gov.br/linhas-de-onibus/1519/itinerario/",
+        "horario_link": "https://servicos.semobjp.pb.gov.br/linhas-de-onibus/1519/horario/"
+    },
+    {
+        "codigo": "2300 - CIRCULAR 2300",
+        "itinerario_link": "https://servicos.semobjp.pb.gov.br/linhas-de-onibus/2300/itinerario/",
+        "horario_link": "https://servicos.semobjp.pb.gov.br/linhas-de-onibus/2300/horario/"
+    },
+    {
+        "codigo": "2515 - MANGABEIRA/CRISTO/EPITÁCIO",
+        "itinerario_link": "https://servicos.semobjp.pb.gov.br/linhas-de-onibus/2515/itinerario/",
+        "horario_link": "https://servicos.semobjp.pb.gov.br/linhas-de-onibus/2515/horario/"
+    },
+    {
+        "codigo": "3200 - CIRCULAR 3200",
+        "itinerario_link": "https://servicos.semobjp.pb.gov.br/linhas-de-onibus/3200/itinerario/",
+        "horario_link": "https://servicos.semobjp.pb.gov.br/linhas-de-onibus/3200/horario/"
+    },
+    {
+        "codigo": "5100 - CIRCULAR",
+        "itinerario_link": "https://servicos.semobjp.pb.gov.br/linhas-de-onibus/5100/itinerario/",
+        "horario_link": "https://servicos.semobjp.pb.gov.br/linhas-de-onibus/5100/horario/"
+    },
+    {
+        "codigo": "5110 - CIRCULAR 5110",
+        "itinerario_link": "https://servicos.semobjp.pb.gov.br/linhas-de-onibus/5110/itinerario/",
+        "horario_link": "https://servicos.semobjp.pb.gov.br/linhas-de-onibus/5110/horario/"
+    },
+    {
+        "codigo": "5120 - VALENTINA/EPITÁCIO",
+        "itinerario_link": "https://servicos.semobjp.pb.gov.br/linhas-de-onibus/5120/itinerario/",
+        "horario_link": "https://servicos.semobjp.pb.gov.br/linhas-de-onibus/5120/horario/"
+    },
+    {
+        "codigo": "5210 - MANGABEIRA/EPITÁCIO/CRISTO",
+        "itinerario_link": "https://servicos.semobjp.pb.gov.br/linhas-de-onibus/5210/itinerario/",
+        "horario_link": "https://servicos.semobjp.pb.gov.br/linhas-de-onibus/5210/horario/"
+    },
+    {
+        "codigo": "5600 - MANGABEIRA - SHOPPING",
+        "itinerario_link": "https://servicos.semobjp.pb.gov.br/linhas-de-onibus/5600/itinerario/",
+        "horario_link": "https://servicos.semobjp.pb.gov.br/linhas-de-onibus/5600/horario/"
+    },
+    {
+        "codigo": "5603 - MANGABEIRA VII",
+        "itinerario_link": "https://servicos.semobjp.pb.gov.br/linhas-de-onibus/5603/itinerario/",
+        "horario_link": "https://servicos.semobjp.pb.gov.br/linhas-de-onibus/5603/horario/"
+    },
+    {
+        "codigo": "5605 - MANGABEIRA SHOPPING",
+        "itinerario_link": "https://servicos.semobjp.pb.gov.br/linhas-de-onibus/5605/itinerario/",
+        "horario_link": "https://servicos.semobjp.pb.gov.br/linhas-de-onibus/5605/horario/"
+    },
+    {
+        "codigo": "9901 - MANGABEIRA/VALENTINA",
+        "itinerario_link": "https://servicos.semobjp.pb.gov.br/linhas-de-onibus/9901/itinerario/",
+        "horario_link": "https://servicos.semobjp.pb.gov.br/linhas-de-onibus/9901/horario/"
+    },
+    {
+        "codigo": "E155 - ZONA SUL/CRUZ DAS ARMAS",
+        "itinerario_link": "https://servicos.semobjp.pb.gov.br/linhas-de-onibus/E155/itinerario/",
+        "horario_link": "https://servicos.semobjp.pb.gov.br/linhas-de-onibus/E155/horario/"
+    },
+    {
+        "codigo": "E550 - PARQUE DA CIDADE",
+        "itinerario_link": "https://servicos.semobjp.pb.gov.br/linhas-de-onibus/E550/itinerario/",
+        "horario_link": "https://servicos.semobjp.pb.gov.br/linhas-de-onibus/E550/horario/"
+    },
+    {
+        "codigo": "E551 - ZONA SUL/EPITÁCIO",
+        "itinerario_link": "https://servicos.semobjp.pb.gov.br/linhas-de-onibus/E551/itinerario/",
+        "horario_link": "https://servicos.semobjp.pb.gov.br/linhas-de-onibus/E551/horario/"
+    },
+    {
+        "codigo": "E600 - PARQUE PARAHYBA/TANCREDO NEVES",
+        "itinerario_link": "https://servicos.semobjp.pb.gov.br/linhas-de-onibus/E600/itinerario/",
+        "horario_link": "https://servicos.semobjp.pb.gov.br/linhas-de-onibus/E600/horario/"
+    },
+    {
+        "codigo": "I004 - INTEGRAÇÃO/PRAIA DO SOL",
+        "itinerario_link": "https://servicos.semobjp.pb.gov.br/linhas-de-onibus/I004/itinerario/",
+        "horario_link": "https://servicos.semobjp.pb.gov.br/linhas-de-onibus/I004/horario/"
+    },
+    {
+        "codigo": "I008 - VALENTINA/MANGABEIRA",
+        "itinerario_link": "https://servicos.semobjp.pb.gov.br/linhas-de-onibus/I008/itinerario/",
+        "horario_link": "https://servicos.semobjp.pb.gov.br/linhas-de-onibus/I008/horario/"
+    },
+    {
+        "codigo": "I015 - VALENTINA/PARQUE DO SOL",
+        "itinerario_link": "https://servicos.semobjp.pb.gov.br/linhas-de-onibus/I015/itinerario/",
+        "horario_link": "https://servicos.semobjp.pb.gov.br/linhas-de-onibus/I015/horario/"
+    },
+    {
+        "codigo": "T001 - BEIRA MAR/ZONA SUL",
+        "itinerario_link": "https://servicos.semobjp.pb.gov.br/linhas-de-onibus/T001/itinerario/",
+        "horario_link": "https://servicos.semobjp.pb.gov.br/linhas-de-onibus/T001/horario/"
+    },
+    {
+        "codigo": "T002 - EPITÁCIO/ZONA OESTE",
+        "itinerario_link": "https://servicos.semobjp.pb.gov.br/linhas-de-onibus/T002/itinerario/",
+        "horario_link": "https://servicos.semobjp.pb.gov.br/linhas-de-onibus/T002/horario/"
+    },
+    {
+        "codigo": "T003 - SHOPPING/TIV/CRISTO",
+        "itinerario_link": "https://servicos.semobjp.pb.gov.br/linhas-de-onibus/T003/itinerario/",
+        "horario_link": "https://servicos.semobjp.pb.gov.br/linhas-de-onibus/T003/horario/"
+    }
+]

@@ -1,0 +1,152 @@
+[
+    {
+        "codigo": "0002 - ROGER",
+        "itinerario_link": "/linhas-de-onibus/0002/itinerario/",
+        "horario_link": "/linhas-de-onibus/0002/horario/"
+    },
+    {
+        "codigo": "0003 - JAGUARIBE",
+        "itinerario_link": "/linhas-de-onibus/0003/itinerario/",
+        "horario_link": "/linhas-de-onibus/0003/horario/"
+    },
+    {
+        "codigo": "0101 - GROTÃO/COLINAS DO SUL",
+        "itinerario_link": "/linhas-de-onibus/0101/itinerario/",
+        "horario_link": "/linhas-de-onibus/0101/horario/"
+    },
+    {
+        "codigo": "0102 - ESPLANADA - JOAO PAULO II",
+        "itinerario_link": "/linhas-de-onibus/0102/itinerario/",
+        "horario_link": "/linhas-de-onibus/0102/horario/"
+    },
+    {
+        "codigo": "0103 - GRAMAME",
+        "itinerario_link": "/linhas-de-onibus/0103/itinerario/",
+        "horario_link": "/linhas-de-onibus/0103/horario/"
+    },
+    {
+        "codigo": "0104 - BAIRRO DAS INDUSTRIAS",
+        "itinerario_link": "/linhas-de-onibus/0104/itinerario/",
+        "horario_link": "/linhas-de-onibus/0104/horario/"
+    },
+    {
+        "codigo": "0105 - CIDADE",
+        "itinerario_link": "/linhas-de-onibus/0105/itinerario/",
+        "horario_link": "/linhas-de-onibus/0105/horario/"
+    },
+    {
+        "codigo": "0106 - GEISEL VIA CRUZ DAS ARMAS",
+        "itinerario_link": "/linhas-de-onibus/0106/itinerario/",
+        "horario_link": "/linhas-de-onibus/0106/horario/"
+    },
+    {
+        "codigo": "0107 - JOSÉ AMÉRICO",
+        "itinerario_link": "/linhas-de-onibus/0107/itinerario/",
+        "horario_link": "/linhas-de-onibus/0107/horario/"
+    },
+    {
+        "codigo": "0108 - ALTO DO MATEUS",
+        "itinerario_link": "/linhas-de-onibus/0108/itinerario/",
+        "horario_link": "/linhas-de-onibus/0108/horario/"
+    },
+    {
+        "codigo": "0109 - RUA DO RIO",
+        "itinerario_link": "/linhas-de-onibus/0109/itinerario/",
+        "horario_link": "/linhas-de-onibus/0109/horario/"
+    },
+    {
+        "codigo": "0110 - JARDIM PLANALTO",
+        "itinerario_link": "/linhas-de-onibus/0110/itinerario/",
+        "horario_link": "/linhas-de-onibus/0110/horario/"
+    },
+    {
+        "codigo": "0115 - DISTRITO",
+        "itinerario_link": "/linhas-de-onibus/0115/itinerario/",
+        "horario_link": "/linhas-de-onibus/0115/horario/"
+    },
+    {
+        "codigo": "0116 - COLINAS DO SUL",
+        "itinerario_link": "/linhas-de-onibus/0116/itinerario/",
+        "horario_link": "/linhas-de-onibus/0116/horario/"
+    },
+    {
+        "codigo": "0118 - PARATIBE",
+        "itinerario_link": "/linhas-de-onibus/0118/itinerario/",
+        "horario_link": "/linhas-de-onibus/0118/horario/"
+    },
+    {
+        "codigo": "0120 - PARQUE DO SOL",
+        "itinerario_link": "/linhas-de-onibus/0120/itinerario/",
+        "horario_link": "/linhas-de-onibus/0120/horario/"
+    },
+    {
+        "codigo": "0123 - COLINAS DO SUL/PERIMETRAL",
+        "itinerario_link": "/linhas-de-onibus/0123/itinerario/",
+        "horario_link": "/linhas-de-onibus/0123/horario/"
+    },
+    {
+        "codigo": "0202 - ERNESTO GEISEL",
+        "itinerario_link": "/linhas-de-onibus/0202/itinerario/",
+        "horario_link": "/linhas-de-onibus/0202/horario/"
+    },
+    {
+        "codigo": "0203 - MANGABEIRA / RANGEL",
+        "itinerario_link": "/linhas-de-onibus/0203/itinerario/",
+        "horario_link": "/linhas-de-onibus/0203/horario/"
+    },
+    {
+        "codigo": "0204 - CRISTO",
+        "itinerario_link": "/linhas-de-onibus/0204/itinerario/",
+        "horario_link": "/linhas-de-onibus/0204/horario/"
+    },
+    {
+        "codigo": "0207 - PENHA",
+        "itinerario_link": "/linhas-de-onibus/0207/itinerario/",
+        "horario_link": "/linhas-de-onibus/0207/horario/"
+    },
+    {
+        "codigo": "0208 - CRISTO - VALE DAS PALMEIRAS",
+        "itinerario_link": "/linhas-de-onibus/0208/itinerario/",
+        "horario_link": "/linhas-de-onibus/0208/horario/"
+    },
+    {
+        "codigo": "0229 - MANGABEIRA VII/RANGEL",
+        "itinerario_link": "/linhas-de-onibus/0229/itinerario/",
+        "horario_link": "/linhas-de-onibus/0229/horario/"
+    },
+    {
+        "codigo": "0301 - MANGABEIRA PEDRO II - DIRETO",
+        "itinerario_link": "/linhas-de-onibus/0301/itinerario/",
+        "horario_link": "/linhas-de-onibus/0301/horario/"
+    },
+    {
+        "codigo": "0302 - CIDADE VERDE",
+        "itinerario_link": "/linhas-de-onibus/0302/itinerario/",
+        "horario_link": "/linhas-de-onibus/0302/horario/"
+    },
+    {
+        "codigo": "0303 - CIDADE VERDE - PEDRO II",
+        "itinerario_link": "/linhas-de-onibus/0303/itinerario/",
+        "horario_link": "/linhas-de-onibus/0303/horario/"
+    },
+    {
+        "codigo": "0304 - BANCÁRIOS/CASTELO BRANCO - PEDRO II",
+        "itinerario_link": "/linhas-de-onibus/0304/itinerario/",
+        "horario_link": "/linhas-de-onibus/0304/horario/"
+    },
+    {
+        "codigo": "0307 - PENHA/PEDRO II",
+        "itinerario_link": "/linhas-de-onibus/0307/itinerario/",
+        "horario_link": "/linhas-de-onibus/0307/horario/"
+    },
+    {
+        "codigo": "0401 - ALTIPLANO",
+        "itinerario_link": "/linhas-de-onibus/0401/itinerario/",
+        "horario_link": "/linhas-de-onibus/0401/horario/"
+    },
+    {
+        "codigo": "0402 - TORRE",
+        "itinerario_link": "/linhas-de-onibus/0402/itinerario/",
+        "horario_link": "/linhas-de-onibus/0402/horario/"
+    }
+]

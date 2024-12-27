@@ -2,8 +2,8 @@ name: Raspagem Semanal
 
 on:
   schedule:
-    - cron: '0 6 * * 1' # Executa toda segunda-feira às 03:00 UTC (ajuste conforme necessário)
-  workflow_dispatch: # Permite executar o workflow manualmente
+    - cron: '0 6 * * 1' # Executa toda segunda-feira às 6h UTC
+  workflow_dispatch:
 
 jobs:
   raspagem:
@@ -15,16 +15,25 @@ jobs:
       - name: Configurar Python
         uses: actions/setup-python@v4
         with:
-          python-version: '3.9' # Ou uma versão compatível
+          python-version: '3.9'
 
       - name: Instalar dependências
         run: pip install requests beautifulsoup4
 
       - name: Executar raspagem
-        run: python raspagem/raspagem.py
+        env:
+          URL_ALVO: "https://servicos.semobjp.pb.gov.br/linhas-de-onibus/" # Substitua pela URL REAL
+        run: python raspagem.py
 
       - name: Commitar alterações (se houver)
-        uses: stefanzweifel/git-commit-message@v4
+        uses: stefanzweifel/git-commit-message@v2
         with:
-          commit_message: Atualização dos dados de ônibus
-          new_file_pattern: dados_onibus.json
+          commit_message: "Atualização dos dados de ônibus"
+        continue-on-error: true
+
+      - name: Enviar alterações para o repositório
+        uses: ad-m/github-push-action@master
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          branch: ${{ github.ref }}
+        continue-on-error: true
