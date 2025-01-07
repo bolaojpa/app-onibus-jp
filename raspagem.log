@@ -1,0 +1,655 @@
+2025-01-07 11:05:58,403 - INFO - N˙mero m·ximo de p·ginas: 3
+2025-01-07 11:05:58,403 - INFO - Raspando p·gina de linhas: https://servicos.semobjp.pb.gov.br/linhas-de-onibus/
+2025-01-07 11:05:59,908 - INFO - Raspando hor·rios da linha: 0002 - ROGER
+2025-01-07 11:06:01,026 - INFO - Raspando hor·rios da linha: 0003 - JAGUARIBE
+2025-01-07 11:06:02,162 - INFO - Raspando hor·rios da linha: 0101 - GROT√O/COLINAS DO SUL
+2025-01-07 11:06:03,340 - INFO - Raspando hor·rios da linha: 0102 - ESPLANADA - JOAO PAULO II
+2025-01-07 11:06:04,501 - INFO - Raspando hor·rios da linha: 0103 - GRAMAME
+2025-01-07 11:06:05,658 - INFO - Raspando hor·rios da linha: 0104 - BAIRRO DAS INDUSTRIAS
+2025-01-07 11:06:06,841 - INFO - Raspando hor·rios da linha: 0105 - CIDADE
+2025-01-07 11:06:08,089 - INFO - Raspando hor·rios da linha: 0106 - GEISEL VIA CRUZ DAS ARMAS
+2025-01-07 11:06:09,218 - INFO - Raspando hor·rios da linha: 0107 - JOS… AM…RICO
+2025-01-07 11:06:10,833 - INFO - Raspando hor·rios da linha: 0108 - ALTO DO MATEUS
+2025-01-07 11:06:11,963 - INFO - Raspando hor·rios da linha: 0109 - RUA DO RIO
+2025-01-07 11:06:13,100 - INFO - Raspando hor·rios da linha: 0110 - JARDIM PLANALTO
+2025-01-07 11:06:14,313 - INFO - Raspando hor·rios da linha: 0115 - DISTRITO
+2025-01-07 11:06:15,544 - INFO - Raspando hor·rios da linha: 0116 - COLINAS DO SUL
+2025-01-07 11:06:16,741 - INFO - Raspando hor·rios da linha: 0118 - PARATIBE
+2025-01-07 11:06:18,102 - INFO - Raspando hor·rios da linha: 0120 - PARQUE DO SOL
+2025-01-07 11:06:19,328 - INFO - Raspando hor·rios da linha: 0123 - COLINAS DO SUL/PERIMETRAL
+2025-01-07 11:06:20,651 - INFO - Raspando hor·rios da linha: 0202 - ERNESTO GEISEL
+2025-01-07 11:06:21,821 - INFO - Raspando hor·rios da linha: 0203 - MANGABEIRA / RANGEL
+2025-01-07 11:06:22,988 - INFO - Raspando hor·rios da linha: 0204 - CRISTO
+2025-01-07 11:06:24,160 - INFO - Raspando hor·rios da linha: 0207 - PENHA
+2025-01-07 11:06:25,341 - INFO - Raspando hor·rios da linha: 0208 - CRISTO - VALE DAS PALMEIRAS
+2025-01-07 11:06:26,496 - INFO - Raspando hor·rios da linha: 0229 - MANGABEIRA VII/RANGEL
+2025-01-07 11:06:27,632 - INFO - Raspando hor·rios da linha: 0301 - MANGABEIRA PEDRO II - DIRETO
+2025-01-07 11:06:28,827 - INFO - Raspando hor·rios da linha: 0302 - CIDADE VERDE
+2025-01-07 11:06:30,079 - INFO - Raspando hor·rios da linha: 0303 - CIDADE VERDE - PEDRO II
+2025-01-07 11:06:31,257 - INFO - Raspando hor·rios da linha: 0304 - BANC¡RIOS/CASTELO BRANCO - PEDRO II
+2025-01-07 11:06:32,425 - INFO - Raspando hor·rios da linha: 0307 - PENHA/PEDRO II
+2025-01-07 11:06:33,564 - INFO - Raspando hor·rios da linha: 0401 - ALTIPLANO
+2025-01-07 11:06:34,774 - INFO - Raspando hor·rios da linha: 0402 - TORRE
+2025-01-07 11:06:36,901 - INFO - Raspando p·gina de linhas: https://servicos.semobjp.pb.gov.br/linhas-de-onibus/?page=2
+2025-01-07 11:06:38,427 - INFO - Raspando hor·rios da linha: 0500 - TAMBA⁄
+2025-01-07 11:06:39,626 - INFO - Raspando hor·rios da linha: 0502 - GEISEL/EPIT¡CIO
+2025-01-07 11:06:40,859 - INFO - Raspando hor·rios da linha: 0503 - TREZE DE MAIO
+2025-01-07 11:06:42,000 - INFO - Raspando hor·rios da linha: 0504 - MANDACARU
+2025-01-07 11:06:43,197 - INFO - Raspando hor·rios da linha: 0506 - BAIRRO DOS ESTADOS
+2025-01-07 11:06:44,353 - INFO - Raspando hor·rios da linha: 0507 - CABO BRANCO
+2025-01-07 11:06:45,554 - INFO - Raspando hor·rios da linha: 0508 - CABO BRANCO/PENHA
+2025-01-07 11:06:46,714 - INFO - Raspando hor·rios da linha: 0509 - JO√O AGRIPINO
+2025-01-07 11:06:48,008 - INFO - Raspando hor·rios da linha: 0510 - TAMBAU VIA TAMANDAR…
+2025-01-07 11:06:49,324 - INFO - Raspando hor·rios da linha: 0512 - BAIRRO S√O JOS…
+2025-01-07 11:06:50,472 - INFO - Raspando hor·rios da linha: 0517 - MANGABEIRA CIDADE VERDE EPIT¡CIO
+2025-01-07 11:06:51,631 - INFO - Raspando hor·rios da linha: 0518 - BANC¡RIOS - EPIT¡CIO
+2025-01-07 11:06:52,808 - INFO - Raspando hor·rios da linha: 0520 - ALTIPLANO/EPIT¡CIO
+2025-01-07 11:06:53,952 - INFO - Raspando hor·rios da linha: 0521 - MANAIRA/BESSA
+2025-01-07 11:06:55,131 - INFO - Raspando hor·rios da linha: 0522 - RENASCER/CARREFOUR
+2025-01-07 11:06:56,269 - INFO - Raspando hor·rios da linha: 0523 - COLINAS DO SUL/ EPIT¡CIO
+2025-01-07 11:06:57,444 - INFO - Raspando hor·rios da linha: 0527 - CASTELO BRANCO EPIT¡CIO
+2025-01-07 11:06:58,568 - INFO - Raspando hor·rios da linha: 0530 - CIDADE VERDE EPIT¡CIO
+2025-01-07 11:06:59,812 - INFO - Raspando hor·rios da linha: 0600 - BESSA SHOPPING
+2025-01-07 11:07:01,003 - INFO - Raspando hor·rios da linha: 0601 - BESSA
+2025-01-07 11:07:02,179 - INFO - Raspando hor·rios da linha: 0602 - ILHA DO BISPO
+2025-01-07 11:07:03,350 - INFO - Raspando hor·rios da linha: 0604 - BAIRRO DOS IP S/VIA AYRTON SENNA
+2025-01-07 11:07:04,505 - INFO - Raspando hor·rios da linha: 0701 - ALTO DO MATEUS/ACESSO OESTE
+2025-01-07 11:07:05,660 - INFO - Raspando hor·rios da linha: 0702 - ALTO DO MATEUS/TIRADENTES
+2025-01-07 11:07:06,785 - INFO - Raspando hor·rios da linha: 1001M - BAIRRO DAS INDUSTRIAS/ MANDACARU
+2025-01-07 11:07:08,030 - INFO - Raspando hor·rios da linha: 1001S - BAIRRO DAS INDUSTRIAS/MANDACARU - SJ02
+2025-01-07 11:07:09,196 - INFO - Raspando hor·rios da linha: 1500 - CIRCULAR 1500
+2025-01-07 11:07:10,415 - INFO - Raspando hor·rios da linha: 1510 - CIRCULAR 1510
+2025-01-07 11:07:11,589 - INFO - Raspando hor·rios da linha: 1519 - VALENTINA/CRUZ DAS ARMAS
+2025-01-07 11:07:12,746 - INFO - Raspando hor·rios da linha: 2300 - CIRCULAR 2300
+2025-01-07 11:07:15,001 - INFO - Raspando p·gina de linhas: https://servicos.semobjp.pb.gov.br/linhas-de-onibus/?page=3
+2025-01-07 11:07:16,036 - INFO - Raspando hor·rios da linha: 2515 - MANGABEIRA/CRISTO/EPIT¡CIO
+2025-01-07 11:07:17,310 - INFO - Raspando hor·rios da linha: 3200 - CIRCULAR 3200
+2025-01-07 11:07:18,761 - INFO - Raspando hor·rios da linha: 5100 - CIRCULAR
+2025-01-07 11:07:20,148 - INFO - Raspando hor·rios da linha: 5110 - CIRCULAR 5110
+2025-01-07 11:07:21,363 - INFO - Raspando hor·rios da linha: 5120 - VALENTINA/EPIT¡CIO
+2025-01-07 11:07:22,527 - INFO - Raspando hor·rios da linha: 5210 - MANGABEIRA/EPIT¡CIO/CRISTO
+2025-01-07 11:07:23,690 - INFO - Raspando hor·rios da linha: 5600 - MANGABEIRA - SHOPPING
+2025-01-07 11:07:24,893 - INFO - Raspando hor·rios da linha: 5603 - MANGABEIRA VII
+2025-01-07 11:07:26,093 - INFO - Raspando hor·rios da linha: 5605 - MANGABEIRA SHOPPING
+2025-01-07 11:07:27,253 - INFO - Raspando hor·rios da linha: 9901 - MANGABEIRA/VALENTINA
+2025-01-07 11:07:28,432 - INFO - Raspando hor·rios da linha: E155 - ZONA SUL/CRUZ DAS ARMAS
+2025-01-07 11:07:29,568 - INFO - Raspando hor·rios da linha: E550 - PARQUE DA CIDADE
+2025-01-07 11:07:30,801 - INFO - Raspando hor·rios da linha: E551 - ZONA SUL/EPIT¡CIO
+2025-01-07 11:07:31,941 - INFO - Raspando hor·rios da linha: E600 - PARQUE PARAHYBA/TANCREDO NEVES
+2025-01-07 11:07:33,084 - INFO - Raspando hor·rios da linha: I004 - INTEGRA«√O/PRAIA DO SOL
+2025-01-07 11:07:34,214 - INFO - Raspando hor·rios da linha: I008 - VALENTINA/MANGABEIRA
+2025-01-07 11:07:35,422 - INFO - Raspando hor·rios da linha: I015 - VALENTINA/PARQUE DO SOL
+2025-01-07 11:07:36,544 - INFO - Raspando hor·rios da linha: T001 - BEIRA MAR/ZONA SUL
+2025-01-07 11:07:37,674 - INFO - Raspando hor·rios da linha: T002 - EPIT¡CIO/ZONA OESTE
+2025-01-07 11:07:38,808 - INFO - Raspando hor·rios da linha: T003 - SHOPPING/TIV/CRISTO
+2025-01-07 11:07:40,955 - INFO - Raspagem concluÌda.
+2025-01-07 11:08:43,038 - INFO - N˙mero m·ximo de p·ginas: 3
+2025-01-07 11:08:43,039 - INFO - Raspando p·gina de linhas: https://servicos.semobjp.pb.gov.br/linhas-de-onibus/
+2025-01-07 11:08:44,578 - INFO - Raspando hor·rios da linha: 0002 - ROGER
+2025-01-07 11:08:45,692 - INFO - Raspando hor·rios da linha: 0003 - JAGUARIBE
+2025-01-07 11:08:46,832 - INFO - Raspando hor·rios da linha: 0101 - GROT√O/COLINAS DO SUL
+2025-01-07 11:08:48,002 - INFO - Raspando hor·rios da linha: 0102 - ESPLANADA - JOAO PAULO II
+2025-01-07 11:08:49,173 - INFO - Raspando hor·rios da linha: 0103 - GRAMAME
+2025-01-07 11:08:50,321 - INFO - Raspando hor·rios da linha: 0104 - BAIRRO DAS INDUSTRIAS
+2025-01-07 11:08:51,499 - INFO - Raspando hor·rios da linha: 0105 - CIDADE
+2025-01-07 11:08:52,661 - INFO - Raspando hor·rios da linha: 0106 - GEISEL VIA CRUZ DAS ARMAS
+2025-01-07 11:08:53,802 - INFO - Raspando hor·rios da linha: 0107 - JOS… AM…RICO
+2025-01-07 11:08:54,969 - INFO - Raspando hor·rios da linha: 0108 - ALTO DO MATEUS
+2025-01-07 11:08:56,113 - INFO - Raspando hor·rios da linha: 0109 - RUA DO RIO
+2025-01-07 11:08:57,268 - INFO - Raspando hor·rios da linha: 0110 - JARDIM PLANALTO
+2025-01-07 11:08:58,406 - INFO - Raspando hor·rios da linha: 0115 - DISTRITO
+2025-01-07 11:08:59,552 - INFO - Raspando hor·rios da linha: 0116 - COLINAS DO SUL
+2025-01-07 11:09:00,765 - INFO - Raspando hor·rios da linha: 0118 - PARATIBE
+2025-01-07 11:09:01,920 - INFO - Raspando hor·rios da linha: 0120 - PARQUE DO SOL
+2025-01-07 11:09:03,235 - INFO - Raspando hor·rios da linha: 0123 - COLINAS DO SUL/PERIMETRAL
+2025-01-07 11:09:04,384 - INFO - Raspando hor·rios da linha: 0202 - ERNESTO GEISEL
+2025-01-07 11:09:05,556 - INFO - Raspando hor·rios da linha: 0203 - MANGABEIRA / RANGEL
+2025-01-07 11:09:06,719 - INFO - Raspando hor·rios da linha: 0204 - CRISTO
+2025-01-07 11:09:07,875 - INFO - Raspando hor·rios da linha: 0207 - PENHA
+2025-01-07 11:09:09,057 - INFO - Raspando hor·rios da linha: 0208 - CRISTO - VALE DAS PALMEIRAS
+2025-01-07 11:09:10,223 - INFO - Raspando hor·rios da linha: 0229 - MANGABEIRA VII/RANGEL
+2025-01-07 11:09:11,361 - INFO - Raspando hor·rios da linha: 0301 - MANGABEIRA PEDRO II - DIRETO
+2025-01-07 11:09:12,601 - INFO - Raspando hor·rios da linha: 0302 - CIDADE VERDE
+2025-01-07 11:09:13,810 - INFO - Raspando hor·rios da linha: 0303 - CIDADE VERDE - PEDRO II
+2025-01-07 11:09:14,999 - INFO - Raspando hor·rios da linha: 0304 - BANC¡RIOS/CASTELO BRANCO - PEDRO II
+2025-01-07 11:09:16,172 - INFO - Raspando hor·rios da linha: 0307 - PENHA/PEDRO II
+2025-01-07 11:09:17,304 - INFO - Raspando hor·rios da linha: 0401 - ALTIPLANO
+2025-01-07 11:09:18,479 - INFO - Raspando hor·rios da linha: 0402 - TORRE
+2025-01-07 11:09:20,614 - INFO - Raspando p·gina de linhas: https://servicos.semobjp.pb.gov.br/linhas-de-onibus/?page=2
+2025-01-07 11:09:22,193 - INFO - Raspando hor·rios da linha: 0500 - TAMBA⁄
+2025-01-07 11:09:23,351 - INFO - Raspando hor·rios da linha: 0502 - GEISEL/EPIT¡CIO
+2025-01-07 11:09:24,624 - INFO - Raspando hor·rios da linha: 0503 - TREZE DE MAIO
+2025-01-07 11:09:25,756 - INFO - Raspando hor·rios da linha: 0504 - MANDACARU
+2025-01-07 11:09:26,940 - INFO - Raspando hor·rios da linha: 0506 - BAIRRO DOS ESTADOS
+2025-01-07 11:09:28,094 - INFO - Raspando hor·rios da linha: 0507 - CABO BRANCO
+2025-01-07 11:09:29,278 - INFO - Raspando hor·rios da linha: 0508 - CABO BRANCO/PENHA
+2025-01-07 11:09:30,429 - INFO - Raspando hor·rios da linha: 0509 - JO√O AGRIPINO
+2025-01-07 11:09:31,560 - INFO - Raspando hor·rios da linha: 0510 - TAMBAU VIA TAMANDAR…
+2025-01-07 11:09:32,932 - INFO - Raspando hor·rios da linha: 0512 - BAIRRO S√O JOS…
+2025-01-07 11:09:34,080 - INFO - Raspando hor·rios da linha: 0517 - MANGABEIRA CIDADE VERDE EPIT¡CIO
+2025-01-07 11:09:35,807 - INFO - Raspando hor·rios da linha: 0518 - BANC¡RIOS - EPIT¡CIO
+2025-01-07 11:09:36,944 - INFO - Raspando hor·rios da linha: 0520 - ALTIPLANO/EPIT¡CIO
+2025-01-07 11:09:38,084 - INFO - Raspando hor·rios da linha: 0521 - MANAIRA/BESSA
+2025-01-07 11:09:39,252 - INFO - Raspando hor·rios da linha: 0522 - RENASCER/CARREFOUR
+2025-01-07 11:09:40,390 - INFO - Raspando hor·rios da linha: 0523 - COLINAS DO SUL/ EPIT¡CIO
+2025-01-07 11:09:41,554 - INFO - Raspando hor·rios da linha: 0527 - CASTELO BRANCO EPIT¡CIO
+2025-01-07 11:09:42,676 - INFO - Raspando hor·rios da linha: 0530 - CIDADE VERDE EPIT¡CIO
+2025-01-07 11:09:43,829 - INFO - Raspando hor·rios da linha: 0600 - BESSA SHOPPING
+2025-01-07 11:09:45,130 - INFO - Raspando hor·rios da linha: 0601 - BESSA
+2025-01-07 11:09:46,321 - INFO - Raspando hor·rios da linha: 0602 - ILHA DO BISPO
+2025-01-07 11:09:47,488 - INFO - Raspando hor·rios da linha: 0604 - BAIRRO DOS IP S/VIA AYRTON SENNA
+2025-01-07 11:09:48,641 - INFO - Raspando hor·rios da linha: 0701 - ALTO DO MATEUS/ACESSO OESTE
+2025-01-07 11:09:49,864 - INFO - Raspando hor·rios da linha: 0702 - ALTO DO MATEUS/TIRADENTES
+2025-01-07 11:09:50,983 - INFO - Raspando hor·rios da linha: 1001M - BAIRRO DAS INDUSTRIAS/ MANDACARU
+2025-01-07 11:09:52,138 - INFO - Raspando hor·rios da linha: 1001S - BAIRRO DAS INDUSTRIAS/MANDACARU - SJ02
+2025-01-07 11:09:53,307 - INFO - Raspando hor·rios da linha: 1500 - CIRCULAR 1500
+2025-01-07 11:09:54,532 - INFO - Raspando hor·rios da linha: 1510 - CIRCULAR 1510
+2025-01-07 11:09:55,716 - INFO - Raspando hor·rios da linha: 1519 - VALENTINA/CRUZ DAS ARMAS
+2025-01-07 11:09:56,870 - INFO - Raspando hor·rios da linha: 2300 - CIRCULAR 2300
+2025-01-07 11:09:59,042 - INFO - Raspando p·gina de linhas: https://servicos.semobjp.pb.gov.br/linhas-de-onibus/?page=3
+2025-01-07 11:10:00,110 - INFO - Raspando hor·rios da linha: 2515 - MANGABEIRA/CRISTO/EPIT¡CIO
+2025-01-07 11:10:01,274 - INFO - Raspando hor·rios da linha: 3200 - CIRCULAR 3200
+2025-01-07 11:10:02,457 - INFO - Raspando hor·rios da linha: 5100 - CIRCULAR
+2025-01-07 11:10:03,740 - INFO - Raspando hor·rios da linha: 5110 - CIRCULAR 5110
+2025-01-07 11:10:05,020 - INFO - Raspando hor·rios da linha: 5120 - VALENTINA/EPIT¡CIO
+2025-01-07 11:10:06,180 - INFO - Raspando hor·rios da linha: 5210 - MANGABEIRA/EPIT¡CIO/CRISTO
+2025-01-07 11:10:07,349 - INFO - Raspando hor·rios da linha: 5600 - MANGABEIRA - SHOPPING
+2025-01-07 11:10:08,554 - INFO - Raspando hor·rios da linha: 5603 - MANGABEIRA VII
+2025-01-07 11:10:09,812 - INFO - Raspando hor·rios da linha: 5605 - MANGABEIRA SHOPPING
+2025-01-07 11:10:11,051 - INFO - Raspando hor·rios da linha: 9901 - MANGABEIRA/VALENTINA
+2025-01-07 11:10:12,240 - INFO - Raspando hor·rios da linha: E155 - ZONA SUL/CRUZ DAS ARMAS
+2025-01-07 11:10:13,368 - INFO - Raspando hor·rios da linha: E550 - PARQUE DA CIDADE
+2025-01-07 11:10:14,500 - INFO - Raspando hor·rios da linha: E551 - ZONA SUL/EPIT¡CIO
+2025-01-07 11:10:15,626 - INFO - Raspando hor·rios da linha: E600 - PARQUE PARAHYBA/TANCREDO NEVES
+2025-01-07 11:10:16,768 - INFO - Raspando hor·rios da linha: I004 - INTEGRA«√O/PRAIA DO SOL
+2025-01-07 11:10:17,892 - INFO - Raspando hor·rios da linha: I008 - VALENTINA/MANGABEIRA
+2025-01-07 11:10:19,043 - INFO - Raspando hor·rios da linha: I015 - VALENTINA/PARQUE DO SOL
+2025-01-07 11:10:20,162 - INFO - Raspando hor·rios da linha: T001 - BEIRA MAR/ZONA SUL
+2025-01-07 11:10:21,308 - INFO - Raspando hor·rios da linha: T002 - EPIT¡CIO/ZONA OESTE
+2025-01-07 11:10:22,441 - INFO - Raspando hor·rios da linha: T003 - SHOPPING/TIV/CRISTO
+2025-01-07 11:10:24,570 - INFO - Raspagem concluÌda.
+2025-01-07 11:35:15,581 - INFO - N˙mero m·ximo de p·ginas: 3
+2025-01-07 11:35:15,581 - INFO - Raspando p·gina de linhas: https://servicos.semobjp.pb.gov.br/linhas-de-onibus/
+2025-01-07 11:35:17,002 - INFO - Raspando hor·rios da linha: 0002 - ROGER
+2025-01-07 11:35:18,125 - INFO - Raspando hor·rios da linha: 0003 - JAGUARIBE
+2025-01-07 11:35:19,255 - INFO - Raspando hor·rios da linha: 0101 - GROT√O/COLINAS DO SUL
+2025-01-07 11:35:20,439 - INFO - Raspando hor·rios da linha: 0102 - ESPLANADA - JOAO PAULO II
+2025-01-07 11:35:21,616 - INFO - Raspando hor·rios da linha: 0103 - GRAMAME
+2025-01-07 11:35:22,762 - INFO - Raspando hor·rios da linha: 0104 - BAIRRO DAS INDUSTRIAS
+2025-01-07 11:35:24,022 - INFO - Raspando hor·rios da linha: 0105 - CIDADE
+2025-01-07 11:35:25,176 - INFO - Raspando hor·rios da linha: 0106 - GEISEL VIA CRUZ DAS ARMAS
+2025-01-07 11:35:26,310 - INFO - Raspando hor·rios da linha: 0107 - JOS… AM…RICO
+2025-01-07 11:35:27,510 - INFO - Raspando hor·rios da linha: 0108 - ALTO DO MATEUS
+2025-01-07 11:35:28,641 - INFO - Raspando hor·rios da linha: 0109 - RUA DO RIO
+2025-01-07 11:35:29,776 - INFO - Raspando hor·rios da linha: 0110 - JARDIM PLANALTO
+2025-01-07 11:35:30,912 - INFO - Raspando hor·rios da linha: 0115 - DISTRITO
+2025-01-07 11:35:32,046 - INFO - Raspando hor·rios da linha: 0116 - COLINAS DO SUL
+2025-01-07 11:35:33,334 - INFO - Raspando hor·rios da linha: 0118 - PARATIBE
+2025-01-07 11:35:34,498 - INFO - Raspando hor·rios da linha: 0120 - PARQUE DO SOL
+2025-01-07 11:35:35,700 - INFO - Raspando hor·rios da linha: 0123 - COLINAS DO SUL/PERIMETRAL
+2025-01-07 11:35:36,856 - INFO - Raspando hor·rios da linha: 0202 - ERNESTO GEISEL
+2025-01-07 11:35:38,056 - INFO - Raspando hor·rios da linha: 0203 - MANGABEIRA / RANGEL
+2025-01-07 11:35:39,210 - INFO - Raspando hor·rios da linha: 0204 - CRISTO
+2025-01-07 11:35:40,384 - INFO - Raspando hor·rios da linha: 0207 - PENHA
+2025-01-07 11:35:41,571 - INFO - Raspando hor·rios da linha: 0208 - CRISTO - VALE DAS PALMEIRAS
+2025-01-07 11:35:42,726 - INFO - Raspando hor·rios da linha: 0229 - MANGABEIRA VII/RANGEL
+2025-01-07 11:35:43,864 - INFO - Raspando hor·rios da linha: 0301 - MANGABEIRA PEDRO II - DIRETO
+2025-01-07 11:35:45,035 - INFO - Raspando hor·rios da linha: 0302 - CIDADE VERDE
+2025-01-07 11:35:46,301 - INFO - Raspando hor·rios da linha: 0303 - CIDADE VERDE - PEDRO II
+2025-01-07 11:35:47,480 - INFO - Raspando hor·rios da linha: 0304 - BANC¡RIOS/CASTELO BRANCO - PEDRO II
+2025-01-07 11:35:48,665 - INFO - Raspando hor·rios da linha: 0307 - PENHA/PEDRO II
+2025-01-07 11:35:49,810 - INFO - Raspando hor·rios da linha: 0401 - ALTIPLANO
+2025-01-07 11:35:50,980 - INFO - Raspando hor·rios da linha: 0402 - TORRE
+2025-01-07 11:35:53,109 - INFO - Raspando p·gina de linhas: https://servicos.semobjp.pb.gov.br/linhas-de-onibus/?page=2
+2025-01-07 11:35:54,742 - INFO - Raspando hor·rios da linha: 0500 - TAMBA⁄
+2025-01-07 11:35:55,891 - INFO - Raspando hor·rios da linha: 0502 - GEISEL/EPIT¡CIO
+2025-01-07 11:35:57,057 - INFO - Raspando hor·rios da linha: 0503 - TREZE DE MAIO
+2025-01-07 11:35:58,289 - INFO - Raspando hor·rios da linha: 0504 - MANDACARU
+2025-01-07 11:35:59,484 - INFO - Raspando hor·rios da linha: 0506 - BAIRRO DOS ESTADOS
+2025-01-07 11:36:00,633 - INFO - Raspando hor·rios da linha: 0507 - CABO BRANCO
+2025-01-07 11:36:01,822 - INFO - Raspando hor·rios da linha: 0508 - CABO BRANCO/PENHA
+2025-01-07 11:36:02,980 - INFO - Raspando hor·rios da linha: 0509 - JO√O AGRIPINO
+2025-01-07 11:36:04,129 - INFO - Raspando hor·rios da linha: 0510 - TAMBAU VIA TAMANDAR…
+2025-01-07 11:36:05,318 - INFO - Raspando hor·rios da linha: 0512 - BAIRRO S√O JOS…
+2025-01-07 11:36:06,473 - INFO - Raspando hor·rios da linha: 0517 - MANGABEIRA CIDADE VERDE EPIT¡CIO
+2025-01-07 11:36:07,740 - INFO - Raspando hor·rios da linha: 0518 - BANC¡RIOS - EPIT¡CIO
+2025-01-07 11:36:08,889 - INFO - Raspando hor·rios da linha: 0520 - ALTIPLANO/EPIT¡CIO
+2025-01-07 11:36:10,028 - INFO - Raspando hor·rios da linha: 0521 - MANAIRA/BESSA
+2025-01-07 11:36:11,198 - INFO - Raspando hor·rios da linha: 0522 - RENASCER/CARREFOUR
+2025-01-07 11:36:12,323 - INFO - Raspando hor·rios da linha: 0523 - COLINAS DO SUL/ EPIT¡CIO
+2025-01-07 11:36:13,493 - INFO - Raspando hor·rios da linha: 0527 - CASTELO BRANCO EPIT¡CIO
+2025-01-07 11:36:14,639 - INFO - Raspando hor·rios da linha: 0530 - CIDADE VERDE EPIT¡CIO
+2025-01-07 11:36:15,814 - INFO - Raspando hor·rios da linha: 0600 - BESSA SHOPPING
+2025-01-07 11:36:17,096 - INFO - Raspando hor·rios da linha: 0601 - BESSA
+2025-01-07 11:36:18,268 - INFO - Raspando hor·rios da linha: 0602 - ILHA DO BISPO
+2025-01-07 11:36:19,440 - INFO - Raspando hor·rios da linha: 0604 - BAIRRO DOS IP S/VIA AYRTON SENNA
+2025-01-07 11:36:20,600 - INFO - Raspando hor·rios da linha: 0701 - ALTO DO MATEUS/ACESSO OESTE
+2025-01-07 11:36:21,752 - INFO - Raspando hor·rios da linha: 0702 - ALTO DO MATEUS/TIRADENTES
+2025-01-07 11:36:22,888 - INFO - Raspando hor·rios da linha: 1001M - BAIRRO DAS INDUSTRIAS/ MANDACARU
+2025-01-07 11:36:24,049 - INFO - Raspando hor·rios da linha: 1001S - BAIRRO DAS INDUSTRIAS/MANDACARU - SJ02
+2025-01-07 11:36:25,210 - INFO - Raspando hor·rios da linha: 1500 - CIRCULAR 1500
+2025-01-07 11:36:26,444 - INFO - Raspando hor·rios da linha: 1510 - CIRCULAR 1510
+2025-01-07 11:36:27,620 - INFO - Raspando hor·rios da linha: 1519 - VALENTINA/CRUZ DAS ARMAS
+2025-01-07 11:36:28,868 - INFO - Raspando hor·rios da linha: 2300 - CIRCULAR 2300
+2025-01-07 11:36:31,037 - INFO - Raspando p·gina de linhas: https://servicos.semobjp.pb.gov.br/linhas-de-onibus/?page=3
+2025-01-07 11:36:32,063 - INFO - Raspando hor·rios da linha: 2515 - MANGABEIRA/CRISTO/EPIT¡CIO
+2025-01-07 11:36:33,324 - INFO - Raspando hor·rios da linha: 3200 - CIRCULAR 3200
+2025-01-07 11:36:34,514 - INFO - Raspando hor·rios da linha: 5100 - CIRCULAR
+2025-01-07 11:36:35,762 - INFO - Raspando hor·rios da linha: 5110 - CIRCULAR 5110
+2025-01-07 11:36:37,046 - INFO - Raspando hor·rios da linha: 5120 - VALENTINA/EPIT¡CIO
+2025-01-07 11:36:38,314 - INFO - Raspando hor·rios da linha: 5210 - MANGABEIRA/EPIT¡CIO/CRISTO
+2025-01-07 11:36:39,495 - INFO - Raspando hor·rios da linha: 5600 - MANGABEIRA - SHOPPING
+2025-01-07 11:36:40,684 - INFO - Raspando hor·rios da linha: 5603 - MANGABEIRA VII
+2025-01-07 11:36:41,856 - INFO - Raspando hor·rios da linha: 5605 - MANGABEIRA SHOPPING
+2025-01-07 11:36:43,009 - INFO - Raspando hor·rios da linha: 9901 - MANGABEIRA/VALENTINA
+2025-01-07 11:36:44,187 - INFO - Raspando hor·rios da linha: E155 - ZONA SUL/CRUZ DAS ARMAS
+2025-01-07 11:36:45,323 - INFO - Raspando hor·rios da linha: E550 - PARQUE DA CIDADE
+2025-01-07 11:36:46,446 - INFO - Raspando hor·rios da linha: E551 - ZONA SUL/EPIT¡CIO
+2025-01-07 11:36:47,578 - INFO - Raspando hor·rios da linha: E600 - PARQUE PARAHYBA/TANCREDO NEVES
+2025-01-07 11:36:48,714 - INFO - Raspando hor·rios da linha: I004 - INTEGRA«√O/PRAIA DO SOL
+2025-01-07 11:36:49,865 - INFO - Raspando hor·rios da linha: I008 - VALENTINA/MANGABEIRA
+2025-01-07 11:36:51,019 - INFO - Raspando hor·rios da linha: I015 - VALENTINA/PARQUE DO SOL
+2025-01-07 11:36:52,151 - INFO - Raspando hor·rios da linha: T001 - BEIRA MAR/ZONA SUL
+2025-01-07 11:36:53,276 - INFO - Raspando hor·rios da linha: T002 - EPIT¡CIO/ZONA OESTE
+2025-01-07 11:36:54,400 - INFO - Raspando hor·rios da linha: T003 - SHOPPING/TIV/CRISTO
+2025-01-07 11:36:56,553 - INFO - Backup criado com sucesso: backups/backup_onibus_20250107113656.db
+2025-01-07 11:36:56,554 - INFO - Raspagem concluÌda.
+2025-01-07 11:47:46,260 - INFO - N˙mero m·ximo de p·ginas: 3
+2025-01-07 11:47:46,260 - INFO - Raspando p·gina de linhas: https://servicos.semobjp.pb.gov.br/linhas-de-onibus/
+2025-01-07 11:47:47,660 - INFO - Raspando hor·rios da linha: 0002 - ROGER
+2025-01-07 11:47:48,780 - INFO - Raspando hor·rios da linha: 0003 - JAGUARIBE
+2025-01-07 11:47:49,920 - INFO - Raspando hor·rios da linha: 0101 - GROT√O/COLINAS DO SUL
+2025-01-07 11:47:51,107 - INFO - Raspando hor·rios da linha: 0102 - ESPLANADA - JOAO PAULO II
+2025-01-07 11:47:52,412 - INFO - Raspando hor·rios da linha: 0103 - GRAMAME
+2025-01-07 11:47:53,557 - INFO - Raspando hor·rios da linha: 0104 - BAIRRO DAS INDUSTRIAS
+2025-01-07 11:47:54,769 - INFO - Raspando hor·rios da linha: 0105 - CIDADE
+2025-01-07 11:47:55,916 - INFO - Raspando hor·rios da linha: 0106 - GEISEL VIA CRUZ DAS ARMAS
+2025-01-07 11:47:57,060 - INFO - Raspando hor·rios da linha: 0107 - JOS… AM…RICO
+2025-01-07 11:47:58,225 - INFO - Raspando hor·rios da linha: 0108 - ALTO DO MATEUS
+2025-01-07 11:47:59,372 - INFO - Raspando hor·rios da linha: 0109 - RUA DO RIO
+2025-01-07 11:48:00,507 - INFO - Raspando hor·rios da linha: 0110 - JARDIM PLANALTO
+2025-01-07 11:48:01,660 - INFO - Raspando hor·rios da linha: 0115 - DISTRITO
+2025-01-07 11:48:02,802 - INFO - Raspando hor·rios da linha: 0116 - COLINAS DO SUL
+2025-01-07 11:48:04,106 - INFO - Raspando hor·rios da linha: 0118 - PARATIBE
+2025-01-07 11:48:05,277 - INFO - Raspando hor·rios da linha: 0120 - PARQUE DO SOL
+2025-01-07 11:48:06,490 - INFO - Raspando hor·rios da linha: 0123 - COLINAS DO SUL/PERIMETRAL
+2025-01-07 11:48:07,640 - INFO - Raspando hor·rios da linha: 0202 - ERNESTO GEISEL
+2025-01-07 11:48:08,797 - INFO - Raspando hor·rios da linha: 0203 - MANGABEIRA / RANGEL
+2025-01-07 11:48:09,950 - INFO - Raspando hor·rios da linha: 0204 - CRISTO
+2025-01-07 11:48:11,107 - INFO - Raspando hor·rios da linha: 0207 - PENHA
+2025-01-07 11:48:12,372 - INFO - Raspando hor·rios da linha: 0208 - CRISTO - VALE DAS PALMEIRAS
+2025-01-07 11:48:13,516 - INFO - Raspando hor·rios da linha: 0229 - MANGABEIRA VII/RANGEL
+2025-01-07 11:48:14,664 - INFO - Raspando hor·rios da linha: 0301 - MANGABEIRA PEDRO II - DIRETO
+2025-01-07 11:48:15,842 - INFO - Raspando hor·rios da linha: 0302 - CIDADE VERDE
+2025-01-07 11:48:17,033 - INFO - Raspando hor·rios da linha: 0303 - CIDADE VERDE - PEDRO II
+2025-01-07 11:48:18,204 - INFO - Raspando hor·rios da linha: 0304 - BANC¡RIOS/CASTELO BRANCO - PEDRO II
+2025-01-07 11:48:19,432 - INFO - Raspando hor·rios da linha: 0307 - PENHA/PEDRO II
+2025-01-07 11:48:20,554 - INFO - Raspando hor·rios da linha: 0401 - ALTIPLANO
+2025-01-07 11:48:21,733 - INFO - Raspando hor·rios da linha: 0402 - TORRE
+2025-01-07 11:48:23,868 - INFO - Raspando p·gina de linhas: https://servicos.semobjp.pb.gov.br/linhas-de-onibus/?page=2
+2025-01-07 11:48:25,284 - INFO - Raspando hor·rios da linha: 0500 - TAMBA⁄
+2025-01-07 11:48:26,442 - INFO - Raspando hor·rios da linha: 0502 - GEISEL/EPIT¡CIO
+2025-01-07 11:48:27,618 - INFO - Raspando hor·rios da linha: 0503 - TREZE DE MAIO
+2025-01-07 11:48:28,752 - INFO - Raspando hor·rios da linha: 0504 - MANDACARU
+2025-01-07 11:48:29,942 - INFO - Raspando hor·rios da linha: 0506 - BAIRRO DOS ESTADOS
+2025-01-07 11:48:31,090 - INFO - Raspando hor·rios da linha: 0507 - CABO BRANCO
+2025-01-07 11:48:32,362 - INFO - Raspando hor·rios da linha: 0508 - CABO BRANCO/PENHA
+2025-01-07 11:48:33,517 - INFO - Raspando hor·rios da linha: 0509 - JO√O AGRIPINO
+2025-01-07 11:48:34,667 - INFO - Raspando hor·rios da linha: 0510 - TAMBAU VIA TAMANDAR…
+2025-01-07 11:48:35,871 - INFO - Raspando hor·rios da linha: 0512 - BAIRRO S√O JOS…
+2025-01-07 11:48:37,008 - INFO - Raspando hor·rios da linha: 0517 - MANGABEIRA CIDADE VERDE EPIT¡CIO
+2025-01-07 11:48:38,184 - INFO - Raspando hor·rios da linha: 0518 - BANC¡RIOS - EPIT¡CIO
+2025-01-07 11:48:39,314 - INFO - Raspando hor·rios da linha: 0520 - ALTIPLANO/EPIT¡CIO
+2025-01-07 11:48:40,456 - INFO - Raspando hor·rios da linha: 0521 - MANAIRA/BESSA
+2025-01-07 11:48:41,654 - INFO - Raspando hor·rios da linha: 0522 - RENASCER/CARREFOUR
+2025-01-07 11:48:42,782 - INFO - Raspando hor·rios da linha: 0523 - COLINAS DO SUL/ EPIT¡CIO
+2025-01-07 11:48:43,973 - INFO - Raspando hor·rios da linha: 0527 - CASTELO BRANCO EPIT¡CIO
+2025-01-07 11:48:45,102 - INFO - Raspando hor·rios da linha: 0530 - CIDADE VERDE EPIT¡CIO
+2025-01-07 11:48:46,252 - INFO - Raspando hor·rios da linha: 0600 - BESSA SHOPPING
+2025-01-07 11:48:47,519 - INFO - Raspando hor·rios da linha: 0601 - BESSA
+2025-01-07 11:48:48,700 - INFO - Raspando hor·rios da linha: 0602 - ILHA DO BISPO
+2025-01-07 11:48:49,881 - INFO - Raspando hor·rios da linha: 0604 - BAIRRO DOS IP S/VIA AYRTON SENNA
+2025-01-07 11:48:51,038 - INFO - Raspando hor·rios da linha: 0701 - ALTO DO MATEUS/ACESSO OESTE
+2025-01-07 11:48:52,193 - INFO - Raspando hor·rios da linha: 0702 - ALTO DO MATEUS/TIRADENTES
+2025-01-07 11:48:53,314 - INFO - Raspando hor·rios da linha: 1001M - BAIRRO DAS INDUSTRIAS/ MANDACARU
+2025-01-07 11:48:54,472 - INFO - Raspando hor·rios da linha: 1001S - BAIRRO DAS INDUSTRIAS/MANDACARU - SJ02
+2025-01-07 11:48:55,630 - INFO - Raspando hor·rios da linha: 1500 - CIRCULAR 1500
+2025-01-07 11:48:56,944 - INFO - Raspando hor·rios da linha: 1510 - CIRCULAR 1510
+2025-01-07 11:48:58,128 - INFO - Raspando hor·rios da linha: 1519 - VALENTINA/CRUZ DAS ARMAS
+2025-01-07 11:48:59,274 - INFO - Raspando hor·rios da linha: 2300 - CIRCULAR 2300
+2025-01-07 11:49:01,455 - INFO - Raspando p·gina de linhas: https://servicos.semobjp.pb.gov.br/linhas-de-onibus/?page=3
+2025-01-07 11:49:02,499 - INFO - Raspando hor·rios da linha: 2515 - MANGABEIRA/CRISTO/EPIT¡CIO
+2025-01-07 11:49:03,980 - INFO - Raspando hor·rios da linha: 3200 - CIRCULAR 3200
+2025-01-07 11:49:05,230 - INFO - Raspando hor·rios da linha: 5100 - CIRCULAR
+2025-01-07 11:49:06,484 - INFO - Raspando hor·rios da linha: 5110 - CIRCULAR 5110
+2025-01-07 11:49:07,679 - INFO - Raspando hor·rios da linha: 5120 - VALENTINA/EPIT¡CIO
+2025-01-07 11:49:08,881 - INFO - Raspando hor·rios da linha: 5210 - MANGABEIRA/EPIT¡CIO/CRISTO
+2025-01-07 11:49:10,040 - INFO - Raspando hor·rios da linha: 5600 - MANGABEIRA - SHOPPING
+2025-01-07 11:49:11,238 - INFO - Raspando hor·rios da linha: 5603 - MANGABEIRA VII
+2025-01-07 11:49:12,416 - INFO - Raspando hor·rios da linha: 5605 - MANGABEIRA SHOPPING
+2025-01-07 11:49:13,652 - INFO - Raspando hor·rios da linha: 9901 - MANGABEIRA/VALENTINA
+2025-01-07 11:49:14,850 - INFO - Raspando hor·rios da linha: E155 - ZONA SUL/CRUZ DAS ARMAS
+2025-01-07 11:49:15,984 - INFO - Raspando hor·rios da linha: E550 - PARQUE DA CIDADE
+2025-01-07 11:49:17,111 - INFO - Raspando hor·rios da linha: E551 - ZONA SUL/EPIT¡CIO
+2025-01-07 11:49:18,252 - INFO - Raspando hor·rios da linha: E600 - PARQUE PARAHYBA/TANCREDO NEVES
+2025-01-07 11:49:19,418 - INFO - Raspando hor·rios da linha: I004 - INTEGRA«√O/PRAIA DO SOL
+2025-01-07 11:49:20,554 - INFO - Raspando hor·rios da linha: I008 - VALENTINA/MANGABEIRA
+2025-01-07 11:49:21,720 - INFO - Raspando hor·rios da linha: I015 - VALENTINA/PARQUE DO SOL
+2025-01-07 11:49:22,853 - INFO - Raspando hor·rios da linha: T001 - BEIRA MAR/ZONA SUL
+2025-01-07 11:49:23,976 - INFO - Raspando hor·rios da linha: T002 - EPIT¡CIO/ZONA OESTE
+2025-01-07 11:49:25,110 - INFO - Raspando hor·rios da linha: T003 - SHOPPING/TIV/CRISTO
+2025-01-07 11:49:27,278 - INFO - Backup criado com sucesso: backups/backup_onibus_20250107114927.db
+2025-01-07 11:49:27,278 - INFO - Raspagem concluÌda.
+2025-01-07 11:56:45,212 - INFO - N√∫mero m√°ximo de p√°ginas: 3
+2025-01-07 11:56:45,212 - INFO - Raspando p√°gina de linhas: https://servicos.semobjp.pb.gov.br/linhas-de-onibus/
+2025-01-07 11:56:46,731 - INFO - Raspando hor√°rios da linha: 0002 - ROGER
+2025-01-07 11:56:47,872 - INFO - Raspando hor√°rios da linha: 0003 - JAGUARIBE
+2025-01-07 11:56:49,026 - INFO - Raspando hor√°rios da linha: 0101 - GROT√ÉO/COLINAS DO SUL
+2025-01-07 11:56:50,205 - INFO - Raspando hor√°rios da linha: 0102 - ESPLANADA - JOAO PAULO II
+2025-01-07 11:56:51,380 - INFO - Raspando hor√°rios da linha: 0103 - GRAMAME
+2025-01-07 11:56:52,518 - INFO - Raspando hor√°rios da linha: 0104 - BAIRRO DAS INDUSTRIAS
+2025-01-07 11:56:53,696 - INFO - Raspando hor√°rios da linha: 0105 - CIDADE
+2025-01-07 11:56:54,936 - INFO - Raspando hor√°rios da linha: 0106 - GEISEL VIA CRUZ DAS ARMAS
+2025-01-07 11:56:56,076 - INFO - Raspando hor√°rios da linha: 0107 - JOS√â AM√âRICO
+2025-01-07 11:56:57,250 - INFO - Raspando hor√°rios da linha: 0108 - ALTO DO MATEUS
+2025-01-07 11:56:58,380 - INFO - Raspando hor√°rios da linha: 0109 - RUA DO RIO
+2025-01-07 11:56:59,521 - INFO - Raspando hor√°rios da linha: 0110 - JARDIM PLANALTO
+2025-01-07 11:57:00,679 - INFO - Raspando hor√°rios da linha: 0115 - DISTRITO
+2025-01-07 11:57:01,828 - INFO - Raspando hor√°rios da linha: 0116 - COLINAS DO SUL
+2025-01-07 11:57:03,052 - INFO - Raspando hor√°rios da linha: 0118 - PARATIBE
+2025-01-07 11:57:04,246 - INFO - Raspando hor√°rios da linha: 0120 - PARQUE DO SOL
+2025-01-07 11:57:05,538 - INFO - Raspando hor√°rios da linha: 0123 - COLINAS DO SUL/PERIMETRAL
+2025-01-07 11:57:06,680 - INFO - Raspando hor√°rios da linha: 0202 - ERNESTO GEISEL
+2025-01-07 11:57:07,846 - INFO - Raspando hor√°rios da linha: 0203 - MANGABEIRA / RANGEL
+2025-01-07 11:57:09,011 - INFO - Raspando hor√°rios da linha: 0204 - CRISTO
+2025-01-07 11:57:10,194 - INFO - Raspando hor√°rios da linha: 0207 - PENHA
+2025-01-07 11:57:11,445 - INFO - Raspando hor√°rios da linha: 0208 - CRISTO - VALE DAS PALMEIRAS
+2025-01-07 11:57:12,616 - INFO - Raspando hor√°rios da linha: 0229 - MANGABEIRA VII/RANGEL
+2025-01-07 11:57:13,762 - INFO - Raspando hor√°rios da linha: 0301 - MANGABEIRA PEDRO II - DIRETO
+2025-01-07 11:57:14,933 - INFO - Raspando hor√°rios da linha: 0302 - CIDADE VERDE
+2025-01-07 11:57:16,120 - INFO - Raspando hor√°rios da linha: 0303 - CIDADE VERDE - PEDRO II
+2025-01-07 11:57:17,301 - INFO - Raspando hor√°rios da linha: 0304 - BANC√ÅRIOS/CASTELO BRANCO - PEDRO II
+2025-01-07 11:57:18,471 - INFO - Raspando hor√°rios da linha: 0307 - PENHA/PEDRO II
+2025-01-07 11:57:19,607 - INFO - Raspando hor√°rios da linha: 0401 - ALTIPLANO
+2025-01-07 11:57:20,791 - INFO - Raspando hor√°rios da linha: 0402 - TORRE
+2025-01-07 11:57:22,925 - INFO - Raspando p√°gina de linhas: https://servicos.semobjp.pb.gov.br/linhas-de-onibus/?page=2
+2025-01-07 11:57:24,609 - INFO - Raspando hor√°rios da linha: 0500 - TAMBA√ö
+2025-01-07 11:57:25,762 - INFO - Raspando hor√°rios da linha: 0502 - GEISEL/EPIT√ÅCIO
+2025-01-07 11:57:26,936 - INFO - Raspando hor√°rios da linha: 0503 - TREZE DE MAIO
+2025-01-07 11:57:28,065 - INFO - Raspando hor√°rios da linha: 0504 - MANDACARU
+2025-01-07 11:57:29,260 - INFO - Raspando hor√°rios da linha: 0506 - BAIRRO DOS ESTADOS
+2025-01-07 11:57:30,427 - INFO - Raspando hor√°rios da linha: 0507 - CABO BRANCO
+2025-01-07 11:57:32,027 - INFO - Raspando hor√°rios da linha: 0508 - CABO BRANCO/PENHA
+2025-01-07 11:57:33,189 - INFO - Raspando hor√°rios da linha: 0509 - JO√ÉO AGRIPINO
+2025-01-07 11:57:34,331 - INFO - Raspando hor√°rios da linha: 0510 - TAMBAU VIA TAMANDAR√â
+2025-01-07 11:57:35,542 - INFO - Raspando hor√°rios da linha: 0512 - BAIRRO S√ÉO JOS√â
+2025-01-07 11:57:36,690 - INFO - Raspando hor√°rios da linha: 0517 - MANGABEIRA CIDADE VERDE EPIT√ÅCIO
+2025-01-07 11:57:37,864 - INFO - Raspando hor√°rios da linha: 0518 - BANC√ÅRIOS - EPIT√ÅCIO
+2025-01-07 11:57:39,008 - INFO - Raspando hor√°rios da linha: 0520 - ALTIPLANO/EPIT√ÅCIO
+2025-01-07 11:57:40,143 - INFO - Raspando hor√°rios da linha: 0521 - MANAIRA/BESSA
+2025-01-07 11:57:41,414 - INFO - Raspando hor√°rios da linha: 0522 - RENASCER/CARREFOUR
+2025-01-07 11:57:42,561 - INFO - Raspando hor√°rios da linha: 0523 - COLINAS DO SUL/ EPIT√ÅCIO
+2025-01-07 11:57:43,738 - INFO - Raspando hor√°rios da linha: 0527 - CASTELO BRANCO EPIT√ÅCIO
+2025-01-07 11:57:44,875 - INFO - Raspando hor√°rios da linha: 0530 - CIDADE VERDE EPIT√ÅCIO
+2025-01-07 11:57:46,023 - INFO - Raspando hor√°rios da linha: 0600 - BESSA SHOPPING
+2025-01-07 11:57:47,221 - INFO - Raspando hor√°rios da linha: 0601 - BESSA
+2025-01-07 11:57:48,397 - INFO - Raspando hor√°rios da linha: 0602 - ILHA DO BISPO
+2025-01-07 11:57:49,612 - INFO - Raspando hor√°rios da linha: 0604 - BAIRRO DOS IP√äS/VIA AYRTON SENNA
+2025-01-07 11:57:50,834 - INFO - Raspando hor√°rios da linha: 0701 - ALTO DO MATEUS/ACESSO OESTE
+2025-01-07 11:57:51,996 - INFO - Raspando hor√°rios da linha: 0702 - ALTO DO MATEUS/TIRADENTES
+2025-01-07 11:57:53,136 - INFO - Raspando hor√°rios da linha: 1001M - BAIRRO DAS INDUSTRIAS/ MANDACARU
+2025-01-07 11:57:54,293 - INFO - Raspando hor√°rios da linha: 1001S - BAIRRO DAS INDUSTRIAS/MANDACARU - SJ02
+2025-01-07 11:57:55,464 - INFO - Raspando hor√°rios da linha: 1500 - CIRCULAR 1500
+2025-01-07 11:57:56,794 - INFO - Raspando hor√°rios da linha: 1510 - CIRCULAR 1510
+2025-01-07 11:57:57,983 - INFO - Raspando hor√°rios da linha: 1519 - VALENTINA/CRUZ DAS ARMAS
+2025-01-07 11:57:59,175 - INFO - Raspando hor√°rios da linha: 2300 - CIRCULAR 2300
+2025-01-07 11:58:01,358 - INFO - Raspando p√°gina de linhas: https://servicos.semobjp.pb.gov.br/linhas-de-onibus/?page=3
+2025-01-07 11:58:02,465 - INFO - Raspando hor√°rios da linha: 2515 - MANGABEIRA/CRISTO/EPIT√ÅCIO
+2025-01-07 11:58:03,620 - INFO - Raspando hor√°rios da linha: 3200 - CIRCULAR 3200
+2025-01-07 11:58:04,811 - INFO - Raspando hor√°rios da linha: 5100 - CIRCULAR
+2025-01-07 11:58:06,146 - INFO - Raspando hor√°rios da linha: 5110 - CIRCULAR 5110
+2025-01-07 11:58:07,358 - INFO - Raspando hor√°rios da linha: 5120 - VALENTINA/EPIT√ÅCIO
+2025-01-07 11:58:08,526 - INFO - Raspando hor√°rios da linha: 5210 - MANGABEIRA/EPIT√ÅCIO/CRISTO
+2025-01-07 11:58:09,725 - INFO - Raspando hor√°rios da linha: 5600 - MANGABEIRA - SHOPPING
+2025-01-07 11:58:10,914 - INFO - Raspando hor√°rios da linha: 5603 - MANGABEIRA VII
+2025-01-07 11:58:12,207 - INFO - Raspando hor√°rios da linha: 5605 - MANGABEIRA SHOPPING
+2025-01-07 11:58:13,370 - INFO - Raspando hor√°rios da linha: 9901 - MANGABEIRA/VALENTINA
+2025-01-07 11:58:14,554 - INFO - Raspando hor√°rios da linha: E155 - ZONA SUL/CRUZ DAS ARMAS
+2025-01-07 11:58:15,702 - INFO - Raspando hor√°rios da linha: E550 - PARQUE DA CIDADE
+2025-01-07 11:58:16,843 - INFO - Raspando hor√°rios da linha: E551 - ZONA SUL/EPIT√ÅCIO
+2025-01-07 11:58:17,974 - INFO - Raspando hor√°rios da linha: E600 - PARQUE PARAHYBA/TANCREDO NEVES
+2025-01-07 11:58:19,111 - INFO - Raspando hor√°rios da linha: I004 - INTEGRA√á√ÉO/PRAIA DO SOL
+2025-01-07 11:58:20,245 - INFO - Raspando hor√°rios da linha: I008 - VALENTINA/MANGABEIRA
+2025-01-07 11:58:21,408 - INFO - Raspando hor√°rios da linha: I015 - VALENTINA/PARQUE DO SOL
+2025-01-07 11:58:22,538 - INFO - Raspando hor√°rios da linha: T001 - BEIRA MAR/ZONA SUL
+2025-01-07 11:58:23,670 - INFO - Raspando hor√°rios da linha: T002 - EPIT√ÅCIO/ZONA OESTE
+2025-01-07 11:58:24,808 - INFO - Raspando hor√°rios da linha: T003 - SHOPPING/TIV/CRISTO
+2025-01-07 11:58:26,957 - INFO - Backup criado com sucesso: backups/backup_onibus_115826_07012025.db
+2025-01-07 11:58:26,957 - INFO - Raspagem conclu√≠da.
+2025-01-07 11:59:29,131 - INFO - N√∫mero m√°ximo de p√°ginas: 3
+2025-01-07 11:59:29,131 - INFO - Raspando p√°gina de linhas: https://servicos.semobjp.pb.gov.br/linhas-de-onibus/
+2025-01-07 11:59:30,559 - INFO - Raspando hor√°rios da linha: 0002 - ROGER
+2025-01-07 11:59:31,672 - INFO - Raspando hor√°rios da linha: 0003 - JAGUARIBE
+2025-01-07 11:59:32,815 - INFO - Raspando hor√°rios da linha: 0101 - GROT√ÉO/COLINAS DO SUL
+2025-01-07 11:59:34,078 - INFO - Raspando hor√°rios da linha: 0102 - ESPLANADA - JOAO PAULO II
+2025-01-07 11:59:35,265 - INFO - Raspando hor√°rios da linha: 0103 - GRAMAME
+2025-01-07 11:59:36,398 - INFO - Raspando hor√°rios da linha: 0104 - BAIRRO DAS INDUSTRIAS
+2025-01-07 11:59:37,602 - INFO - Raspando hor√°rios da linha: 0105 - CIDADE
+2025-01-07 11:59:38,764 - INFO - Raspando hor√°rios da linha: 0106 - GEISEL VIA CRUZ DAS ARMAS
+2025-01-07 11:59:39,903 - INFO - Raspando hor√°rios da linha: 0107 - JOS√â AM√âRICO
+2025-01-07 11:59:41,088 - INFO - Raspando hor√°rios da linha: 0108 - ALTO DO MATEUS
+2025-01-07 11:59:42,226 - INFO - Raspando hor√°rios da linha: 0109 - RUA DO RIO
+2025-01-07 11:59:43,374 - INFO - Raspando hor√°rios da linha: 0110 - JARDIM PLANALTO
+2025-01-07 11:59:44,540 - INFO - Raspando hor√°rios da linha: 0115 - DISTRITO
+2025-01-07 11:59:45,689 - INFO - Raspando hor√°rios da linha: 0116 - COLINAS DO SUL
+2025-01-07 11:59:46,988 - INFO - Raspando hor√°rios da linha: 0118 - PARATIBE
+2025-01-07 11:59:48,156 - INFO - Raspando hor√°rios da linha: 0120 - PARQUE DO SOL
+2025-01-07 11:59:49,398 - INFO - Raspando hor√°rios da linha: 0123 - COLINAS DO SUL/PERIMETRAL
+2025-01-07 11:59:50,558 - INFO - Raspando hor√°rios da linha: 0202 - ERNESTO GEISEL
+2025-01-07 11:59:51,775 - INFO - Raspando hor√°rios da linha: 0203 - MANGABEIRA / RANGEL
+2025-01-07 11:59:52,952 - INFO - Raspando hor√°rios da linha: 0204 - CRISTO
+2025-01-07 11:59:54,133 - INFO - Raspando hor√°rios da linha: 0207 - PENHA
+2025-01-07 11:59:55,348 - INFO - Raspando hor√°rios da linha: 0208 - CRISTO - VALE DAS PALMEIRAS
+2025-01-07 11:59:56,529 - INFO - Raspando hor√°rios da linha: 0229 - MANGABEIRA VII/RANGEL
+2025-01-07 11:59:57,740 - INFO - Raspando hor√°rios da linha: 0301 - MANGABEIRA PEDRO II - DIRETO
+2025-01-07 11:59:58,939 - INFO - Raspando hor√°rios da linha: 0302 - CIDADE VERDE
+2025-01-07 12:00:00,129 - INFO - Raspando hor√°rios da linha: 0303 - CIDADE VERDE - PEDRO II
+2025-01-07 12:00:01,328 - INFO - Raspando hor√°rios da linha: 0304 - BANC√ÅRIOS/CASTELO BRANCO - PEDRO II
+2025-01-07 12:00:02,502 - INFO - Raspando hor√°rios da linha: 0307 - PENHA/PEDRO II
+2025-01-07 12:00:03,629 - INFO - Raspando hor√°rios da linha: 0401 - ALTIPLANO
+2025-01-07 12:00:04,805 - INFO - Raspando hor√°rios da linha: 0402 - TORRE
+2025-01-07 12:00:07,028 - INFO - Raspando p√°gina de linhas: https://servicos.semobjp.pb.gov.br/linhas-de-onibus/?page=2
+2025-01-07 12:00:08,692 - INFO - Raspando hor√°rios da linha: 0500 - TAMBA√ö
+2025-01-07 12:00:09,925 - INFO - Raspando hor√°rios da linha: 0502 - GEISEL/EPIT√ÅCIO
+2025-01-07 12:00:11,102 - INFO - Raspando hor√°rios da linha: 0503 - TREZE DE MAIO
+2025-01-07 12:00:12,248 - INFO - Raspando hor√°rios da linha: 0504 - MANDACARU
+2025-01-07 12:00:13,448 - INFO - Raspando hor√°rios da linha: 0506 - BAIRRO DOS ESTADOS
+2025-01-07 12:00:14,596 - INFO - Raspando hor√°rios da linha: 0507 - CABO BRANCO
+2025-01-07 12:00:15,815 - INFO - Raspando hor√°rios da linha: 0508 - CABO BRANCO/PENHA
+2025-01-07 12:00:17,260 - INFO - Raspando hor√°rios da linha: 0509 - JO√ÉO AGRIPINO
+2025-01-07 12:00:18,400 - INFO - Raspando hor√°rios da linha: 0510 - TAMBAU VIA TAMANDAR√â
+2025-01-07 12:00:19,689 - INFO - Raspando hor√°rios da linha: 0512 - BAIRRO S√ÉO JOS√â
+2025-01-07 12:00:20,844 - INFO - Raspando hor√°rios da linha: 0517 - MANGABEIRA CIDADE VERDE EPIT√ÅCIO
+2025-01-07 12:00:22,024 - INFO - Raspando hor√°rios da linha: 0518 - BANC√ÅRIOS - EPIT√ÅCIO
+2025-01-07 12:00:23,179 - INFO - Raspando hor√°rios da linha: 0520 - ALTIPLANO/EPIT√ÅCIO
+2025-01-07 12:00:24,319 - INFO - Raspando hor√°rios da linha: 0521 - MANAIRA/BESSA
+2025-01-07 12:00:25,526 - INFO - Raspando hor√°rios da linha: 0522 - RENASCER/CARREFOUR
+2025-01-07 12:00:26,685 - INFO - Raspando hor√°rios da linha: 0523 - COLINAS DO SUL/ EPIT√ÅCIO
+2025-01-07 12:00:27,868 - INFO - Raspando hor√°rios da linha: 0527 - CASTELO BRANCO EPIT√ÅCIO
+2025-01-07 12:00:29,012 - INFO - Raspando hor√°rios da linha: 0530 - CIDADE VERDE EPIT√ÅCIO
+2025-01-07 12:00:30,176 - INFO - Raspando hor√°rios da linha: 0600 - BESSA SHOPPING
+2025-01-07 12:00:31,396 - INFO - Raspando hor√°rios da linha: 0601 - BESSA
+2025-01-07 12:00:32,605 - INFO - Raspando hor√°rios da linha: 0602 - ILHA DO BISPO
+2025-01-07 12:00:33,800 - INFO - Raspando hor√°rios da linha: 0604 - BAIRRO DOS IP√äS/VIA AYRTON SENNA
+2025-01-07 12:00:34,992 - INFO - Raspando hor√°rios da linha: 0701 - ALTO DO MATEUS/ACESSO OESTE
+2025-01-07 12:00:36,293 - INFO - Raspando hor√°rios da linha: 0702 - ALTO DO MATEUS/TIRADENTES
+2025-01-07 12:00:37,446 - INFO - Raspando hor√°rios da linha: 1001M - BAIRRO DAS INDUSTRIAS/ MANDACARU
+2025-01-07 12:00:38,615 - INFO - Raspando hor√°rios da linha: 1001S - BAIRRO DAS INDUSTRIAS/MANDACARU - SJ02
+2025-01-07 12:00:39,765 - INFO - Raspando hor√°rios da linha: 1500 - CIRCULAR 1500
+2025-01-07 12:00:41,023 - INFO - Raspando hor√°rios da linha: 1510 - CIRCULAR 1510
+2025-01-07 12:00:42,303 - INFO - Raspando hor√°rios da linha: 1519 - VALENTINA/CRUZ DAS ARMAS
+2025-01-07 12:00:43,480 - INFO - Raspando hor√°rios da linha: 2300 - CIRCULAR 2300
+2025-01-07 12:00:45,668 - INFO - Raspando p√°gina de linhas: https://servicos.semobjp.pb.gov.br/linhas-de-onibus/?page=3
+2025-01-07 12:00:46,808 - INFO - Raspando hor√°rios da linha: 2515 - MANGABEIRA/CRISTO/EPIT√ÅCIO
+2025-01-07 12:00:47,978 - INFO - Raspando hor√°rios da linha: 3200 - CIRCULAR 3200
+2025-01-07 12:00:49,202 - INFO - Raspando hor√°rios da linha: 5100 - CIRCULAR
+2025-01-07 12:00:50,455 - INFO - Raspando hor√°rios da linha: 5110 - CIRCULAR 5110
+2025-01-07 12:00:51,753 - INFO - Raspando hor√°rios da linha: 5120 - VALENTINA/EPIT√ÅCIO
+2025-01-07 12:00:52,919 - INFO - Raspando hor√°rios da linha: 5210 - MANGABEIRA/EPIT√ÅCIO/CRISTO
+2025-01-07 12:00:54,074 - INFO - Raspando hor√°rios da linha: 5600 - MANGABEIRA - SHOPPING
+2025-01-07 12:00:55,270 - INFO - Raspando hor√°rios da linha: 5603 - MANGABEIRA VII
+2025-01-07 12:00:56,575 - INFO - Raspando hor√°rios da linha: 5605 - MANGABEIRA SHOPPING
+2025-01-07 12:00:57,739 - INFO - Raspando hor√°rios da linha: 9901 - MANGABEIRA/VALENTINA
+2025-01-07 12:00:58,928 - INFO - Raspando hor√°rios da linha: E155 - ZONA SUL/CRUZ DAS ARMAS
+2025-01-07 12:01:00,064 - INFO - Raspando hor√°rios da linha: E550 - PARQUE DA CIDADE
+2025-01-07 12:01:01,199 - INFO - Raspando hor√°rios da linha: E551 - ZONA SUL/EPIT√ÅCIO
+2025-01-07 12:01:02,346 - INFO - Raspando hor√°rios da linha: E600 - PARQUE PARAHYBA/TANCREDO NEVES
+2025-01-07 12:01:03,482 - INFO - Raspando hor√°rios da linha: I004 - INTEGRA√á√ÉO/PRAIA DO SOL
+2025-01-07 12:01:04,610 - INFO - Raspando hor√°rios da linha: I008 - VALENTINA/MANGABEIRA
+2025-01-07 12:01:05,789 - INFO - Raspando hor√°rios da linha: I015 - VALENTINA/PARQUE DO SOL
+2025-01-07 12:01:06,940 - INFO - Raspando hor√°rios da linha: T001 - BEIRA MAR/ZONA SUL
+2025-01-07 12:01:08,082 - INFO - Raspando hor√°rios da linha: T002 - EPIT√ÅCIO/ZONA OESTE
+2025-01-07 12:01:09,223 - INFO - Raspando hor√°rios da linha: T003 - SHOPPING/TIV/CRISTO
+2025-01-07 12:01:11,382 - INFO - Backup criado com sucesso: backups/backup_onibus_120111_07012025.db
+2025-01-07 12:01:11,383 - INFO - Raspagem conclu√≠da.
+2025-01-07 12:02:13,586 - INFO - N√∫mero m√°ximo de p√°ginas: 3
+2025-01-07 12:02:13,586 - INFO - Raspando p√°gina de linhas: https://servicos.semobjp.pb.gov.br/linhas-de-onibus/
+2025-01-07 12:02:15,056 - INFO - Raspando hor√°rios da linha: 0002 - ROGER
+2025-01-07 12:02:16,181 - INFO - Raspando hor√°rios da linha: 0003 - JAGUARIBE
+2025-01-07 12:02:17,329 - INFO - Raspando hor√°rios da linha: 0101 - GROT√ÉO/COLINAS DO SUL
+2025-01-07 12:02:18,567 - INFO - Raspando hor√°rios da linha: 0102 - ESPLANADA - JOAO PAULO II
+2025-01-07 12:02:19,752 - INFO - Raspando hor√°rios da linha: 0103 - GRAMAME
+2025-01-07 12:02:20,891 - INFO - Raspando hor√°rios da linha: 0104 - BAIRRO DAS INDUSTRIAS
+2025-01-07 12:02:22,080 - INFO - Raspando hor√°rios da linha: 0105 - CIDADE
+2025-01-07 12:02:23,217 - INFO - Raspando hor√°rios da linha: 0106 - GEISEL VIA CRUZ DAS ARMAS
+2025-01-07 12:02:24,358 - INFO - Raspando hor√°rios da linha: 0107 - JOS√â AM√âRICO
+2025-01-07 12:02:25,548 - INFO - Raspando hor√°rios da linha: 0108 - ALTO DO MATEUS
+2025-01-07 12:02:26,690 - INFO - Raspando hor√°rios da linha: 0109 - RUA DO RIO
+2025-01-07 12:02:27,825 - INFO - Raspando hor√°rios da linha: 0110 - JARDIM PLANALTO
+2025-01-07 12:02:29,022 - INFO - Raspando hor√°rios da linha: 0115 - DISTRITO
+2025-01-07 12:02:30,178 - INFO - Raspando hor√°rios da linha: 0116 - COLINAS DO SUL
+2025-01-07 12:02:31,399 - INFO - Raspando hor√°rios da linha: 0118 - PARATIBE
+2025-01-07 12:02:32,568 - INFO - Raspando hor√°rios da linha: 0120 - PARQUE DO SOL
+2025-01-07 12:02:33,821 - INFO - Raspando hor√°rios da linha: 0123 - COLINAS DO SUL/PERIMETRAL
+2025-01-07 12:02:34,984 - INFO - Raspando hor√°rios da linha: 0202 - ERNESTO GEISEL
+2025-01-07 12:02:36,158 - INFO - Raspando hor√°rios da linha: 0203 - MANGABEIRA / RANGEL
+2025-01-07 12:02:37,326 - INFO - Raspando hor√°rios da linha: 0204 - CRISTO
+2025-01-07 12:02:38,516 - INFO - Raspando hor√°rios da linha: 0207 - PENHA
+2025-01-07 12:02:39,709 - INFO - Raspando hor√°rios da linha: 0208 - CRISTO - VALE DAS PALMEIRAS
+2025-01-07 12:02:40,972 - INFO - Raspando hor√°rios da linha: 0229 - MANGABEIRA VII/RANGEL
+2025-01-07 12:02:42,116 - INFO - Raspando hor√°rios da linha: 0301 - MANGABEIRA PEDRO II - DIRETO
+2025-01-07 12:02:43,301 - INFO - Raspando hor√°rios da linha: 0302 - CIDADE VERDE
+2025-01-07 12:02:44,499 - INFO - Raspando hor√°rios da linha: 0303 - CIDADE VERDE - PEDRO II
+2025-01-07 12:02:45,678 - INFO - Raspando hor√°rios da linha: 0304 - BANC√ÅRIOS/CASTELO BRANCO - PEDRO II
+2025-01-07 12:02:47,346 - INFO - Raspando hor√°rios da linha: 0307 - PENHA/PEDRO II
+2025-01-07 12:02:48,479 - INFO - Raspando hor√°rios da linha: 0401 - ALTIPLANO
+2025-01-07 12:02:49,748 - INFO - Raspando hor√°rios da linha: 0402 - TORRE
+2025-01-07 12:02:51,890 - INFO - Raspando p√°gina de linhas: https://servicos.semobjp.pb.gov.br/linhas-de-onibus/?page=2
+2025-01-07 12:02:53,479 - INFO - Raspando hor√°rios da linha: 0500 - TAMBA√ö
+2025-01-07 12:02:54,637 - INFO - Raspando hor√°rios da linha: 0502 - GEISEL/EPIT√ÅCIO
+2025-01-07 12:02:55,816 - INFO - Raspando hor√°rios da linha: 0503 - TREZE DE MAIO
+2025-01-07 12:02:56,971 - INFO - Raspando hor√°rios da linha: 0504 - MANDACARU
+2025-01-07 12:02:58,180 - INFO - Raspando hor√°rios da linha: 0506 - BAIRRO DOS ESTADOS
+2025-01-07 12:02:59,356 - INFO - Raspando hor√°rios da linha: 0507 - CABO BRANCO
+2025-01-07 12:03:00,608 - INFO - Raspando hor√°rios da linha: 0508 - CABO BRANCO/PENHA
+2025-01-07 12:03:01,773 - INFO - Raspando hor√°rios da linha: 0509 - JO√ÉO AGRIPINO
+2025-01-07 12:03:02,913 - INFO - Raspando hor√°rios da linha: 0510 - TAMBAU VIA TAMANDAR√â
+2025-01-07 12:03:04,178 - INFO - Raspando hor√°rios da linha: 0512 - BAIRRO S√ÉO JOS√â
+2025-01-07 12:03:05,361 - INFO - Raspando hor√°rios da linha: 0517 - MANGABEIRA CIDADE VERDE EPIT√ÅCIO
+2025-01-07 12:03:06,560 - INFO - Raspando hor√°rios da linha: 0518 - BANC√ÅRIOS - EPIT√ÅCIO
+2025-01-07 12:03:07,729 - INFO - Raspando hor√°rios da linha: 0520 - ALTIPLANO/EPIT√ÅCIO
+2025-01-07 12:03:08,863 - INFO - Raspando hor√°rios da linha: 0521 - MANAIRA/BESSA
+2025-01-07 12:03:10,026 - INFO - Raspando hor√°rios da linha: 0522 - RENASCER/CARREFOUR
+2025-01-07 12:03:11,164 - INFO - Raspando hor√°rios da linha: 0523 - COLINAS DO SUL/ EPIT√ÅCIO
+2025-01-07 12:03:12,414 - INFO - Raspando hor√°rios da linha: 0527 - CASTELO BRANCO EPIT√ÅCIO
+2025-01-07 12:03:13,543 - INFO - Raspando hor√°rios da linha: 0530 - CIDADE VERDE EPIT√ÅCIO
+2025-01-07 12:03:14,709 - INFO - Raspando hor√°rios da linha: 0600 - BESSA SHOPPING
+2025-01-07 12:03:15,903 - INFO - Raspando hor√°rios da linha: 0601 - BESSA
+2025-01-07 12:03:17,104 - INFO - Raspando hor√°rios da linha: 0602 - ILHA DO BISPO
+2025-01-07 12:03:18,279 - INFO - Raspando hor√°rios da linha: 0604 - BAIRRO DOS IP√äS/VIA AYRTON SENNA
+2025-01-07 12:03:19,445 - INFO - Raspando hor√°rios da linha: 0701 - ALTO DO MATEUS/ACESSO OESTE
+2025-01-07 12:03:20,677 - INFO - Raspando hor√°rios da linha: 0702 - ALTO DO MATEUS/TIRADENTES
+2025-01-07 12:03:21,804 - INFO - Raspando hor√°rios da linha: 1001M - BAIRRO DAS INDUSTRIAS/ MANDACARU
+2025-01-07 12:03:22,981 - INFO - Raspando hor√°rios da linha: 1001S - BAIRRO DAS INDUSTRIAS/MANDACARU - SJ02
+2025-01-07 12:03:24,141 - INFO - Raspando hor√°rios da linha: 1500 - CIRCULAR 1500
+2025-01-07 12:03:25,356 - INFO - Raspando hor√°rios da linha: 1510 - CIRCULAR 1510
+2025-01-07 12:03:26,641 - INFO - Raspando hor√°rios da linha: 1519 - VALENTINA/CRUZ DAS ARMAS
+2025-01-07 12:03:27,803 - INFO - Raspando hor√°rios da linha: 2300 - CIRCULAR 2300
+2025-01-07 12:03:29,994 - INFO - Raspando p√°gina de linhas: https://servicos.semobjp.pb.gov.br/linhas-de-onibus/?page=3
+2025-01-07 12:03:31,097 - INFO - Raspando hor√°rios da linha: 2515 - MANGABEIRA/CRISTO/EPIT√ÅCIO
+2025-01-07 12:03:32,260 - INFO - Raspando hor√°rios da linha: 3200 - CIRCULAR 3200
+2025-01-07 12:03:33,486 - INFO - Raspando hor√°rios da linha: 5100 - CIRCULAR
+2025-01-07 12:03:34,813 - INFO - Raspando hor√°rios da linha: 5110 - CIRCULAR 5110
+2025-01-07 12:03:36,042 - INFO - Raspando hor√°rios da linha: 5120 - VALENTINA/EPIT√ÅCIO
+2025-01-07 12:03:37,196 - INFO - Raspando hor√°rios da linha: 5210 - MANGABEIRA/EPIT√ÅCIO/CRISTO
+2025-01-07 12:03:38,358 - INFO - Raspando hor√°rios da linha: 5600 - MANGABEIRA - SHOPPING
+2025-01-07 12:03:39,626 - INFO - Raspando hor√°rios da linha: 5603 - MANGABEIRA VII
+2025-01-07 12:03:40,813 - INFO - Raspando hor√°rios da linha: 5605 - MANGABEIRA SHOPPING
+2025-01-07 12:03:41,969 - INFO - Raspando hor√°rios da linha: 9901 - MANGABEIRA/VALENTINA
+2025-01-07 12:03:43,316 - INFO - Raspando hor√°rios da linha: E155 - ZONA SUL/CRUZ DAS ARMAS
+2025-01-07 12:03:44,457 - INFO - Raspando hor√°rios da linha: E550 - PARQUE DA CIDADE
+2025-01-07 12:03:45,657 - INFO - Raspando hor√°rios da linha: E551 - ZONA SUL/EPIT√ÅCIO
+2025-01-07 12:03:46,816 - INFO - Raspando hor√°rios da linha: E600 - PARQUE PARAHYBA/TANCREDO NEVES
+2025-01-07 12:03:47,950 - INFO - Raspando hor√°rios da linha: I004 - INTEGRA√á√ÉO/PRAIA DO SOL
+2025-01-07 12:03:49,093 - INFO - Raspando hor√°rios da linha: I008 - VALENTINA/MANGABEIRA
+2025-01-07 12:03:50,246 - INFO - Raspando hor√°rios da linha: I015 - VALENTINA/PARQUE DO SOL
+2025-01-07 12:03:51,397 - INFO - Raspando hor√°rios da linha: T001 - BEIRA MAR/ZONA SUL
+2025-01-07 12:03:52,521 - INFO - Raspando hor√°rios da linha: T002 - EPIT√ÅCIO/ZONA OESTE
+2025-01-07 12:03:53,654 - INFO - Raspando hor√°rios da linha: T003 - SHOPPING/TIV/CRISTO
+2025-01-07 12:03:55,805 - INFO - Backup criado com sucesso: backups/backup_onibus_120355_07012025.db
+2025-01-07 12:03:55,806 - INFO - Raspagem conclu√≠da.
+2025-01-07 12:04:58,450 - INFO - N√∫mero m√°ximo de p√°ginas: 3
+2025-01-07 12:04:58,450 - INFO - Raspando p√°gina de linhas: https://servicos.semobjp.pb.gov.br/linhas-de-onibus/
+2025-01-07 12:04:59,765 - INFO - Raspando hor√°rios da linha: 0002 - ROGER
+2025-01-07 12:05:00,888 - INFO - Raspando hor√°rios da linha: 0003 - JAGUARIBE
+2025-01-07 12:05:02,016 - INFO - Raspando hor√°rios da linha: 0101 - GROT√ÉO/COLINAS DO SUL
+2025-01-07 12:05:03,192 - INFO - Raspando hor√°rios da linha: 0102 - ESPLANADA - JOAO PAULO II
+2025-01-07 12:05:04,364 - INFO - Raspando hor√°rios da linha: 0103 - GRAMAME
+2025-01-07 12:05:05,500 - INFO - Raspando hor√°rios da linha: 0104 - BAIRRO DAS INDUSTRIAS
+2025-01-07 12:05:06,745 - INFO - Raspando hor√°rios da linha: 0105 - CIDADE
+2025-01-07 12:05:07,893 - INFO - Raspando hor√°rios da linha: 0106 - GEISEL VIA CRUZ DAS ARMAS
+2025-01-07 12:05:09,025 - INFO - Raspando hor√°rios da linha: 0107 - JOS√â AM√âRICO
+2025-01-07 12:05:10,200 - INFO - Raspando hor√°rios da linha: 0108 - ALTO DO MATEUS
+2025-01-07 12:05:11,327 - INFO - Raspando hor√°rios da linha: 0109 - RUA DO RIO
+2025-01-07 12:05:12,460 - INFO - Raspando hor√°rios da linha: 0110 - JARDIM PLANALTO
+2025-01-07 12:05:13,601 - INFO - Raspando hor√°rios da linha: 0115 - DISTRITO
+2025-01-07 12:05:14,750 - INFO - Raspando hor√°rios da linha: 0116 - COLINAS DO SUL
+2025-01-07 12:05:15,965 - INFO - Raspando hor√°rios da linha: 0118 - PARATIBE
+2025-01-07 12:05:17,141 - INFO - Raspando hor√°rios da linha: 0120 - PARQUE DO SOL
+2025-01-07 12:05:18,444 - INFO - Raspando hor√°rios da linha: 0123 - COLINAS DO SUL/PERIMETRAL
+2025-01-07 12:05:19,589 - INFO - Raspando hor√°rios da linha: 0202 - ERNESTO GEISEL
+2025-01-07 12:05:20,770 - INFO - Raspando hor√°rios da linha: 0203 - MANGABEIRA / RANGEL
+2025-01-07 12:05:21,943 - INFO - Raspando hor√°rios da linha: 0204 - CRISTO
+2025-01-07 12:05:23,125 - INFO - Raspando hor√°rios da linha: 0207 - PENHA
+2025-01-07 12:05:24,295 - INFO - Raspando hor√°rios da linha: 0208 - CRISTO - VALE DAS PALMEIRAS
+2025-01-07 12:05:25,445 - INFO - Raspando hor√°rios da linha: 0229 - MANGABEIRA VII/RANGEL
+2025-01-07 12:05:26,596 - INFO - Raspando hor√°rios da linha: 0301 - MANGABEIRA PEDRO II - DIRETO
+2025-01-07 12:05:27,775 - INFO - Raspando hor√°rios da linha: 0302 - CIDADE VERDE
+2025-01-07 12:05:28,979 - INFO - Raspando hor√°rios da linha: 0303 - CIDADE VERDE - PEDRO II
+2025-01-07 12:05:30,162 - INFO - Raspando hor√°rios da linha: 0304 - BANC√ÅRIOS/CASTELO BRANCO - PEDRO II
+2025-01-07 12:05:31,324 - INFO - Raspando hor√°rios da linha: 0307 - PENHA/PEDRO II
+2025-01-07 12:05:32,455 - INFO - Raspando hor√°rios da linha: 0401 - ALTIPLANO
+2025-01-07 12:05:33,640 - INFO - Raspando hor√°rios da linha: 0402 - TORRE
+2025-01-07 12:05:35,771 - INFO - Raspando p√°gina de linhas: https://servicos.semobjp.pb.gov.br/linhas-de-onibus/?page=2
+2025-01-07 12:05:37,378 - INFO - Raspando hor√°rios da linha: 0500 - TAMBA√ö
+2025-01-07 12:05:38,521 - INFO - Raspando hor√°rios da linha: 0502 - GEISEL/EPIT√ÅCIO
+2025-01-07 12:05:39,693 - INFO - Raspando hor√°rios da linha: 0503 - TREZE DE MAIO
+2025-01-07 12:05:40,819 - INFO - Raspando hor√°rios da linha: 0504 - MANDACARU
+2025-01-07 12:05:42,006 - INFO - Raspando hor√°rios da linha: 0506 - BAIRRO DOS ESTADOS
+2025-01-07 12:05:43,150 - INFO - Raspando hor√°rios da linha: 0507 - CABO BRANCO
+2025-01-07 12:05:44,338 - INFO - Raspando hor√°rios da linha: 0508 - CABO BRANCO/PENHA
+2025-01-07 12:05:45,500 - INFO - Raspando hor√°rios da linha: 0509 - JO√ÉO AGRIPINO
+2025-01-07 12:05:46,633 - INFO - Raspando hor√°rios da linha: 0510 - TAMBAU VIA TAMANDAR√â
+2025-01-07 12:05:47,935 - INFO - Raspando hor√°rios da linha: 0512 - BAIRRO S√ÉO JOS√â
+2025-01-07 12:05:49,083 - INFO - Raspando hor√°rios da linha: 0517 - MANGABEIRA CIDADE VERDE EPIT√ÅCIO
+2025-01-07 12:05:50,258 - INFO - Raspando hor√°rios da linha: 0518 - BANC√ÅRIOS - EPIT√ÅCIO
+2025-01-07 12:05:51,386 - INFO - Raspando hor√°rios da linha: 0520 - ALTIPLANO/EPIT√ÅCIO
+2025-01-07 12:05:52,510 - INFO - Raspando hor√°rios da linha: 0521 - MANAIRA/BESSA
+2025-01-07 12:05:53,680 - INFO - Raspando hor√°rios da linha: 0522 - RENASCER/CARREFOUR
+2025-01-07 12:05:54,812 - INFO - Raspando hor√°rios da linha: 0523 - COLINAS DO SUL/ EPIT√ÅCIO
+2025-01-07 12:05:56,096 - INFO - Raspando hor√°rios da linha: 0527 - CASTELO BRANCO EPIT√ÅCIO
+2025-01-07 12:05:57,221 - INFO - Raspando hor√°rios da linha: 0530 - CIDADE VERDE EPIT√ÅCIO
+2025-01-07 12:05:58,376 - INFO - Raspando hor√°rios da linha: 0600 - BESSA SHOPPING
+2025-01-07 12:05:59,577 - INFO - Raspando hor√°rios da linha: 0601 - BESSA
+2025-01-07 12:06:00,757 - INFO - Raspando hor√°rios da linha: 0602 - ILHA DO BISPO
+2025-01-07 12:06:01,956 - INFO - Raspando hor√°rios da linha: 0604 - BAIRRO DOS IP√äS/VIA AYRTON SENNA

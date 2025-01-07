@@ -58,7 +58,7 @@ def executar_raspagem():
 # schedule.every().monday.at("06:00").do(executar_raspagem)
 
 # A cada 5 minutos (para testes - DESATIVAR EM PRODUÇÃO):
-schedule.every(5).minutes.do(executar_raspagem)
+schedule.every(1).minutes.do(executar_raspagem)
 
 print("Agendador iniciado. Aguardando a próxima execução...")
 

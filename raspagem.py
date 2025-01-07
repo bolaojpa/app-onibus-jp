@@ -1,19 +1,53 @@
 import requests
-import sys
+import time
+import logging
 from bs4 import BeautifulSoup
 import json
-import time
 import sqlite3
+import re
 from dotenv import load_dotenv
+import os
+import shutil
+import datetime
+import glob # Importe o módulo glob
 
 load_dotenv()
 
-def raspar_dados_linhas(url):
-    # (Esta função permanece a mesma)
+# Configuração do logging
+logging.basicConfig(filename='raspagem.log', level=logging.INFO,
+                    format='%(asctime)s - %(levelname)s - %(message)s',
+                    encoding='utf-8')
+
+def raspar_com_retry(url, tentativas=3):
+    headers = {
+        'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36'
+    }
+    for i in range(tentativas):
+        try:
+            response = requests.get(url, headers=headers, timeout=10)
+            response.raise_for_status()
+            return response
+        except (requests.exceptions.Timeout, requests.exceptions.ConnectionError) as e:
+            logging.error(f"Tentativa {i+1} falhou ao acessar {url}: {e}")
+            if i < tentativas - 1:
+                time.sleep(2**i)  # Backoff exponencial
+        except requests.exceptions.HTTPError as e:
+            if response.status_code == 404:
+                logging.error(f"Página não encontrada: {url}")
+            elif response.status_code == 503:
+                logging.error(f"Serviço indisponível: {url}")
+            else:
+                logging.error(f"Erro HTTP {response.status_code} ao acessar {url}: {e}")
+            return None
+        except Exception as e:
+            logging.exception(f"Erro inesperado durante a raspagem: {e}")
+            return None
+    logging.error(f"Falhou após {tentativas} tentativas ao acessar {url}")
+    return None
+
+def raspar_dados_linhas(html_content):
     try:
-        response = requests.get(url)
-        response.raise_for_status()
-        soup = BeautifulSoup(response.content, "html.parser")
+        soup = BeautifulSoup(html_content, "html.parser")
         tabela = soup.find("table", class_="table")
         dados = []
         if tabela:
@@ -31,29 +65,24 @@ def raspar_dados_linhas(url):
                             "itinerario_link": itinerario["href"] if itinerario else None,
                             "horario_link": horario["href"] if horario else None
                         })
-                else:
-                    print(f"<tbody> não encontrado em {url}")
+                return dados
             else:
-                print(f"Tabela não encontrada em {url}")
-        return dados
-    except requests.exceptions.RequestException as e:
-        print(f"Erro ao acessar {url}: {e}")
-        return None
+                logging.warning("<tbody> não encontrado na tabela.")
+                return None
+        else:
+            logging.warning("Tabela não encontrada na página.")
+            return None
     except AttributeError as e:
-        print(f"Erro de atributo ao processar HTML em {url}: {e}")
+        logging.error(f"Erro de atributo ao processar HTML: {e}")
         return None
     except Exception as e:
-        print(f"Erro inesperado em raspar_dados_linhas {url}: {e}")
+        logging.exception(f"Erro inesperado em raspar_dados_linhas: {e}")
         return None
 
-def buscar_dados_horarios(url_horario):
-    """Busca os dados de horários de uma linha de ônibus, usando "Observações:" como âncora."""
+def buscar_dados_horarios(html_content):
     dados_horario = {}
     try:
-        response = requests.get(url_horario)
-        response.raise_for_status()
-        soup = BeautifulSoup(response.content, 'html.parser')
-
+        soup = BeautifulSoup(html_content, 'html.parser')
         dados_horario["nome"] = soup.find('h2').text.strip().split('\n')[0] if soup.find('h2') else "Nome não encontrado"
 
         dias_da_semana = soup.find_all('div', class_='col-xl-4 col-lg-6 col-md-6 col-sm-12 mb-3')
@@ -70,22 +99,16 @@ def buscar_dados_horarios(url_horario):
                 if pai:
                     for p_tag in pai.find_all('p'):
                         observacoes.append(p_tag.text.strip())
-                break # Importante: sai do loop após encontrar as observações
+                break
 
         dados_horario["observacao"] = "\n".join(observacoes).strip()
-
-    except requests.exceptions.RequestException as e:
-        print(f"Erro ao acessar {url_horario}: {e}")
-        return None
+        return dados_horario
     except AttributeError as e:
-        print(f"Erro de atributo ao processar HTML em {url_horario}: {e}")
-        print(soup)
+        logging.error(f"Erro de atributo ao processar HTML em buscar_dados_horarios: {e}")
         return None
     except Exception as e:
-        print(f"Erro inesperado ao buscar horarios em {url_horario}: {e}")
+        logging.exception(f"Erro inesperado ao buscar horarios: {e}")
         return None
-
-    return dados_horario
 
 def completar_links(dados, url_base="https://servicos.semobjp.pb.gov.br"):
     for linha in dados:
@@ -128,77 +151,160 @@ def salvar_dados_bd(conn, dados):
     except sqlite3.Error as e:
         print(f"Erro ao inserir dados no banco de dados: {e}")
 
+def fazer_backup_sqlite():
+    nome_arquivo_bd = 'onibus.db'
+    data_atual = datetime.datetime.now().strftime("%H%M%S_%d%m%Y") # Nome do arquivo formatado
+    nome_arquivo_backup = f'backups/backup_onibus_{data_atual}.db'
+
+    os.makedirs('backups', exist_ok=True)
+
+    try:
+        conn = sqlite3.connect(nome_arquivo_bd)
+        backup_conn = sqlite3.connect(nome_arquivo_backup)
+        with backup_conn:
+            conn.backup(backup_conn)
+        backup_conn.close()
+        conn.close()
+        logging.info(f"Backup criado com sucesso: {nome_arquivo_backup}")
+        print(f"Backup criado com sucesso: {nome_arquivo_backup}")
+
+        manter_apenas_ultimos_backups("backups", 5)
+
+    except sqlite3.Error as e:
+        logging.error(f"Erro ao criar backup: {e}")
+        print(f"Erro ao criar backup: {e}")
+    except Exception as e:
+        logging.exception(f"Erro ao criar backup: {e}")
+        print(f"Erro ao criar backup: {e}")
+
+def manter_apenas_ultimos_backups(diretorio, quantidade):
+    try:
+        arquivos = [os.path.join(diretorio, f) for f in os.listdir(diretorio) if os.path.isfile(os.path.join(diretorio, f))]
+        arquivos.sort(key=os.path.getmtime)  # Ordena por data de modificação (mais antigos primeiro)
+        arquivos_para_deletar = arquivos[:-quantidade]  # Seleciona os arquivos mais antigos para deletar
+
+        for arquivo in arquivos_para_deletar:
+            os.remove(arquivo)
+            logging.info(f"Backup antigo deletado: {arquivo}")
+            print(f"Backup antigo deletado: {arquivo}")
+
+    except OSError as e:
+         logging.error(f"Erro ao deletar backups antigos: {e}")
+         print(f"Erro ao deletar backups antigos: {e}")
+    except Exception as e:
+        logging.exception(f"Erro ao deletar backups antigos: {e}")
+        print(f"Erro ao deletar backups antigos: {e}")
+
+def restaurar_backup_recente():
+    try:
+        lista_de_backups = glob.glob('backups/backup_onibus_*.db')
+        if not lista_de_backups:
+            logging.warning("Nenhum backup encontrado para restaurar.")
+            print("Nenhum backup encontrado para restaurar.")
+            return False
+
+        backup_mais_recente = max(lista_de_backups, key=os.path.getctime)
+        shutil.copy2(backup_mais_recente, 'onibus.db')
+        logging.info(f"Banco de dados restaurado do backup: {backup_mais_recente}")
+        print(f"Banco de dados restaurado do backup: {backup_mais_recente}")
+        return True
+    except OSError as e:
+        logging.error(f"Erro ao restaurar backup: {e}")
+        print(f"Erro ao restaurar backup: {e}")
+        return False
+    except Exception as e:
+        logging.exception(f"Erro ao restaurar backup: {e}")
+        print(f"Erro ao restaurar backup: {e}")
+        return False
+
 def main():
     url_base = "https://servicos.semobjp.pb.gov.br/linhas-de-onibus/"
     todas_as_linhas = []
     page = 1
-    max_pages = None
 
     conn = sqlite3.connect('onibus.db')
     criar_tabela_linhas(conn)
 
     try:
-        response = requests.get(url_base)
-        response.raise_for_status()
-        soup = BeautifulSoup(response.content, "html.parser")
-        paginacao = soup.find("ul", class_="pagination")
-        if paginacao:
-            links_paginacao = paginacao.find_all("a")
-            if links_paginacao:
-                # Encontra o último link numérico (penúltimo elemento da lista)
-                ultimo_link = links_paginacao[-2].text.strip()
-                try:
-                    max_pages = int(ultimo_link)
-                except ValueError:
-                    print("Não foi possível determinar o número máximo de páginas. Usando valor padrão (10).")
-                    max_pages = 10
+        response = raspar_com_retry(url_base)
+        if response:
+            soup = BeautifulSoup(response.content, "html.parser")
+            paginacao = soup.find("ul", class_="pagination")
+            if paginacao:
+                links_paginacao = paginacao.find_all("a")
+                numeros_paginas = [int(link.text.strip()) for link in links_paginacao if re.match(r"\d+", link.text.strip())]
+                max_pages = max(numeros_paginas) if numeros_paginas else 1
             else:
-                max_pages = 1  # Se não houver links de paginação, assume apenas uma página
+                max_pages = 1
         else:
-            max_pages = 1  # Se não houver elemento de paginação, assume apenas uma página
-    except requests.exceptions.RequestException:
-        print("Erro ao obter o número máximo de páginas. Usando valor padrão (10).")
-        max_pages = 10
-    except AttributeError:
-        print("Erro ao obter o número máximo de páginas. Usando valor padrão (10).")
-        max_pages = 10
-    except:
-        print("Erro ao obter o número máximo de páginas. Usando valor padrão (10).")
-        max_pages = 10
+            logging.error(f"Falha ao obter dados da URL base {url_base}. Impossível determinar o número de páginas.")
+            max_pages = 1
 
-    if max_pages is None:
-        max_pages = 10
-    
-    print(f"Número máximo de páginas: {max_pages}")
+    except Exception as e:
+        logging.exception(f"Erro ao obter o número máximo de páginas: {e}")
+        max_pages = 1
+        logging.info("Tentando restaurar o backup mais recente...")
+        print("Tentando restaurar o backup mais recente...")
+        if restaurar_backup_recente():
+            logging.info("Restauração do backup concluída com sucesso.")
+            print("Restauração do backup concluída com sucesso.")
+        else:
+            logging.error("Falha ao restaurar o backup. Verifique os logs.")
+            print("Falha ao restaurar o backup. Verifique os logs.")
+        return #Importante para sair da função main caso a raspagem inicial falhe.
+
+    logging.info(f"Número máximo de páginas: {max_pages}")
 
     while page <= max_pages:
         url = f"{url_base}?page={page}" if page > 1 else url_base
-        print(f"Raspando página de linhas: {url}")
-        data_linhas = raspar_dados_linhas(url)
+        logging.info(f"Raspando página de linhas: {url}")
 
-        if data_linhas is None:
-            print(f"Falha ao raspar a página {page} de linhas.")
-            break
-        elif not data_linhas:
-            print(f"Página {page} de linhas vazia. Fim da raspagem de linhas.")
-            break
+        try: #Adicionei um try para o raspagem das paginas
+            response = raspar_com_retry(url)
+            if response:
+                data_linhas = raspar_dados_linhas(response.content)
+                if data_linhas is None:
+                    logging.error(f"Falha ao raspar os dados das linhas da página {page}.")
+                elif not data_linhas:
+                    logging.info(f"Página {page} de linhas vazia. Fim da raspagem de linhas.")
+                    break
+                else:
+                    data_completos = completar_links(data_linhas)
 
-        data_completos = completar_links(data_linhas)
-
-        for linha in data_completos:
-            if linha and linha.get("horario_link"):
-                print(f"Raspando horários da linha: {linha['codigo']}")
-                dados_horarios = buscar_dados_horarios(linha['horario_link'])
-                linha["horarios"] = dados_horarios
-                time.sleep(1)
+                    for linha in data_completos:
+                        if linha and linha.get("horario_link"):
+                            logging.info(f"Raspando horários da linha: {linha['codigo']}")
+                            response_horario = raspar_com_retry(linha['horario_link'])
+                            if response_horario:
+                                dados_horarios = buscar_dados_horarios(response_horario.content)
+                                linha["horarios"] = dados_horarios
+                                time.sleep(1)
+                            else:
+                                logging.error(f"Falha ao obter horários para a linha: {linha['codigo']}")
+                        else:
+                            logging.warning(f"Link de horário não encontrado ou linha inválida para a linha: {linha.get('codigo') if linha else 'Linha não encontrada'}")
+                    todas_as_linhas.extend(data_completos)
             else:
-                print(f"Link de horário não encontrado ou linha inválida para a linha: {linha.get('codigo') if linha else 'Linha não encontrada'}")
-        todas_as_linhas.extend(data_completos)
+                logging.error(f"Falha ao acessar a URL da página {page}: {url}")
+        except Exception as e:
+            logging.exception(f"Erro durante a raspagem da página: {e}")
+            logging.info("Tentando restaurar o backup mais recente...")
+            print("Tentando restaurar o backup mais recente...")
+            if restaurar_backup_recente():
+                logging.info("Restauração do backup concluída com sucesso.")
+                print("Restauração do backup concluída com sucesso.")
+            else:
+                logging.error("Falha ao restaurar o backup. Verifique os logs.")
+                print("Falha ao restaurar o backup. Verifique os logs.")
+            break #Importante para sair do loop while caso a raspagem de alguma pagina falhe.
+
         page += 1
         time.sleep(1)
 
     salvar_dados_bd(conn, todas_as_linhas)
     conn.close()
+    fazer_backup_sqlite()
+    logging.info("Raspagem concluída.")
 
 if __name__ == "__main__":
     main()
