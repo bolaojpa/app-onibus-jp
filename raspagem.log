@@ -653,3 +653,719 @@
 2025-01-07 12:05:59,577 - INFO - Raspando horÃ¡rios da linha: 0601 - BESSA
 2025-01-07 12:06:00,757 - INFO - Raspando horÃ¡rios da linha: 0602 - ILHA DO BISPO
 2025-01-07 12:06:01,956 - INFO - Raspando horÃ¡rios da linha: 0604 - BAIRRO DOS IPÃŠS/VIA AYRTON SENNA
+2025-01-07 12:39:48,505 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-01-07 12:39:48,505 - INFO - [33mPress CTRL+C to quit[0m
+2025-01-07 12:39:48,506 - INFO -  * Restarting with stat
+2025-01-07 12:39:49,311 - WARNING -  * Debugger is active!
+2025-01-07 12:39:49,315 - INFO -  * Debugger PIN: 881-923-362
+2025-01-07 12:40:03,601 - INFO - 127.0.0.1 - - [07/Jan/2025 12:40:03] "GET / HTTP/1.1" 200 -
+2025-01-07 12:40:03,671 - INFO - 127.0.0.1 - - [07/Jan/2025 12:40:03] "GET /static/style.css HTTP/1.1" 200 -
+2025-01-07 12:40:03,708 - INFO - 127.0.0.1 - - [07/Jan/2025 12:40:03] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-01-07 12:43:57,554 - INFO -  * Detected change in 'C:\\Desenvolvimento\\app-onibus-jp\\app.py', reloading
+2025-01-07 12:43:57,613 - INFO -  * Restarting with stat
+2025-01-07 12:43:58,381 - WARNING -  * Debugger is active!
+2025-01-07 12:43:58,385 - INFO -  * Debugger PIN: 881-923-362
+2025-01-07 12:44:01,054 - INFO - 127.0.0.1 - - [07/Jan/2025 12:44:01] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2025-01-07 12:44:01,122 - INFO - 127.0.0.1 - - [07/Jan/2025 12:44:01] "GET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2025-01-07 12:44:01,140 - INFO - 127.0.0.1 - - [07/Jan/2025 12:44:01] "GET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2025-01-07 12:44:01,202 - INFO - 127.0.0.1 - - [07/Jan/2025 12:44:01] "GET /?__debugger__=yes&cmd=resource&f=console.png&s=WnWSYckTK8iRiOsC0XyS HTTP/1.1" 200 -
+2025-01-07 12:44:01,207 - INFO - 127.0.0.1 - - [07/Jan/2025 12:44:01] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2025-01-07 12:44:15,637 - INFO -  * Detected change in 'C:\\Desenvolvimento\\app-onibus-jp\\app.py', reloading
+2025-01-07 12:44:15,695 - INFO -  * Restarting with stat
+2025-01-07 12:44:16,507 - WARNING -  * Debugger is active!
+2025-01-07 12:44:16,511 - INFO -  * Debugger PIN: 881-923-362
+2025-01-07 12:44:17,254 - INFO - 127.0.0.1 - - [07/Jan/2025 12:44:17] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2025-01-07 12:44:17,306 - INFO - 127.0.0.1 - - [07/Jan/2025 12:44:17] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-01-07 12:44:17,317 - INFO - 127.0.0.1 - - [07/Jan/2025 12:44:17] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-01-07 12:44:17,327 - INFO - 127.0.0.1 - - [07/Jan/2025 12:44:17] "GET /?__debugger__=yes&cmd=resource&f=console.png&s=pUq9zJP2bu5UIdHZNEmt HTTP/1.1" 200 -
+2025-01-07 12:44:17,335 - INFO - 127.0.0.1 - - [07/Jan/2025 12:44:17] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2025-01-07 12:44:18,378 - INFO - 127.0.0.1 - - [07/Jan/2025 12:44:18] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2025-01-07 12:44:18,395 - INFO - 127.0.0.1 - - [07/Jan/2025 12:44:18] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-01-07 12:44:18,396 - INFO - 127.0.0.1 - - [07/Jan/2025 12:44:18] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-01-07 12:44:18,408 - INFO - 127.0.0.1 - - [07/Jan/2025 12:44:18] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png&s=pUq9zJP2bu5UIdHZNEmt HTTP/1.1[0m" 304 -
+2025-01-07 12:44:18,414 - INFO - 127.0.0.1 - - [07/Jan/2025 12:44:18] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2025-01-07 12:44:23,640 - INFO -  * Detected change in 'C:\\Desenvolvimento\\app-onibus-jp\\app.py', reloading
+2025-01-07 12:44:23,708 - INFO -  * Restarting with stat
+2025-01-07 12:44:24,494 - WARNING -  * Debugger is active!
+2025-01-07 12:44:24,498 - INFO -  * Debugger PIN: 881-923-362
+2025-01-07 12:44:24,522 - INFO - 127.0.0.1 - - [07/Jan/2025 12:44:24] "GET / HTTP/1.1" 200 -
+2025-01-07 12:44:24,565 - INFO - 127.0.0.1 - - [07/Jan/2025 12:44:24] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-01-07 12:44:42,785 - INFO -  * Detected change in 'C:\\Desenvolvimento\\app-onibus-jp\\app.py', reloading
+2025-01-07 12:44:42,870 - INFO -  * Restarting with stat
+2025-01-07 12:44:43,725 - WARNING -  * Debugger is active!
+2025-01-07 12:44:43,729 - INFO -  * Debugger PIN: 881-923-362
+2025-01-07 12:44:44,181 - INFO - 127.0.0.1 - - [07/Jan/2025 12:44:44] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2025-01-07 12:44:44,234 - INFO - 127.0.0.1 - - [07/Jan/2025 12:44:44] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-01-07 12:44:44,245 - INFO - 127.0.0.1 - - [07/Jan/2025 12:44:44] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-01-07 12:44:44,256 - INFO - 127.0.0.1 - - [07/Jan/2025 12:44:44] "GET /?__debugger__=yes&cmd=resource&f=console.png&s=VVAb2eoEVPmkgZbWlbZq HTTP/1.1" 200 -
+2025-01-07 12:44:44,267 - INFO - 127.0.0.1 - - [07/Jan/2025 12:44:44] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2025-01-07 12:44:55,919 - INFO -  * Detected change in 'C:\\Desenvolvimento\\app-onibus-jp\\app.py', reloading
+2025-01-07 12:44:55,982 - INFO -  * Restarting with stat
+2025-01-07 12:44:56,822 - WARNING -  * Debugger is active!
+2025-01-07 12:44:56,825 - INFO -  * Debugger PIN: 881-923-362
+2025-01-07 12:44:56,850 - INFO - 127.0.0.1 - - [07/Jan/2025 12:44:56] "GET / HTTP/1.1" 200 -
+2025-01-07 12:44:56,895 - INFO - 127.0.0.1 - - [07/Jan/2025 12:44:56] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-01-07 12:45:09,021 - INFO -  * Detected change in 'C:\\Desenvolvimento\\app-onibus-jp\\app.py', reloading
+2025-01-07 12:45:09,084 - INFO -  * Restarting with stat
+2025-01-07 12:45:09,912 - WARNING -  * Debugger is active!
+2025-01-07 12:45:09,917 - INFO -  * Debugger PIN: 881-923-362
+2025-01-07 12:45:10,333 - INFO - 127.0.0.1 - - [07/Jan/2025 12:45:10] "GET / HTTP/1.1" 200 -
+2025-01-07 12:45:10,377 - INFO - 127.0.0.1 - - [07/Jan/2025 12:45:10] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-01-07 12:46:49,194 - INFO -  * Detected change in 'C:\\Desenvolvimento\\app-onibus-jp\\app.py', reloading
+2025-01-07 12:46:49,259 - INFO -  * Restarting with stat
+2025-01-07 12:46:50,072 - WARNING -  * Debugger is active!
+2025-01-07 12:46:50,075 - INFO -  * Debugger PIN: 881-923-362
+2025-01-07 12:46:50,935 - INFO - 127.0.0.1 - - [07/Jan/2025 12:46:50] "GET / HTTP/1.1" 200 -
+2025-01-07 12:46:50,997 - INFO - 127.0.0.1 - - [07/Jan/2025 12:46:50] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-01-07 12:47:24,541 - INFO -  * Detected change in 'C:\\Desenvolvimento\\app-onibus-jp\\app.py', reloading
+2025-01-07 12:47:24,600 - INFO -  * Restarting with stat
+2025-01-07 12:47:25,373 - WARNING -  * Debugger is active!
+2025-01-07 12:47:25,377 - INFO -  * Debugger PIN: 881-923-362
+2025-01-07 12:47:26,863 - INFO - 127.0.0.1 - - [07/Jan/2025 12:47:26] "GET / HTTP/1.1" 200 -
+2025-01-07 12:47:26,907 - INFO - 127.0.0.1 - - [07/Jan/2025 12:47:26] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-01-07 12:47:51,744 - INFO -  * Detected change in 'C:\\Desenvolvimento\\app-onibus-jp\\app.py', reloading
+2025-01-07 12:47:51,809 - INFO -  * Restarting with stat
+2025-01-07 12:47:52,579 - WARNING -  * Debugger is active!
+2025-01-07 12:47:52,583 - INFO -  * Debugger PIN: 881-923-362
+2025-01-07 12:47:53,565 - INFO - 127.0.0.1 - - [07/Jan/2025 12:47:53] "GET / HTTP/1.1" 200 -
+2025-01-07 12:47:53,610 - INFO - 127.0.0.1 - - [07/Jan/2025 12:47:53] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-01-07 12:50:54,942 - INFO -  * Detected change in 'C:\\Desenvolvimento\\app-onibus-jp\\app.py', reloading
+2025-01-07 12:50:55,004 - INFO -  * Restarting with stat
+2025-01-07 12:50:55,835 - WARNING -  * Debugger is active!
+2025-01-07 12:50:55,839 - INFO -  * Debugger PIN: 881-923-362
+2025-01-07 12:50:57,845 - INFO - 127.0.0.1 - - [07/Jan/2025 12:50:57] "GET / HTTP/1.1" 200 -
+2025-01-07 12:50:57,888 - INFO - 127.0.0.1 - - [07/Jan/2025 12:50:57] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-01-07 12:51:57,660 - INFO -  * Detected change in 'C:\\Desenvolvimento\\app-onibus-jp\\app.py', reloading
+2025-01-07 12:51:57,725 - INFO -  * Restarting with stat
+2025-01-07 12:51:58,526 - WARNING -  * Debugger is active!
+2025-01-07 12:51:58,530 - INFO -  * Debugger PIN: 881-923-362
+2025-01-07 12:51:59,074 - INFO - 127.0.0.1 - - [07/Jan/2025 12:51:59] "GET / HTTP/1.1" 200 -
+2025-01-07 12:51:59,117 - INFO - 127.0.0.1 - - [07/Jan/2025 12:51:59] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-01-07 12:52:49,558 - INFO - 127.0.0.1 - - [07/Jan/2025 12:52:49] "GET / HTTP/1.1" 200 -
+2025-01-07 12:52:49,569 - INFO - 127.0.0.1 - - [07/Jan/2025 12:52:49] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-01-07 12:53:12,007 - INFO - 127.0.0.1 - - [07/Jan/2025 12:53:12] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-01-07 12:55:10,072 - INFO -  * Detected change in 'C:\\Desenvolvimento\\app-onibus-jp\\app.py', reloading
+2025-01-07 12:55:10,135 - INFO -  * Restarting with stat
+2025-01-07 13:02:16,143 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-01-07 13:02:16,143 - INFO - [33mPress CTRL+C to quit[0m
+2025-01-07 13:02:16,145 - INFO -  * Restarting with stat
+2025-01-07 13:02:16,905 - WARNING -  * Debugger is active!
+2025-01-07 13:02:16,909 - INFO -  * Debugger PIN: 881-923-362
+2025-01-07 13:02:20,178 - INFO - 127.0.0.1 - - [07/Jan/2025 13:02:20] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2025-01-07 13:02:20,249 - INFO - 127.0.0.1 - - [07/Jan/2025 13:02:20] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-01-07 13:02:20,257 - INFO - 127.0.0.1 - - [07/Jan/2025 13:02:20] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-01-07 13:02:20,313 - INFO - 127.0.0.1 - - [07/Jan/2025 13:02:20] "GET /?__debugger__=yes&cmd=resource&f=console.png&s=fSRJhBo5rIw9ZN8kOVrW HTTP/1.1" 200 -
+2025-01-07 13:02:20,323 - INFO - 127.0.0.1 - - [07/Jan/2025 13:02:20] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2025-01-07 13:07:55,266 - INFO -  * Detected change in 'C:\\Desenvolvimento\\app-onibus-jp\\raspagem.py', reloading
+2025-01-07 13:07:55,332 - INFO -  * Restarting with stat
+2025-01-07 13:07:56,149 - WARNING -  * Debugger is active!
+2025-01-07 13:07:56,154 - INFO -  * Debugger PIN: 881-923-362
+2025-01-07 13:15:05,615 - INFO -  * Detected change in 'C:\\Desenvolvimento\\app-onibus-jp\\raspagem.py', reloading
+2025-01-07 13:15:05,682 - INFO -  * Restarting with stat
+2025-01-07 13:15:06,500 - WARNING -  * Debugger is active!
+2025-01-07 13:15:06,503 - INFO -  * Debugger PIN: 881-923-362
+2025-01-07 13:16:43,903 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-01-07 13:16:43,903 - INFO - [33mPress CTRL+C to quit[0m
+2025-01-07 13:16:43,905 - INFO -  * Restarting with stat
+2025-01-07 13:16:44,638 - WARNING -  * Debugger is active!
+2025-01-07 13:16:44,642 - INFO -  * Debugger PIN: 881-923-362
+2025-01-07 13:16:47,483 - INFO - 127.0.0.1 - - [07/Jan/2025 13:16:47] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2025-01-07 13:16:47,547 - INFO - 127.0.0.1 - - [07/Jan/2025 13:16:47] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-01-07 13:16:47,552 - INFO - 127.0.0.1 - - [07/Jan/2025 13:16:47] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-01-07 13:16:47,565 - INFO - 127.0.0.1 - - [07/Jan/2025 13:16:47] "GET /?__debugger__=yes&cmd=resource&f=console.png&s=XIzoT1Z1CBHmMXPWML52 HTTP/1.1" 200 -
+2025-01-07 13:16:47,574 - INFO - 127.0.0.1 - - [07/Jan/2025 13:16:47] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2025-01-07 13:17:30,458 - INFO - 127.0.0.1 - - [07/Jan/2025 13:17:30] "GET / HTTP/1.1" 200 -
+2025-01-07 13:17:30,477 - INFO - 127.0.0.1 - - [07/Jan/2025 13:17:30] "GET /static/style.css HTTP/1.1" 200 -
+2025-01-07 13:18:23,745 - INFO - 127.0.0.1 - - [07/Jan/2025 13:18:23] "GET / HTTP/1.1" 200 -
+2025-01-07 13:18:23,761 - INFO - 127.0.0.1 - - [07/Jan/2025 13:18:23] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-01-07 13:19:14,228 - INFO - 127.0.0.1 - - [07/Jan/2025 13:19:14] "GET / HTTP/1.1" 200 -
+2025-01-07 13:19:14,237 - INFO - 127.0.0.1 - - [07/Jan/2025 13:19:14] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-01-07 13:19:52,119 - INFO -  * Detected change in 'C:\\Desenvolvimento\\app-onibus-jp\\app.py', reloading
+2025-01-07 13:19:52,187 - INFO -  * Restarting with stat
+2025-01-07 13:20:46,052 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-01-07 13:20:46,052 - INFO - [33mPress CTRL+C to quit[0m
+2025-01-07 13:20:46,053 - INFO -  * Restarting with stat
+2025-01-07 13:20:46,819 - WARNING -  * Debugger is active!
+2025-01-07 13:20:46,822 - INFO -  * Debugger PIN: 881-923-362
+2025-01-07 13:20:49,771 - INFO - 127.0.0.1 - - [07/Jan/2025 13:20:49] "GET / HTTP/1.1" 200 -
+2025-01-07 13:20:49,827 - INFO - 127.0.0.1 - - [07/Jan/2025 13:20:49] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-01-07 13:21:44,590 - INFO -  * Detected change in 'C:\\Desenvolvimento\\app-onibus-jp\\raspagem.py', reloading
+2025-01-07 13:21:44,647 - INFO -  * Restarting with stat
+2025-01-07 13:21:45,412 - WARNING -  * Debugger is active!
+2025-01-07 13:21:45,416 - INFO -  * Debugger PIN: 881-923-362
+2025-01-07 13:21:46,896 - INFO - 127.0.0.1 - - [07/Jan/2025 13:21:46] "GET / HTTP/1.1" 200 -
+2025-01-07 13:21:46,938 - INFO - 127.0.0.1 - - [07/Jan/2025 13:21:46] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-01-07 13:22:36,385 - INFO - 127.0.0.1 - - [07/Jan/2025 13:22:36] "GET / HTTP/1.1" 200 -
+2025-01-07 13:22:36,397 - INFO - 127.0.0.1 - - [07/Jan/2025 13:22:36] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-01-07 13:30:58,559 - INFO -  * Detected change in 'C:\\Desenvolvimento\\app-onibus-jp\\raspagem.py', reloading
+2025-01-07 13:30:58,618 - INFO -  * Restarting with stat
+2025-01-07 13:30:59,477 - WARNING -  * Debugger is active!
+2025-01-07 13:30:59,481 - INFO -  * Debugger PIN: 881-923-362
+2025-01-07 13:33:10,192 - INFO -  * Detected change in 'C:\\Desenvolvimento\\app-onibus-jp\\raspagem.py', reloading
+2025-01-07 13:33:10,268 - INFO -  * Restarting with stat
+2025-01-07 13:33:11,099 - WARNING -  * Debugger is active!
+2025-01-07 13:33:11,103 - INFO -  * Debugger PIN: 881-923-362
+2025-01-07 13:37:42,596 - INFO -  * Detected change in 'C:\\Desenvolvimento\\app-onibus-jp\\raspagem.py', reloading
+2025-01-07 13:37:42,657 - INFO -  * Restarting with stat
+2025-01-07 13:39:50,658 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-01-07 13:39:50,658 - INFO - [33mPress CTRL+C to quit[0m
+2025-01-07 13:39:50,660 - INFO -  * Restarting with stat
+2025-01-07 13:39:51,436 - WARNING -  * Debugger is active!
+2025-01-07 13:39:51,440 - INFO -  * Debugger PIN: 881-923-362
+2025-01-07 13:39:57,219 - INFO - 127.0.0.1 - - [07/Jan/2025 13:39:57] "GET / HTTP/1.1" 200 -
+2025-01-07 13:39:57,269 - INFO - 127.0.0.1 - - [07/Jan/2025 13:39:57] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-01-07 13:40:36,060 - INFO -  * Detected change in 'C:\\Desenvolvimento\\app-onibus-jp\\raspagem.py', reloading
+2025-01-07 13:40:36,130 - INFO -  * Restarting with stat
+2025-01-07 13:40:36,946 - WARNING -  * Debugger is active!
+2025-01-07 13:40:36,950 - INFO -  * Debugger PIN: 881-923-362
+2025-01-07 13:40:42,045 - INFO -  * Detected change in 'C:\\Desenvolvimento\\app-onibus-jp\\app.py', reloading
+2025-01-07 13:40:42,103 - INFO -  * Restarting with stat
+2025-01-07 13:40:42,840 - WARNING -  * Debugger is active!
+2025-01-07 13:40:42,843 - INFO -  * Debugger PIN: 881-923-362
+2025-01-07 13:55:45,025 - INFO - 127.0.0.1 - - [07/Jan/2025 13:55:45] "GET / HTTP/1.1" 200 -
+2025-01-07 13:55:45,074 - INFO - 127.0.0.1 - - [07/Jan/2025 13:55:45] "GET /static/style.css HTTP/1.1" 200 -
+2025-01-07 14:02:21,530 - INFO -  * Detected change in 'C:\\Desenvolvimento\\app-onibus-jp\\app.py', reloading
+2025-01-07 14:02:21,588 - INFO -  * Restarting with stat
+2025-01-07 14:02:22,389 - WARNING -  * Debugger is active!
+2025-01-07 14:02:22,393 - INFO -  * Debugger PIN: 881-923-362
+2025-01-07 14:02:29,423 - INFO - 127.0.0.1 - - [07/Jan/2025 14:02:29] "GET / HTTP/1.1" 200 -
+2025-01-07 14:02:29,470 - INFO - 127.0.0.1 - - [07/Jan/2025 14:02:29] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-01-07 14:03:05,283 - INFO - 127.0.0.1 - - [07/Jan/2025 14:03:05] "GET / HTTP/1.1" 200 -
+2025-01-07 14:03:05,297 - INFO - 127.0.0.1 - - [07/Jan/2025 14:03:05] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-01-07 14:08:33,371 - INFO - 127.0.0.1 - - [07/Jan/2025 14:08:33] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-01-09 09:07:09,935 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-01-09 09:07:09,936 - INFO - [33mPress CTRL+C to quit[0m
+2025-01-09 09:07:09,938 - INFO -  * Restarting with stat
+2025-01-09 09:07:10,669 - WARNING -  * Debugger is active!
+2025-01-09 09:07:10,674 - INFO -  * Debugger PIN: 881-923-362
+2025-01-09 09:07:42,149 - INFO - 127.0.0.1 - - [09/Jan/2025 09:07:42] "GET / HTTP/1.1" 200 -
+2025-01-09 09:07:42,282 - INFO - 127.0.0.1 - - [09/Jan/2025 09:07:42] "GET /static/style.css HTTP/1.1" 200 -
+2025-01-09 09:07:42,454 - INFO - 127.0.0.1 - - [09/Jan/2025 09:07:42] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-01-09 09:14:00,913 - INFO -  * Detected change in 'C:\\Desenvolvimento\\app-onibus-jp\\app.py', reloading
+2025-01-09 09:14:00,984 - INFO -  * Restarting with stat
+2025-01-09 09:14:01,811 - WARNING -  * Debugger is active!
+2025-01-09 09:14:01,815 - INFO -  * Debugger PIN: 881-923-362
+2025-01-09 09:14:40,042 - INFO - 127.0.0.1 - - [09/Jan/2025 09:14:40] "GET / HTTP/1.1" 200 -
+2025-01-09 09:14:40,114 - INFO - 127.0.0.1 - - [09/Jan/2025 09:14:40] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-01-09 09:15:47,748 - INFO - 127.0.0.1 - - [09/Jan/2025 09:15:47] "GET / HTTP/1.1" 200 -
+2025-01-09 09:15:54,672 - INFO - 127.0.0.1 - - [09/Jan/2025 09:15:54] "[35m[1mGET /linha/0002%20-%20ROGER HTTP/1.1[0m" 500 -
+2025-01-09 09:15:55,635 - INFO - 127.0.0.1 - - [09/Jan/2025 09:15:55] "GET /linha/0002%20-%20ROGER?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2025-01-09 09:15:55,944 - INFO - 127.0.0.1 - - [09/Jan/2025 09:15:55] "GET /linha/0002%20-%20ROGER?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2025-01-09 09:15:56,289 - INFO - 127.0.0.1 - - [09/Jan/2025 09:15:56] "GET /linha/0002%20-%20ROGER?__debugger__=yes&cmd=resource&f=console.png&s=xpRaWY1Bt8U9az2KDzPL HTTP/1.1" 200 -
+2025-01-09 09:15:56,540 - INFO - 127.0.0.1 - - [09/Jan/2025 09:15:56] "GET /linha/0002%20-%20ROGER?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2025-01-09 09:15:58,898 - INFO - 127.0.0.1 - - [09/Jan/2025 09:15:58] "GET /horarios/0002%20-%20ROGER HTTP/1.1" 200 -
+2025-01-09 09:22:03,047 - INFO -  * Detected change in 'C:\\Desenvolvimento\\app-onibus-jp\\app.py', reloading
+2025-01-09 09:22:03,114 - INFO -  * Restarting with stat
+2025-01-09 09:22:03,994 - WARNING -  * Debugger is active!
+2025-01-09 09:22:03,999 - INFO -  * Debugger PIN: 881-923-362
+2025-01-09 09:22:06,499 - INFO - 127.0.0.1 - - [09/Jan/2025 09:22:06] "GET / HTTP/1.1" 200 -
+2025-01-09 09:22:14,839 - INFO - 127.0.0.1 - - [09/Jan/2025 09:22:14] "GET /horarios/0002%20-%20ROGER HTTP/1.1" 200 -
+2025-01-09 09:22:14,927 - INFO - 127.0.0.1 - - [09/Jan/2025 09:22:14] "GET /static/style.css HTTP/1.1" 200 -
+2025-01-09 09:22:27,854 - INFO - 127.0.0.1 - - [09/Jan/2025 09:22:27] "GET /horarios/0002%20-%20ROGER HTTP/1.1" 200 -
+2025-01-09 09:22:27,902 - INFO - 127.0.0.1 - - [09/Jan/2025 09:22:27] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-01-09 09:25:11,671 - INFO - 127.0.0.1 - - [09/Jan/2025 09:25:11] "GET /horarios/0002%20-%20ROGER HTTP/1.1" 200 -
+2025-01-09 09:25:11,709 - INFO - 127.0.0.1 - - [09/Jan/2025 09:25:11] "GET /static/style.css HTTP/1.1" 200 -
+2025-01-09 09:25:13,473 - INFO - 127.0.0.1 - - [09/Jan/2025 09:25:13] "GET /horarios/0002%20-%20ROGER HTTP/1.1" 200 -
+2025-01-09 09:25:13,777 - INFO - 127.0.0.1 - - [09/Jan/2025 09:25:13] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-01-09 09:25:22,693 - INFO - 127.0.0.1 - - [09/Jan/2025 09:25:22] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-01-09 09:25:44,312 - INFO - 127.0.0.1 - - [09/Jan/2025 09:25:44] "GET /horarios/0002%20-%20ROGER HTTP/1.1" 200 -
+2025-01-09 09:25:44,611 - INFO - 127.0.0.1 - - [09/Jan/2025 09:25:44] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-01-09 09:26:31,685 - INFO - 127.0.0.1 - - [09/Jan/2025 09:26:31] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-01-09 09:29:22,705 - INFO - 127.0.0.1 - - [09/Jan/2025 09:29:22] "GET /horarios/0002%20-%20ROGER HTTP/1.1" 200 -
+2025-01-09 09:31:20,425 - INFO - 127.0.0.1 - - [09/Jan/2025 09:31:20] "GET /horarios/0002%20-%20ROGER HTTP/1.1" 200 -
+2025-01-09 09:31:23,121 - INFO - 127.0.0.1 - - [09/Jan/2025 09:31:23] "GET /horarios/0002%20-%20ROGER HTTP/1.1" 200 -
+2025-01-09 09:31:46,894 - INFO - 127.0.0.1 - - [09/Jan/2025 09:31:46] "GET /horarios/0002%20-%20ROGER HTTP/1.1" 200 -
+2025-01-09 09:31:48,282 - INFO - 127.0.0.1 - - [09/Jan/2025 09:31:48] "GET /horarios/0002%20-%20ROGER HTTP/1.1" 200 -
+2025-01-09 09:31:48,581 - INFO - 127.0.0.1 - - [09/Jan/2025 09:31:48] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-01-09 09:33:48,855 - INFO - 127.0.0.1 - - [09/Jan/2025 09:33:48] "GET /horarios/0002%20-%20ROGER HTTP/1.1" 200 -
+2025-01-09 09:36:13,481 - INFO - 127.0.0.1 - - [09/Jan/2025 09:36:13] "GET /horarios/0002%20-%20ROGER HTTP/1.1" 200 -
+2025-01-09 09:37:56,898 - INFO - 127.0.0.1 - - [09/Jan/2025 09:37:56] "GET /horarios/0002%20-%20ROGER HTTP/1.1" 200 -
+2025-01-09 09:37:59,181 - INFO - 127.0.0.1 - - [09/Jan/2025 09:37:59] "GET / HTTP/1.1" 200 -
+2025-01-09 09:38:00,860 - INFO - 127.0.0.1 - - [09/Jan/2025 09:38:00] "GET /linha/0002%20-%20ROGER HTTP/1.1" 200 -
+2025-01-09 09:38:15,069 - INFO - 127.0.0.1 - - [09/Jan/2025 09:38:15] "GET /?pagina=2 HTTP/1.1" 200 -
+2025-01-09 09:38:18,125 - INFO - 127.0.0.1 - - [09/Jan/2025 09:38:18] "GET /?pagina=3 HTTP/1.1" 200 -
+2025-01-09 09:38:19,317 - INFO - 127.0.0.1 - - [09/Jan/2025 09:38:19] "GET /?pagina=4 HTTP/1.1" 200 -
+2025-01-09 09:38:21,877 - INFO - 127.0.0.1 - - [09/Jan/2025 09:38:21] "GET /?pagina=3 HTTP/1.1" 200 -
+2025-01-09 09:38:22,405 - INFO - 127.0.0.1 - - [09/Jan/2025 09:38:22] "GET /?pagina=2 HTTP/1.1" 200 -
+2025-01-09 09:38:22,877 - INFO - 127.0.0.1 - - [09/Jan/2025 09:38:22] "GET /?pagina=1 HTTP/1.1" 200 -
+2025-01-09 09:40:44,242 - INFO - 127.0.0.1 - - [09/Jan/2025 09:40:44] "GET /?pagina=1 HTTP/1.1" 200 -
+2025-01-09 09:40:44,273 - INFO - 127.0.0.1 - - [09/Jan/2025 09:40:44] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-01-09 09:40:54,633 - INFO - 127.0.0.1 - - [09/Jan/2025 09:40:54] "GET /?busca=701 HTTP/1.1" 200 -
+2025-01-09 09:40:54,935 - INFO - 127.0.0.1 - - [09/Jan/2025 09:40:54] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-01-09 09:41:02,210 - INFO - 127.0.0.1 - - [09/Jan/2025 09:41:02] "GET /?busca=jardim HTTP/1.1" 200 -
+2025-01-09 09:41:02,263 - INFO - 127.0.0.1 - - [09/Jan/2025 09:41:02] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-01-09 09:41:17,085 - INFO - 127.0.0.1 - - [09/Jan/2025 09:41:17] "GET /horarios/0002%20-%20ROGER HTTP/1.1" 200 -
+2025-01-09 09:42:23,240 - INFO - 127.0.0.1 - - [09/Jan/2025 09:42:23] "GET /horarios/0002%20-%20ROGER HTTP/1.1" 200 -
+2025-01-09 09:49:33,311 - INFO - 127.0.0.1 - - [09/Jan/2025 09:49:33] "GET /horarios/0002%20-%20ROGER HTTP/1.1" 200 -
+2025-01-09 09:50:51,299 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-01-09 09:50:51,300 - INFO - [33mPress CTRL+C to quit[0m
+2025-01-09 09:50:51,301 - INFO -  * Restarting with stat
+2025-01-09 09:50:52,058 - WARNING -  * Debugger is active!
+2025-01-09 09:50:52,062 - INFO -  * Debugger PIN: 881-923-362
+2025-01-09 09:51:05,876 - INFO - 127.0.0.1 - - [09/Jan/2025 09:51:05] "GET /horarios/0002%20-%20ROGER HTTP/1.1" 200 -
+2025-01-09 09:51:20,819 - INFO - 127.0.0.1 - - [09/Jan/2025 09:51:20] "GET /horarios/0002%20-%20ROGER HTTP/1.1" 200 -
+2025-01-09 09:51:20,906 - INFO - 127.0.0.1 - - [09/Jan/2025 09:51:20] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-01-09 09:51:24,070 - INFO - 127.0.0.1 - - [09/Jan/2025 09:51:24] "GET /?pagina=1 HTTP/1.1" 200 -
+2025-01-09 09:51:24,147 - INFO - 127.0.0.1 - - [09/Jan/2025 09:51:24] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-01-09 09:51:47,939 - INFO - 127.0.0.1 - - [09/Jan/2025 09:51:47] "GET /horarios/0002%20-%20ROGER HTTP/1.1" 200 -
+2025-01-09 09:56:48,665 - INFO - 127.0.0.1 - - [09/Jan/2025 09:56:48] "GET /?pagina=1 HTTP/1.1" 200 -
+2025-01-09 09:56:48,710 - INFO - 127.0.0.1 - - [09/Jan/2025 09:56:48] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-01-09 09:56:50,327 - INFO - 127.0.0.1 - - [09/Jan/2025 09:56:50] "GET /horarios/0002%20-%20ROGER HTTP/1.1" 200 -
+2025-01-09 09:56:54,769 - INFO - 127.0.0.1 - - [09/Jan/2025 09:56:54] "GET /linha/0002%20-%20ROGER HTTP/1.1" 200 -
+2025-01-09 09:57:04,656 - INFO - 127.0.0.1 - - [09/Jan/2025 09:57:04] "GET /?pagina=1 HTTP/1.1" 200 -
+2025-01-09 09:57:04,958 - INFO - 127.0.0.1 - - [09/Jan/2025 09:57:04] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-01-09 09:57:17,139 - INFO - 127.0.0.1 - - [09/Jan/2025 09:57:17] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-01-09 09:59:08,326 - INFO - 127.0.0.1 - - [09/Jan/2025 09:59:08] "GET /horarios/0002%20-%20ROGER HTTP/1.1" 200 -
+2025-01-09 09:59:41,857 - INFO - 127.0.0.1 - - [09/Jan/2025 09:59:41] "GET /horarios/0002%20-%20ROGER HTTP/1.1" 200 -
+2025-01-09 10:01:36,661 - INFO - 127.0.0.1 - - [09/Jan/2025 10:01:36] "GET /horarios/0002%20-%20ROGER HTTP/1.1" 200 -
+2025-01-09 10:05:57,469 - INFO - 127.0.0.1 - - [09/Jan/2025 10:05:57] "GET /?pagina=1 HTTP/1.1" 200 -
+2025-01-09 10:05:57,514 - INFO - 127.0.0.1 - - [09/Jan/2025 10:05:57] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-01-09 10:06:16,764 - INFO - 127.0.0.1 - - [09/Jan/2025 10:06:16] "GET /?pagina=1 HTTP/1.1" 200 -
+2025-01-09 10:06:17,047 - INFO - 127.0.0.1 - - [09/Jan/2025 10:06:17] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-01-09 10:06:24,035 - INFO - 127.0.0.1 - - [09/Jan/2025 10:06:24] "GET /?pagina=2 HTTP/1.1" 200 -
+2025-01-09 10:06:24,105 - INFO - 127.0.0.1 - - [09/Jan/2025 10:06:24] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-01-09 10:06:26,196 - INFO - 127.0.0.1 - - [09/Jan/2025 10:06:26] "GET /?pagina=3 HTTP/1.1" 200 -
+2025-01-09 10:06:26,497 - INFO - 127.0.0.1 - - [09/Jan/2025 10:06:26] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-01-09 10:06:30,250 - INFO - 127.0.0.1 - - [09/Jan/2025 10:06:30] "GET /?pagina=4 HTTP/1.1" 200 -
+2025-01-09 10:06:30,362 - INFO - 127.0.0.1 - - [09/Jan/2025 10:06:30] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-01-09 10:06:32,154 - INFO - 127.0.0.1 - - [09/Jan/2025 10:06:32] "GET /horarios/0500%20-%20TAMBAÚ HTTP/1.1" 200 -
+2025-01-09 10:07:31,025 - INFO - 127.0.0.1 - - [09/Jan/2025 10:07:31] "GET /horarios/0500%20-%20TAMBAÚ HTTP/1.1" 200 -
+2025-01-09 10:07:33,777 - INFO - 127.0.0.1 - - [09/Jan/2025 10:07:33] "GET /horarios/0500%20-%20TAMBAÚ HTTP/1.1" 200 -
+2025-01-09 10:07:37,040 - INFO - 127.0.0.1 - - [09/Jan/2025 10:07:37] "GET /?pagina=4 HTTP/1.1" 200 -
+2025-01-09 10:07:37,079 - INFO - 127.0.0.1 - - [09/Jan/2025 10:07:37] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-01-09 10:07:39,618 - INFO - 127.0.0.1 - - [09/Jan/2025 10:07:39] "GET /horarios/0500%20-%20TAMBAÚ HTTP/1.1" 200 -
+2025-01-09 10:15:08,643 - INFO -  * Detected change in 'C:\\Desenvolvimento\\app-onibus-jp\\raspagem.py', reloading
+2025-01-09 10:15:08,702 - INFO -  * Restarting with stat
+2025-01-09 10:15:09,537 - WARNING -  * Debugger is active!
+2025-01-09 10:15:09,541 - INFO -  * Debugger PIN: 881-923-362
+2025-01-09 10:15:50,101 - INFO -  * Detected change in 'C:\\Desenvolvimento\\app-onibus-jp\\raspagem.py', reloading
+2025-01-09 10:15:50,173 - INFO -  * Restarting with stat
+2025-01-09 10:40:43,460 - INFO - Número máximo de páginas: 3
+2025-01-09 10:40:43,460 - INFO - Raspando página de linhas: https://servicos.semobjp.pb.gov.br/linhas-de-onibus/
+2025-01-09 10:40:44,805 - INFO - Raspando horários da linha: 0002 - ROGER
+2025-01-09 10:40:45,915 - INFO - Raspando horários da linha: 0003 - JAGUARIBE
+2025-01-09 10:40:47,031 - INFO - Raspando horários da linha: 0101 - GROTÃO/COLINAS DO SUL
+2025-01-09 10:40:48,271 - INFO - Raspando horários da linha: 0102 - ESPLANADA - JOAO PAULO II
+2025-01-09 10:40:49,430 - INFO - Raspando horários da linha: 0103 - GRAMAME
+2025-01-09 10:40:50,561 - INFO - Raspando horários da linha: 0104 - BAIRRO DAS INDUSTRIAS
+2025-01-09 10:40:51,733 - INFO - Raspando horários da linha: 0105 - CIDADE
+2025-01-09 10:40:52,875 - INFO - Raspando horários da linha: 0106 - GEISEL VIA CRUZ DAS ARMAS
+2025-01-09 10:40:54,004 - INFO - Raspando horários da linha: 0107 - JOSÉ AMÉRICO
+2025-01-09 10:40:55,236 - INFO - Raspando horários da linha: 0108 - ALTO DO MATEUS
+2025-01-09 10:40:56,363 - INFO - Raspando horários da linha: 0109 - RUA DO RIO
+2025-01-09 10:40:57,486 - INFO - Raspando horários da linha: 0110 - JARDIM PLANALTO
+2025-01-09 10:40:58,609 - INFO - Raspando horários da linha: 0115 - DISTRITO
+2025-01-09 10:40:59,749 - INFO - Raspando horários da linha: 0116 - COLINAS DO SUL
+2025-01-09 10:41:01,135 - INFO - Raspando horários da linha: 0118 - PARATIBE
+2025-01-09 10:41:02,281 - INFO - Raspando horários da linha: 0120 - PARQUE DO SOL
+2025-01-09 10:41:03,484 - INFO - Raspando horários da linha: 0123 - COLINAS DO SUL/PERIMETRAL
+2025-01-09 10:41:04,688 - INFO - Raspando horários da linha: 0202 - ERNESTO GEISEL
+2025-01-09 10:41:05,848 - INFO - Raspando horários da linha: 0203 - MANGABEIRA / RANGEL
+2025-01-09 10:41:06,998 - INFO - Raspando horários da linha: 0204 - CRISTO
+2025-01-09 10:41:08,155 - INFO - Raspando horários da linha: 0207 - PENHA
+2025-01-09 10:41:09,306 - INFO - Raspando horários da linha: 0208 - CRISTO - VALE DAS PALMEIRAS
+2025-01-09 10:41:10,441 - INFO - Raspando horários da linha: 0229 - MANGABEIRA VII/RANGEL
+2025-01-09 10:41:11,566 - INFO - Raspando horários da linha: 0301 - MANGABEIRA PEDRO II - DIRETO
+2025-01-09 10:41:12,798 - INFO - Raspando horários da linha: 0302 - CIDADE VERDE
+2025-01-09 10:41:13,993 - INFO - Raspando horários da linha: 0303 - CIDADE VERDE - PEDRO II
+2025-01-09 10:41:15,156 - INFO - Raspando horários da linha: 0304 - BANCÁRIOS/CASTELO BRANCO - PEDRO II
+2025-01-09 10:41:16,311 - INFO - Raspando horários da linha: 0307 - PENHA/PEDRO II
+2025-01-09 10:41:17,432 - INFO - Raspando horários da linha: 0401 - ALTIPLANO
+2025-01-09 10:41:18,706 - INFO - Raspando horários da linha: 0402 - TORRE
+2025-01-09 10:41:20,827 - INFO - Raspando página de linhas: https://servicos.semobjp.pb.gov.br/linhas-de-onibus/?page=2
+2025-01-09 10:41:22,325 - INFO - Raspando horários da linha: 0500 - TAMBAÚ
+2025-01-09 10:41:23,462 - INFO - Raspando horários da linha: 0502 - GEISEL/EPITÁCIO
+2025-01-09 10:41:24,694 - INFO - Raspando horários da linha: 0503 - TREZE DE MAIO
+2025-01-09 10:41:25,818 - INFO - Raspando horários da linha: 0504 - MANDACARU
+2025-01-09 10:41:26,992 - INFO - Raspando horários da linha: 0506 - BAIRRO DOS ESTADOS
+2025-01-09 10:41:28,130 - INFO - Raspando horários da linha: 0507 - CABO BRANCO
+2025-01-09 10:41:29,312 - INFO - Raspando horários da linha: 0508 - CABO BRANCO/PENHA
+2025-01-09 10:41:30,463 - INFO - Raspando horários da linha: 0509 - JOÃO AGRIPINO
+2025-01-09 10:41:31,578 - INFO - Raspando horários da linha: 0510 - TAMBAU VIA TAMANDARÉ
+2025-01-09 10:41:32,775 - INFO - Raspando horários da linha: 0512 - BAIRRO SÃO JOSÉ
+2025-01-09 10:41:33,976 - INFO - Raspando horários da linha: 0517 - MANGABEIRA CIDADE VERDE EPITÁCIO
+2025-01-09 10:41:35,145 - INFO - Raspando horários da linha: 0518 - BANCÁRIOS - EPITÁCIO
+2025-01-09 10:41:36,265 - INFO - Raspando horários da linha: 0520 - ALTIPLANO/EPITÁCIO
+2025-01-09 10:41:37,381 - INFO - Raspando horários da linha: 0521 - MANAIRA/BESSA
+2025-01-09 10:41:38,533 - INFO - Raspando horários da linha: 0522 - RENASCER/CARREFOUR
+2025-01-09 10:41:39,656 - INFO - Raspando horários da linha: 0523 - COLINAS DO SUL/ EPITÁCIO
+2025-01-09 10:41:40,819 - INFO - Raspando horários da linha: 0527 - CASTELO BRANCO EPITÁCIO
+2025-01-09 10:41:41,984 - INFO - Raspando horários da linha: 0530 - CIDADE VERDE EPITÁCIO
+2025-01-09 10:41:43,132 - INFO - Raspando horários da linha: 0600 - BESSA SHOPPING
+2025-01-09 10:41:44,313 - INFO - Raspando horários da linha: 0601 - BESSA
+2025-01-09 10:41:45,483 - INFO - Raspando horários da linha: 0602 - ILHA DO BISPO
+2025-01-09 10:41:46,659 - INFO - Raspando horários da linha: 0604 - BAIRRO DOS IPÊS/VIA AYRTON SENNA
+2025-01-09 10:41:47,869 - INFO - Raspando horários da linha: 0701 - ALTO DO MATEUS/ACESSO OESTE
+2025-01-09 10:41:49,056 - INFO - Raspando horários da linha: 0702 - ALTO DO MATEUS/TIRADENTES
+2025-01-09 10:41:50,173 - INFO - Raspando horários da linha: 1001M - BAIRRO DAS INDUSTRIAS/ MANDACARU
+2025-01-09 10:41:51,323 - INFO - Raspando horários da linha: 1001S - BAIRRO DAS INDUSTRIAS/MANDACARU - SJ02
+2025-01-09 10:41:52,468 - INFO - Raspando horários da linha: 1500 - CIRCULAR 1500
+2025-01-09 10:41:53,699 - INFO - Raspando horários da linha: 1510 - CIRCULAR 1510
+2025-01-09 10:41:54,942 - INFO - Raspando horários da linha: 1519 - VALENTINA/CRUZ DAS ARMAS
+2025-01-09 10:41:56,087 - INFO - Raspando horários da linha: 2300 - CIRCULAR 2300
+2025-01-09 10:41:58,257 - INFO - Raspando página de linhas: https://servicos.semobjp.pb.gov.br/linhas-de-onibus/?page=3
+2025-01-09 10:41:59,234 - INFO - Raspando horários da linha: 2515 - MANGABEIRA/CRISTO/EPITÁCIO
+2025-01-09 10:42:00,366 - INFO - Raspando horários da linha: 3200 - CIRCULAR 3200
+2025-01-09 10:42:01,608 - INFO - Raspando horários da linha: 5100 - CIRCULAR
+2025-01-09 10:42:02,841 - INFO - Raspando horários da linha: 5110 - CIRCULAR 5110
+2025-01-09 10:42:04,111 - INFO - Raspando horários da linha: 5120 - VALENTINA/EPITÁCIO
+2025-01-09 10:42:05,259 - INFO - Raspando horários da linha: 5210 - MANGABEIRA/EPITÁCIO/CRISTO
+2025-01-09 10:42:06,436 - INFO - Raspando horários da linha: 5600 - MANGABEIRA - SHOPPING
+2025-01-09 10:42:07,622 - INFO - Raspando horários da linha: 5603 - MANGABEIRA VII
+2025-01-09 10:42:08,800 - INFO - Raspando horários da linha: 5605 - MANGABEIRA SHOPPING
+2025-01-09 10:42:09,996 - INFO - Raspando horários da linha: 9901 - MANGABEIRA/VALENTINA
+2025-01-09 10:42:11,175 - INFO - Raspando horários da linha: E155 - ZONA SUL/CRUZ DAS ARMAS
+2025-01-09 10:42:12,290 - INFO - Raspando horários da linha: E550 - PARQUE DA CIDADE
+2025-01-09 10:42:13,412 - INFO - Raspando horários da linha: E551 - ZONA SUL/EPITÁCIO
+2025-01-09 10:42:14,547 - INFO - Raspando horários da linha: E600 - PARQUE PARAHYBA/TANCREDO NEVES
+2025-01-09 10:42:16,674 - INFO - Raspando horários da linha: I004 - INTEGRAÇÃO/PRAIA DO SOL
+2025-01-09 10:42:17,792 - INFO - Raspando horários da linha: I008 - VALENTINA/MANGABEIRA
+2025-01-09 10:42:18,934 - INFO - Raspando horários da linha: I015 - VALENTINA/PARQUE DO SOL
+2025-01-09 10:42:20,061 - INFO - Raspando horários da linha: T001 - BEIRA MAR/ZONA SUL
+2025-01-09 10:42:21,172 - INFO - Raspando horários da linha: T002 - EPITÁCIO/ZONA OESTE
+2025-01-09 10:42:22,290 - INFO - Raspando horários da linha: T003 - SHOPPING/TIV/CRISTO
+2025-01-09 10:42:24,476 - INFO - Backup criado com sucesso: backups/backup_onibus_20250109104224.db
+2025-01-09 10:42:24,479 - INFO - Backup antigo deletado: backups\backup_onibus_20250107113656.db
+2025-01-09 10:42:24,479 - INFO - Raspagem concluída.
+2025-01-09 10:43:26,415 - INFO - Número máximo de páginas: 3
+2025-01-09 10:43:26,415 - INFO - Raspando página de linhas: https://servicos.semobjp.pb.gov.br/linhas-de-onibus/
+2025-01-09 10:43:27,731 - INFO - Raspando horários da linha: 0002 - ROGER
+2025-01-09 10:43:28,835 - INFO - Raspando horários da linha: 0003 - JAGUARIBE
+2025-01-09 10:43:30,018 - INFO - Raspando horários da linha: 0101 - GROTÃO/COLINAS DO SUL
+2025-01-09 10:43:31,180 - INFO - Raspando horários da linha: 0102 - ESPLANADA - JOAO PAULO II
+2025-01-09 10:43:32,337 - INFO - Raspando horários da linha: 0103 - GRAMAME
+2025-01-09 10:43:33,473 - INFO - Raspando horários da linha: 0104 - BAIRRO DAS INDUSTRIAS
+2025-01-09 10:43:34,643 - INFO - Raspando horários da linha: 0105 - CIDADE
+2025-01-09 10:43:35,909 - INFO - Raspando horários da linha: 0106 - GEISEL VIA CRUZ DAS ARMAS
+2025-01-09 10:43:37,037 - INFO - Raspando horários da linha: 0107 - JOSÉ AMÉRICO
+2025-01-09 10:43:38,204 - INFO - Raspando horários da linha: 0108 - ALTO DO MATEUS
+2025-01-09 10:43:39,383 - INFO - Raspando horários da linha: 0109 - RUA DO RIO
+2025-01-09 10:43:40,537 - INFO - Raspando horários da linha: 0110 - JARDIM PLANALTO
+2025-01-09 10:43:41,670 - INFO - Raspando horários da linha: 0115 - DISTRITO
+2025-01-09 10:43:42,805 - INFO - Raspando horários da linha: 0116 - COLINAS DO SUL
+2025-01-09 10:43:44,072 - INFO - Raspando horários da linha: 0118 - PARATIBE
+2025-01-09 10:43:45,219 - INFO - Raspando horários da linha: 0120 - PARQUE DO SOL
+2025-01-09 10:43:46,414 - INFO - Raspando horários da linha: 0123 - COLINAS DO SUL/PERIMETRAL
+2025-01-09 10:43:47,554 - INFO - Raspando horários da linha: 0202 - ERNESTO GEISEL
+2025-01-09 10:43:48,715 - INFO - Raspando horários da linha: 0203 - MANGABEIRA / RANGEL
+2025-01-09 10:43:49,890 - INFO - Raspando horários da linha: 0204 - CRISTO
+2025-01-09 10:43:51,038 - INFO - Raspando horários da linha: 0207 - PENHA
+2025-01-09 10:43:52,260 - INFO - Raspando horários da linha: 0208 - CRISTO - VALE DAS PALMEIRAS
+2025-01-09 10:43:53,407 - INFO - Raspando horários da linha: 0229 - MANGABEIRA VII/RANGEL
+2025-01-09 10:43:54,532 - INFO - Raspando horários da linha: 0301 - MANGABEIRA PEDRO II - DIRETO
+2025-01-09 10:43:55,692 - INFO - Raspando horários da linha: 0302 - CIDADE VERDE
+2025-01-09 10:43:56,873 - INFO - Raspando horários da linha: 0303 - CIDADE VERDE - PEDRO II
+2025-01-09 10:43:58,035 - INFO - Raspando horários da linha: 0304 - BANCÁRIOS/CASTELO BRANCO - PEDRO II
+2025-01-09 10:43:59,261 - INFO - Raspando horários da linha: 0307 - PENHA/PEDRO II
+2025-01-09 10:44:00,372 - INFO - Raspando horários da linha: 0401 - ALTIPLANO
+2025-01-09 10:44:01,624 - INFO - Raspando horários da linha: 0402 - TORRE
+2025-01-09 10:44:03,739 - INFO - Raspando página de linhas: https://servicos.semobjp.pb.gov.br/linhas-de-onibus/?page=2
+2025-01-09 10:44:05,202 - INFO - Raspando horários da linha: 0500 - TAMBAÚ
+2025-01-09 10:44:06,341 - INFO - Raspando horários da linha: 0502 - GEISEL/EPITÁCIO
+2025-01-09 10:44:07,501 - INFO - Raspando horários da linha: 0503 - TREZE DE MAIO
+2025-01-09 10:44:08,624 - INFO - Raspando horários da linha: 0504 - MANDACARU
+2025-01-09 10:44:09,794 - INFO - Raspando horários da linha: 0506 - BAIRRO DOS ESTADOS
+2025-01-09 10:44:12,514 - INFO - Raspando horários da linha: 0507 - CABO BRANCO
+2025-01-09 10:44:13,697 - INFO - Raspando horários da linha: 0508 - CABO BRANCO/PENHA
+2025-01-09 10:44:14,836 - INFO - Raspando horários da linha: 0509 - JOÃO AGRIPINO
+2025-01-09 10:44:15,952 - INFO - Raspando horários da linha: 0510 - TAMBAU VIA TAMANDARÉ
+2025-01-09 10:44:17,204 - INFO - Raspando horários da linha: 0512 - BAIRRO SÃO JOSÉ
+2025-01-09 10:44:18,328 - INFO - Raspando horários da linha: 0517 - MANGABEIRA CIDADE VERDE EPITÁCIO
+2025-01-09 10:44:19,492 - INFO - Raspando horários da linha: 0518 - BANCÁRIOS - EPITÁCIO
+2025-01-09 10:44:20,612 - INFO - Raspando horários da linha: 0520 - ALTIPLANO/EPITÁCIO
+2025-01-09 10:44:21,729 - INFO - Raspando horários da linha: 0521 - MANAIRA/BESSA
+2025-01-09 10:44:22,881 - INFO - Raspando horários da linha: 0522 - RENASCER/CARREFOUR
+2025-01-09 10:44:24,003 - INFO - Raspando horários da linha: 0523 - COLINAS DO SUL/ EPITÁCIO
+2025-01-09 10:44:25,170 - INFO - Raspando horários da linha: 0527 - CASTELO BRANCO EPITÁCIO
+2025-01-09 10:44:26,339 - INFO - Raspando horários da linha: 0530 - CIDADE VERDE EPITÁCIO
+2025-01-09 10:44:27,475 - INFO - Raspando horários da linha: 0600 - BESSA SHOPPING
+2025-01-09 10:44:28,660 - INFO - Raspando horários da linha: 0601 - BESSA
+2025-01-09 10:44:29,832 - INFO - Raspando horários da linha: 0602 - ILHA DO BISPO
+2025-01-09 10:44:30,990 - INFO - Raspando horários da linha: 0604 - BAIRRO DOS IPÊS/VIA AYRTON SENNA
+2025-01-09 10:44:32,130 - INFO - Raspando horários da linha: 0701 - ALTO DO MATEUS/ACESSO OESTE
+2025-01-09 10:44:33,281 - INFO - Raspando horários da linha: 0702 - ALTO DO MATEUS/TIRADENTES
+2025-01-09 10:44:34,390 - INFO - Raspando horários da linha: 1001M - BAIRRO DAS INDUSTRIAS/ MANDACARU
+2025-01-09 10:44:35,537 - INFO - Raspando horários da linha: 1001S - BAIRRO DAS INDUSTRIAS/MANDACARU - SJ02
+2025-01-09 10:44:36,760 - INFO - Raspando horários da linha: 1500 - CIRCULAR 1500
+2025-01-09 10:44:37,982 - INFO - Raspando horários da linha: 1510 - CIRCULAR 1510
+2025-01-09 10:44:39,206 - INFO - Raspando horários da linha: 1519 - VALENTINA/CRUZ DAS ARMAS
+2025-01-09 10:44:40,340 - INFO - Raspando horários da linha: 2300 - CIRCULAR 2300
+2025-01-09 10:44:42,570 - INFO - Raspando página de linhas: https://servicos.semobjp.pb.gov.br/linhas-de-onibus/?page=3
+2025-01-09 10:44:43,441 - INFO - Raspando horários da linha: 2515 - MANGABEIRA/CRISTO/EPITÁCIO
+2025-01-09 10:44:44,574 - INFO - Raspando horários da linha: 3200 - CIRCULAR 3200
+2025-01-09 10:44:45,819 - INFO - Raspando horários da linha: 5100 - CIRCULAR
+2025-01-09 10:44:47,046 - INFO - Raspando horários da linha: 5110 - CIRCULAR 5110
+2025-01-09 10:44:48,293 - INFO - Raspando horários da linha: 5120 - VALENTINA/EPITÁCIO
+2025-01-09 10:44:49,428 - INFO - Raspando horários da linha: 5210 - MANGABEIRA/EPITÁCIO/CRISTO
+2025-01-09 10:44:50,574 - INFO - Raspando horários da linha: 5600 - MANGABEIRA - SHOPPING
+2025-01-09 10:44:51,754 - INFO - Raspando horários da linha: 5603 - MANGABEIRA VII
+2025-01-09 10:44:52,929 - INFO - Raspando horários da linha: 5605 - MANGABEIRA SHOPPING
+2025-01-09 10:44:54,135 - INFO - Raspando horários da linha: 9901 - MANGABEIRA/VALENTINA
+2025-01-09 10:44:55,311 - INFO - Raspando horários da linha: E155 - ZONA SUL/CRUZ DAS ARMAS
+2025-01-09 10:44:56,436 - INFO - Raspando horários da linha: E550 - PARQUE DA CIDADE
+2025-01-09 10:44:57,558 - INFO - Raspando horários da linha: E551 - ZONA SUL/EPITÁCIO
+2025-01-09 10:44:58,691 - INFO - Raspando horários da linha: E600 - PARQUE PARAHYBA/TANCREDO NEVES
+2025-01-09 10:44:59,807 - INFO - Raspando horários da linha: I004 - INTEGRAÇÃO/PRAIA DO SOL
+2025-01-09 10:45:00,921 - INFO - Raspando horários da linha: I008 - VALENTINA/MANGABEIRA
+2025-01-09 10:45:02,065 - INFO - Raspando horários da linha: I015 - VALENTINA/PARQUE DO SOL
+2025-01-09 10:45:03,182 - INFO - Raspando horários da linha: T001 - BEIRA MAR/ZONA SUL
+2025-01-09 10:45:04,294 - INFO - Raspando horários da linha: T002 - EPITÁCIO/ZONA OESTE
+2025-01-09 10:45:05,406 - INFO - Raspando horários da linha: T003 - SHOPPING/TIV/CRISTO
+2025-01-09 10:45:07,558 - INFO - Backup criado com sucesso: backups/backup_onibus_20250109104507.db
+2025-01-09 10:45:07,559 - INFO - Backup antigo deletado: backups\backup_onibus_20250107114927.db
+2025-01-09 10:45:07,559 - INFO - Raspagem concluída.
+2025-01-09 10:46:09,573 - INFO - Número máximo de páginas: 3
+2025-01-09 10:46:09,574 - INFO - Raspando página de linhas: https://servicos.semobjp.pb.gov.br/linhas-de-onibus/
+2025-01-09 10:46:10,864 - INFO - Raspando horários da linha: 0002 - ROGER
+2025-01-09 10:46:11,977 - INFO - Raspando horários da linha: 0003 - JAGUARIBE
+2025-01-09 10:46:13,165 - INFO - Raspando horários da linha: 0101 - GROTÃO/COLINAS DO SUL
+2025-01-09 10:46:14,392 - INFO - Raspando horários da linha: 0102 - ESPLANADA - JOAO PAULO II
+2025-01-09 10:46:15,547 - INFO - Raspando horários da linha: 0103 - GRAMAME
+2025-01-09 10:46:16,670 - INFO - Raspando horários da linha: 0104 - BAIRRO DAS INDUSTRIAS
+2025-01-09 10:46:17,850 - INFO - Raspando horários da linha: 0105 - CIDADE
+2025-01-09 10:46:18,984 - INFO - Raspando horários da linha: 0106 - GEISEL VIA CRUZ DAS ARMAS
+2025-01-09 10:46:20,112 - INFO - Raspando horários da linha: 0107 - JOSÉ AMÉRICO
+2025-01-09 10:46:21,274 - INFO - Raspando horários da linha: 0108 - ALTO DO MATEUS
+2025-01-09 10:46:22,386 - INFO - Raspando horários da linha: 0109 - RUA DO RIO
+2025-01-09 10:46:23,513 - INFO - Raspando horários da linha: 0110 - JARDIM PLANALTO
+2025-01-09 10:46:24,675 - INFO - Raspando horários da linha: 0115 - DISTRITO
+2025-01-09 10:46:25,809 - INFO - Raspando horários da linha: 0116 - COLINAS DO SUL
+2025-01-09 10:46:27,038 - INFO - Raspando horários da linha: 0118 - PARATIBE
+2025-01-09 10:46:28,200 - INFO - Raspando horários da linha: 0120 - PARQUE DO SOL
+2025-01-09 10:46:29,422 - INFO - Raspando horários da linha: 0123 - COLINAS DO SUL/PERIMETRAL
+2025-01-09 10:46:30,564 - INFO - Raspando horários da linha: 0202 - ERNESTO GEISEL
+2025-01-09 10:46:31,781 - INFO - Raspando horários da linha: 0203 - MANGABEIRA / RANGEL
+2025-01-09 10:46:32,931 - INFO - Raspando horários da linha: 0204 - CRISTO
+2025-01-09 10:46:34,092 - INFO - Raspando horários da linha: 0207 - PENHA
+2025-01-09 10:46:35,245 - INFO - Raspando horários da linha: 0208 - CRISTO - VALE DAS PALMEIRAS
+2025-01-09 10:46:36,382 - INFO - Raspando horários da linha: 0229 - MANGABEIRA VII/RANGEL
+2025-01-09 10:46:37,521 - INFO - Raspando horários da linha: 0301 - MANGABEIRA PEDRO II - DIRETO
+2025-01-09 10:46:38,685 - INFO - Raspando horários da linha: 0302 - CIDADE VERDE
+2025-01-09 10:46:39,878 - INFO - Raspando horários da linha: 0303 - CIDADE VERDE - PEDRO II
+2025-01-09 10:46:41,100 - INFO - Raspando horários da linha: 0304 - BANCÁRIOS/CASTELO BRANCO - PEDRO II
+2025-01-09 10:46:42,260 - INFO - Raspando horários da linha: 0307 - PENHA/PEDRO II
+2025-01-09 10:46:43,370 - INFO - Raspando horários da linha: 0401 - ALTIPLANO
+2025-01-09 10:46:44,538 - INFO - Raspando horários da linha: 0402 - TORRE
+2025-01-09 10:46:46,664 - INFO - Raspando página de linhas: https://servicos.semobjp.pb.gov.br/linhas-de-onibus/?page=2
+2025-01-09 10:46:48,120 - INFO - Raspando horários da linha: 0500 - TAMBAÚ
+2025-01-09 10:46:49,260 - INFO - Raspando horários da linha: 0502 - GEISEL/EPITÁCIO
+2025-01-09 10:46:50,427 - INFO - Raspando horários da linha: 0503 - TREZE DE MAIO
+2025-01-09 10:46:51,560 - INFO - Raspando horários da linha: 0504 - MANDACARU
+2025-01-09 10:46:52,747 - INFO - Raspando horários da linha: 0506 - BAIRRO DOS ESTADOS
+2025-01-09 10:46:54,323 - INFO - Raspando horários da linha: 0507 - CABO BRANCO
+2025-01-09 10:46:55,508 - INFO - Raspando horários da linha: 0508 - CABO BRANCO/PENHA
+2025-01-09 10:46:56,656 - INFO - Raspando horários da linha: 0509 - JOÃO AGRIPINO
+2025-01-09 10:46:57,773 - INFO - Raspando horários da linha: 0510 - TAMBAU VIA TAMANDARÉ
+2025-01-09 10:46:58,962 - INFO - Raspando horários da linha: 0512 - BAIRRO SÃO JOSÉ
+2025-01-09 10:47:00,089 - INFO - Raspando horários da linha: 0517 - MANGABEIRA CIDADE VERDE EPITÁCIO
+2025-01-09 10:47:01,245 - INFO - Raspando horários da linha: 0518 - BANCÁRIOS - EPITÁCIO
+2025-01-09 10:47:02,374 - INFO - Raspando horários da linha: 0520 - ALTIPLANO/EPITÁCIO
+2025-01-09 10:47:03,506 - INFO - Raspando horários da linha: 0521 - MANAIRA/BESSA
+2025-01-09 10:47:04,714 - INFO - Raspando horários da linha: 0522 - RENASCER/CARREFOUR
+2025-01-09 10:47:05,850 - INFO - Raspando horários da linha: 0523 - COLINAS DO SUL/ EPITÁCIO
+2025-01-09 10:47:07,010 - INFO - Raspando horários da linha: 0527 - CASTELO BRANCO EPITÁCIO
+2025-01-09 10:47:08,124 - INFO - Raspando horários da linha: 0530 - CIDADE VERDE EPITÁCIO
+2025-01-09 10:47:09,273 - INFO - Raspando horários da linha: 0600 - BESSA SHOPPING
+2025-01-09 10:47:10,451 - INFO - Raspando horários da linha: 0601 - BESSA
+2025-01-09 10:47:11,693 - INFO - Raspando horários da linha: 0602 - ILHA DO BISPO
+2025-01-09 10:47:12,850 - INFO - Raspando horários da linha: 0604 - BAIRRO DOS IPÊS/VIA AYRTON SENNA
+2025-01-09 10:47:13,995 - INFO - Raspando horários da linha: 0701 - ALTO DO MATEUS/ACESSO OESTE
+2025-01-09 10:47:15,146 - INFO - Raspando horários da linha: 0702 - ALTO DO MATEUS/TIRADENTES
+2025-01-09 10:47:16,275 - INFO - Raspando horários da linha: 1001M - BAIRRO DAS INDUSTRIAS/ MANDACARU
+2025-01-09 10:47:17,428 - INFO - Raspando horários da linha: 1001S - BAIRRO DAS INDUSTRIAS/MANDACARU - SJ02
+2025-01-09 10:47:18,570 - INFO - Raspando horários da linha: 1500 - CIRCULAR 1500
+2025-01-09 10:47:19,870 - INFO - Raspando horários da linha: 1510 - CIRCULAR 1510
+2025-01-09 10:47:21,036 - INFO - Raspando horários da linha: 1519 - VALENTINA/CRUZ DAS ARMAS
+2025-01-09 10:47:22,183 - INFO - Raspando horários da linha: 2300 - CIRCULAR 2300
+2025-01-09 10:47:24,345 - INFO - Raspando página de linhas: https://servicos.semobjp.pb.gov.br/linhas-de-onibus/?page=3
+2025-01-09 10:47:25,285 - INFO - Raspando horários da linha: 2515 - MANGABEIRA/CRISTO/EPITÁCIO
+2025-01-09 10:47:26,431 - INFO - Raspando horários da linha: 3200 - CIRCULAR 3200
+2025-01-09 10:47:27,603 - INFO - Raspando horários da linha: 5100 - CIRCULAR
+2025-01-09 10:47:28,934 - INFO - Raspando horários da linha: 5110 - CIRCULAR 5110
+2025-01-09 10:47:30,112 - INFO - Raspando horários da linha: 5120 - VALENTINA/EPITÁCIO
+2025-01-09 10:47:31,260 - INFO - Raspando horários da linha: 5210 - MANGABEIRA/EPITÁCIO/CRISTO
+2025-01-09 10:47:32,420 - INFO - Raspando horários da linha: 5600 - MANGABEIRA - SHOPPING
+2025-01-09 10:47:33,666 - INFO - Raspando horários da linha: 5603 - MANGABEIRA VII
+2025-01-09 10:47:34,830 - INFO - Raspando horários da linha: 5605 - MANGABEIRA SHOPPING
+2025-01-09 10:47:35,964 - INFO - Raspando horários da linha: 9901 - MANGABEIRA/VALENTINA
+2025-01-09 10:47:37,138 - INFO - Raspando horários da linha: E155 - ZONA SUL/CRUZ DAS ARMAS
+2025-01-09 10:47:38,262 - INFO - Raspando horários da linha: E550 - PARQUE DA CIDADE
+2025-01-09 10:47:39,380 - INFO - Raspando horários da linha: E551 - ZONA SUL/EPITÁCIO
+2025-01-09 10:47:40,496 - INFO - Raspando horários da linha: E600 - PARQUE PARAHYBA/TANCREDO NEVES
+2025-01-09 10:47:41,630 - INFO - Raspando horários da linha: I004 - INTEGRAÇÃO/PRAIA DO SOL
+2025-01-09 10:47:42,762 - INFO - Raspando horários da linha: I008 - VALENTINA/MANGABEIRA
+2025-01-09 10:47:43,975 - INFO - Raspando horários da linha: I015 - VALENTINA/PARQUE DO SOL
+2025-01-09 10:47:45,103 - INFO - Raspando horários da linha: T001 - BEIRA MAR/ZONA SUL
+2025-01-09 10:47:46,224 - INFO - Raspando horários da linha: T002 - EPITÁCIO/ZONA OESTE
+2025-01-09 10:47:48,336 - INFO - Raspando horários da linha: T003 - SHOPPING/TIV/CRISTO
+2025-01-09 10:47:50,461 - INFO - Backup criado com sucesso: backups/backup_onibus_20250109104750.db
+2025-01-09 10:47:50,461 - INFO - Backup antigo deletado: backups\backup_onibus_115826_07012025.db
+2025-01-09 10:47:50,462 - INFO - Raspagem concluída.
+2025-01-09 10:49:27,805 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-01-09 10:49:27,806 - INFO - [33mPress CTRL+C to quit[0m
+2025-01-09 10:49:27,808 - INFO -  * Restarting with stat
+2025-01-09 10:49:28,604 - WARNING -  * Debugger is active!
+2025-01-09 10:49:28,613 - INFO -  * Debugger PIN: 881-923-362
+2025-01-09 10:49:34,401 - INFO - 127.0.0.1 - - [09/Jan/2025 10:49:34] "GET /?pagina=4 HTTP/1.1" 200 -
+2025-01-09 10:49:34,482 - INFO - 127.0.0.1 - - [09/Jan/2025 10:49:34] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-01-09 10:49:36,470 - INFO - 127.0.0.1 - - [09/Jan/2025 10:49:36] "GET /horarios/0500%20-%20TAMBAÚ HTTP/1.1" 200 -
+2025-01-09 10:54:27,090 - INFO - 127.0.0.1 - - [09/Jan/2025 10:54:27] "GET /linha/0500%20-%20TAMBAÚ HTTP/1.1" 200 -
+2025-01-09 10:54:37,967 - INFO - 127.0.0.1 - - [09/Jan/2025 10:54:37] "GET /?busca=alto HTTP/1.1" 200 -
+2025-01-09 10:54:38,268 - INFO - 127.0.0.1 - - [09/Jan/2025 10:54:38] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-01-09 10:54:45,039 - INFO - 127.0.0.1 - - [09/Jan/2025 10:54:45] "GET /?busca=500 HTTP/1.1" 200 -
+2025-01-09 10:54:45,096 - INFO - 127.0.0.1 - - [09/Jan/2025 10:54:45] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-01-09 10:58:38,651 - INFO - 127.0.0.1 - - [09/Jan/2025 10:58:38] "GET /horarios/0500%20-%20TAMBAÚ HTTP/1.1" 200 -
+2025-01-09 10:59:11,561 - INFO - 127.0.0.1 - - [09/Jan/2025 10:59:11] "GET /horarios/0500%20-%20TAMBAÚ HTTP/1.1" 200 -
+2025-01-09 11:01:13,230 - INFO - 127.0.0.1 - - [09/Jan/2025 11:01:13] "GET /horarios/0500%20-%20TAMBAÚ HTTP/1.1" 200 -
+2025-01-09 11:01:49,778 - INFO - 127.0.0.1 - - [09/Jan/2025 11:01:49] "[35m[1mGET /horarios/0500%20-%20TAMBAÚ HTTP/1.1[0m" 500 -
+2025-01-09 11:01:49,811 - INFO - 127.0.0.1 - - [09/Jan/2025 11:01:49] "GET /horarios/0500%20-%20TAMBAÚ?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2025-01-09 11:01:50,113 - INFO - 127.0.0.1 - - [09/Jan/2025 11:01:50] "GET /horarios/0500%20-%20TAMBAÚ?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2025-01-09 11:01:50,461 - INFO - 127.0.0.1 - - [09/Jan/2025 11:01:50] "GET /horarios/0500%20-%20TAMBAÚ?__debugger__=yes&cmd=resource&f=console.png&s=vt0vukGg5g53rlVBcXt7 HTTP/1.1" 200 -
+2025-01-09 11:01:50,710 - INFO - 127.0.0.1 - - [09/Jan/2025 11:01:50] "GET /horarios/0500%20-%20TAMBAÚ?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2025-01-09 11:27:22,980 - INFO - 127.0.0.1 - - [09/Jan/2025 11:27:22] "GET /?pagina=4 HTTP/1.1" 200 -
+2025-01-09 11:27:23,027 - INFO - 127.0.0.1 - - [09/Jan/2025 11:27:23] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-01-09 11:27:24,312 - INFO - 127.0.0.1 - - [09/Jan/2025 11:27:24] "GET /horarios/0500%20-%20TAMBAÚ HTTP/1.1" 200 -
+2025-01-09 11:28:55,042 - INFO -  * Detected change in 'C:\\Desenvolvimento\\app-onibus-jp\\app.py', reloading
+2025-01-09 11:28:55,117 - INFO -  * Restarting with stat
+2025-01-09 11:28:56,152 - WARNING -  * Debugger is active!
+2025-01-09 11:28:56,156 - INFO -  * Debugger PIN: 881-923-362
+2025-01-09 11:29:04,806 - INFO - 127.0.0.1 - - [09/Jan/2025 11:29:04] "[35m[1mGET /horarios/0500%20-%20TAMBAÚ HTTP/1.1[0m" 500 -
+2025-01-09 11:29:04,917 - INFO - 127.0.0.1 - - [09/Jan/2025 11:29:04] "[36mGET /horarios/0500%20-%20TAMBAÚ?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-01-09 11:29:05,051 - INFO - 127.0.0.1 - - [09/Jan/2025 11:29:05] "[36mGET /horarios/0500%20-%20TAMBAÚ?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-01-09 11:29:05,365 - INFO - 127.0.0.1 - - [09/Jan/2025 11:29:05] "GET /horarios/0500%20-%20TAMBAÚ?__debugger__=yes&cmd=resource&f=console.png&s=HrPGsFrojypTkgsubrQf HTTP/1.1" 200 -
+2025-01-09 11:29:05,617 - INFO - 127.0.0.1 - - [09/Jan/2025 11:29:05] "[36mGET /horarios/0500%20-%20TAMBAÚ?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2025-01-09 11:29:19,484 - INFO -  * Detected change in 'C:\\Desenvolvimento\\app-onibus-jp\\app.py', reloading
+2025-01-09 11:29:19,543 - INFO -  * Restarting with stat
+2025-01-09 11:29:20,294 - WARNING -  * Debugger is active!
+2025-01-09 11:29:20,298 - INFO -  * Debugger PIN: 881-923-362
+2025-01-09 11:40:12,613 - INFO - 127.0.0.1 - - [09/Jan/2025 11:40:12] "GET /horarios/0500%20-%20TAMBAÚ HTTP/1.1" 200 -
+2025-01-09 11:40:34,373 - INFO - 127.0.0.1 - - [09/Jan/2025 11:40:34] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-01-09 11:41:46,793 - INFO - 127.0.0.1 - - [09/Jan/2025 11:41:46] "GET /?pagina=4 HTTP/1.1" 200 -
+2025-01-09 11:41:46,833 - INFO - 127.0.0.1 - - [09/Jan/2025 11:41:46] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-01-09 11:41:50,806 - INFO - 127.0.0.1 - - [09/Jan/2025 11:41:50] "GET /horarios/0500%20-%20TAMBAÚ HTTP/1.1" 200 -
+2025-01-09 11:41:53,086 - INFO - 127.0.0.1 - - [09/Jan/2025 11:41:53] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-01-09 11:41:55,444 - INFO - 127.0.0.1 - - [09/Jan/2025 11:41:55] "GET /?pagina=4 HTTP/1.1" 200 -
+2025-01-09 11:41:55,498 - INFO - 127.0.0.1 - - [09/Jan/2025 11:41:55] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-01-09 11:42:25,206 - INFO - 127.0.0.1 - - [09/Jan/2025 11:42:25] "GET /?pagina=4 HTTP/1.1" 200 -
+2025-01-09 11:42:25,479 - INFO - 127.0.0.1 - - [09/Jan/2025 11:42:25] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-01-09 11:43:29,509 - INFO - 127.0.0.1 - - [09/Jan/2025 11:43:29] "GET /?pagina=4 HTTP/1.1" 200 -
+2025-01-09 11:43:29,572 - INFO - 127.0.0.1 - - [09/Jan/2025 11:43:29] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-01-09 11:43:31,922 - INFO - 127.0.0.1 - - [09/Jan/2025 11:43:31] "[35m[1mGET /horarios/0500%20-%20TAMBAÚ HTTP/1.1[0m" 500 -
+2025-01-09 11:43:32,214 - INFO - 127.0.0.1 - - [09/Jan/2025 11:43:32] "[36mGET /horarios/0500%20-%20TAMBAÚ?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-01-09 11:43:32,282 - INFO - 127.0.0.1 - - [09/Jan/2025 11:43:32] "[36mGET /horarios/0500%20-%20TAMBAÚ?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-01-09 11:43:32,597 - INFO - 127.0.0.1 - - [09/Jan/2025 11:43:32] "GET /horarios/0500%20-%20TAMBAÚ?__debugger__=yes&cmd=resource&f=console.png&s=psHTSBGPPNALW6pJxxa0 HTTP/1.1" 200 -
+2025-01-09 11:43:32,849 - INFO - 127.0.0.1 - - [09/Jan/2025 11:43:32] "[36mGET /horarios/0500%20-%20TAMBAÚ?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2025-01-09 11:56:40,923 - INFO -  * Detected change in 'C:\\Desenvolvimento\\app-onibus-jp\\app.py', reloading
+2025-01-09 11:56:40,983 - INFO -  * Restarting with stat
+2025-01-09 11:56:41,786 - WARNING -  * Debugger is active!
+2025-01-09 11:56:41,789 - INFO -  * Debugger PIN: 881-923-362
+2025-01-09 11:57:23,336 - INFO -  * Detected change in 'C:\\Desenvolvimento\\app-onibus-jp\\app.py', reloading
+2025-01-09 11:57:23,396 - INFO -  * Restarting with stat
+2025-01-09 11:57:24,153 - WARNING -  * Debugger is active!
+2025-01-09 11:57:24,157 - INFO -  * Debugger PIN: 881-923-362
+2025-01-09 11:57:27,940 - INFO - 127.0.0.1 - - [09/Jan/2025 11:57:27] "[35m[1mGET /horarios/0500%20-%20TAMBAÚ HTTP/1.1[0m" 500 -
+2025-01-09 11:57:28,050 - INFO - 127.0.0.1 - - [09/Jan/2025 11:57:28] "[36mGET /horarios/0500%20-%20TAMBAÚ?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-01-09 11:57:28,184 - INFO - 127.0.0.1 - - [09/Jan/2025 11:57:28] "[36mGET /horarios/0500%20-%20TAMBAÚ?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-01-09 11:57:28,500 - INFO - 127.0.0.1 - - [09/Jan/2025 11:57:28] "GET /horarios/0500%20-%20TAMBAÚ?__debugger__=yes&cmd=resource&f=console.png&s=MJOtuEsqpGCVUMHPS89Z HTTP/1.1" 200 -
+2025-01-09 11:57:28,751 - INFO - 127.0.0.1 - - [09/Jan/2025 11:57:28] "[36mGET /horarios/0500%20-%20TAMBAÚ?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2025-01-09 11:57:36,339 - INFO -  * Detected change in 'C:\\Desenvolvimento\\app-onibus-jp\\app.py', reloading
+2025-01-09 11:57:36,397 - INFO -  * Restarting with stat
+2025-01-09 11:57:37,167 - WARNING -  * Debugger is active!
+2025-01-09 11:57:37,170 - INFO -  * Debugger PIN: 881-923-362
+2025-01-09 11:57:44,291 - INFO -  * Detected change in 'C:\\Desenvolvimento\\app-onibus-jp\\app.py', reloading
+2025-01-09 11:57:44,361 - INFO -  * Restarting with stat
+2025-01-09 11:57:45,146 - WARNING -  * Debugger is active!
+2025-01-09 11:57:45,150 - INFO -  * Debugger PIN: 881-923-362
+2025-01-09 11:57:46,451 - INFO - 127.0.0.1 - - [09/Jan/2025 11:57:46] "[35m[1mGET /horarios/0500%20-%20TAMBAÚ HTTP/1.1[0m" 500 -
+2025-01-09 11:57:46,541 - INFO - 127.0.0.1 - - [09/Jan/2025 11:57:46] "[36mGET /horarios/0500%20-%20TAMBAÚ?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-01-09 11:57:46,698 - INFO - 127.0.0.1 - - [09/Jan/2025 11:57:46] "[36mGET /horarios/0500%20-%20TAMBAÚ?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-01-09 11:57:47,010 - INFO - 127.0.0.1 - - [09/Jan/2025 11:57:47] "GET /horarios/0500%20-%20TAMBAÚ?__debugger__=yes&cmd=resource&f=console.png&s=kxSeqojEDbHouNTzhKPz HTTP/1.1" 200 -
+2025-01-09 11:57:47,263 - INFO - 127.0.0.1 - - [09/Jan/2025 11:57:47] "[36mGET /horarios/0500%20-%20TAMBAÚ?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2025-01-09 11:57:55,323 - INFO -  * Detected change in 'C:\\Desenvolvimento\\app-onibus-jp\\app.py', reloading
+2025-01-09 11:57:55,467 - INFO -  * Restarting with stat
+2025-01-09 11:57:56,253 - WARNING -  * Debugger is active!
+2025-01-09 11:57:56,257 - INFO -  * Debugger PIN: 881-923-362
+2025-01-09 11:57:58,377 - INFO - 127.0.0.1 - - [09/Jan/2025 11:57:58] "GET /horarios/0500%20-%20TAMBAÚ HTTP/1.1" 200 -
+2025-01-09 12:00:26,893 - INFO - 127.0.0.1 - - [09/Jan/2025 12:00:26] "GET / HTTP/1.1" 200 -
+2025-01-09 12:00:27,085 - INFO - 127.0.0.1 - - [09/Jan/2025 12:00:27] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-01-09 12:03:52,742 - INFO - 127.0.0.1 - - [09/Jan/2025 12:03:52] "GET /horarios/0002%20-%20ROGER HTTP/1.1" 200 -
+2025-01-09 12:04:02,136 - INFO - 127.0.0.1 - - [09/Jan/2025 12:04:02] "GET /horarios/0108%20-%20ALTO%20DO%20MATEUS HTTP/1.1" 200 -
+2025-01-09 12:04:05,211 - INFO - 127.0.0.1 - - [09/Jan/2025 12:04:05] "GET /horarios/0106%20-%20GEISEL%20VIA%20CRUZ%20DAS%20ARMAS HTTP/1.1" 200 -
+2025-01-09 12:28:21,629 - INFO -  * Detected change in 'C:\\Desenvolvimento\\app-onibus-jp\\app.py', reloading
+2025-01-09 12:28:21,734 - INFO -  * Restarting with stat
+2025-01-09 12:28:22,646 - WARNING -  * Debugger is active!
+2025-01-09 12:28:22,650 - INFO -  * Debugger PIN: 881-923-362
+2025-01-09 12:28:28,253 - INFO - 127.0.0.1 - - [09/Jan/2025 12:28:28] "[33mGET /horarios/0106%20-%20GEISEL%20VIA%20CRUZ%20DAS%20ARMAS HTTP/1.1[0m" 404 -
+2025-01-09 12:28:47,999 - INFO -  * Detected change in 'C:\\Desenvolvimento\\app-onibus-jp\\app.py', reloading
+2025-01-09 12:28:48,062 - INFO -  * Restarting with stat
+2025-01-09 12:28:48,962 - WARNING -  * Debugger is active!
+2025-01-09 12:28:48,966 - INFO -  * Debugger PIN: 881-923-362
+2025-01-09 12:28:50,784 - INFO - 127.0.0.1 - - [09/Jan/2025 12:28:50] "[35m[1mGET /horarios/0106%20-%20GEISEL%20VIA%20CRUZ%20DAS%20ARMAS HTTP/1.1[0m" 500 -
+2025-01-09 12:28:50,874 - INFO - 127.0.0.1 - - [09/Jan/2025 12:28:50] "GET /horarios/0106%20-%20GEISEL%20VIA%20CRUZ%20DAS%20ARMAS?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2025-01-09 12:28:51,030 - INFO - 127.0.0.1 - - [09/Jan/2025 12:28:51] "GET /horarios/0106%20-%20GEISEL%20VIA%20CRUZ%20DAS%20ARMAS?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2025-01-09 12:28:51,342 - INFO - 127.0.0.1 - - [09/Jan/2025 12:28:51] "GET /horarios/0106%20-%20GEISEL%20VIA%20CRUZ%20DAS%20ARMAS?__debugger__=yes&cmd=resource&f=console.png&s=mkwLC0Tw5gOHzkNv2eV8 HTTP/1.1" 200 -
+2025-01-09 12:28:51,594 - INFO - 127.0.0.1 - - [09/Jan/2025 12:28:51] "GET /horarios/0106%20-%20GEISEL%20VIA%20CRUZ%20DAS%20ARMAS?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2025-01-09 12:28:55,293 - INFO - 127.0.0.1 - - [09/Jan/2025 12:28:55] "GET / HTTP/1.1" 200 -
+2025-01-09 12:28:55,332 - INFO - 127.0.0.1 - - [09/Jan/2025 12:28:55] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-01-09 12:28:56,817 - INFO - 127.0.0.1 - - [09/Jan/2025 12:28:56] "[35m[1mGET /horarios/0002%20-%20ROGER HTTP/1.1[0m" 500 -
+2025-01-09 12:28:56,909 - INFO - 127.0.0.1 - - [09/Jan/2025 12:28:56] "GET /horarios/0002%20-%20ROGER?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2025-01-09 12:28:57,064 - INFO - 127.0.0.1 - - [09/Jan/2025 12:28:57] "GET /horarios/0002%20-%20ROGER?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2025-01-09 12:28:57,181 - INFO - 127.0.0.1 - - [09/Jan/2025 12:28:57] "GET /horarios/0002%20-%20ROGER?__debugger__=yes&cmd=resource&f=console.png&s=mkwLC0Tw5gOHzkNv2eV8 HTTP/1.1" 200 -
+2025-01-09 12:28:57,378 - INFO - 127.0.0.1 - - [09/Jan/2025 12:28:57] "GET /horarios/0002%20-%20ROGER?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2025-01-09 12:29:06,215 - INFO -  * Detected change in 'C:\\Desenvolvimento\\app-onibus-jp\\app.py', reloading
+2025-01-09 12:29:06,282 - INFO -  * Restarting with stat
+2025-01-09 12:29:07,107 - WARNING -  * Debugger is active!
+2025-01-09 12:29:07,111 - INFO -  * Debugger PIN: 881-923-362
+2025-01-09 12:38:24,371 - INFO -  * Detected change in 'C:\\Desenvolvimento\\app-onibus-jp\\app.py', reloading
+2025-01-09 12:38:24,491 - INFO -  * Restarting with stat
+2025-01-09 12:38:25,377 - WARNING -  * Debugger is active!
+2025-01-09 12:38:25,381 - INFO -  * Debugger PIN: 881-923-362
+2025-01-09 12:38:41,614 - INFO -  * Detected change in 'C:\\Desenvolvimento\\app-onibus-jp\\app.py', reloading
+2025-01-09 12:38:41,679 - INFO -  * Restarting with stat
+2025-01-09 12:38:42,498 - WARNING -  * Debugger is active!
+2025-01-09 12:38:42,502 - INFO -  * Debugger PIN: 881-923-362
+2025-01-09 12:38:46,656 - INFO - 127.0.0.1 - - [09/Jan/2025 12:38:46] "[35m[1mGET /horarios/0002%20-%20ROGER HTTP/1.1[0m" 500 -
+2025-01-09 12:38:46,765 - INFO - 127.0.0.1 - - [09/Jan/2025 12:38:46] "[36mGET /horarios/0002%20-%20ROGER?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-01-09 12:38:46,898 - INFO - 127.0.0.1 - - [09/Jan/2025 12:38:46] "[36mGET /horarios/0002%20-%20ROGER?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-01-09 12:38:47,235 - INFO - 127.0.0.1 - - [09/Jan/2025 12:38:47] "GET /horarios/0002%20-%20ROGER?__debugger__=yes&cmd=resource&f=console.png&s=EBUGL3jKWy0NjzxbZHv7 HTTP/1.1" 200 -
+2025-01-09 12:39:53,440 - INFO -  * Detected change in 'C:\\Desenvolvimento\\app-onibus-jp\\app.py', reloading
+2025-01-09 12:39:53,499 - INFO -  * Restarting with stat
+2025-01-09 12:39:54,309 - WARNING -  * Debugger is active!
+2025-01-09 12:39:54,313 - INFO -  * Debugger PIN: 881-923-362
+2025-01-09 12:39:56,840 - INFO - 127.0.0.1 - - [09/Jan/2025 12:39:56] "GET / HTTP/1.1" 200 -
+2025-01-09 12:39:56,930 - INFO - 127.0.0.1 - - [09/Jan/2025 12:39:56] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-01-09 12:39:58,388 - INFO - 127.0.0.1 - - [09/Jan/2025 12:39:58] "[35m[1mGET /horarios/0002%20-%20ROGER HTTP/1.1[0m" 500 -
+2025-01-09 12:39:58,491 - INFO - 127.0.0.1 - - [09/Jan/2025 12:39:58] "[36mGET /horarios/0002%20-%20ROGER?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-01-09 12:39:58,633 - INFO - 127.0.0.1 - - [09/Jan/2025 12:39:58] "[36mGET /horarios/0002%20-%20ROGER?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-01-09 12:39:58,750 - INFO - 127.0.0.1 - - [09/Jan/2025 12:39:58] "GET /horarios/0002%20-%20ROGER?__debugger__=yes&cmd=resource&f=console.png&s=wt27alFoge8wy17dDi4T HTTP/1.1" 200 -
+2025-01-09 12:42:47,563 - INFO -  * Detected change in 'C:\\Desenvolvimento\\app-onibus-jp\\app.py', reloading
+2025-01-09 12:42:47,626 - INFO -  * Restarting with stat
+2025-01-09 12:42:48,469 - WARNING -  * Debugger is active!
+2025-01-09 12:42:48,472 - INFO -  * Debugger PIN: 881-923-362
+2025-01-09 12:42:49,540 - INFO - 127.0.0.1 - - [09/Jan/2025 12:42:49] "GET /horarios/0002%20-%20ROGER HTTP/1.1" 200 -
+2025-01-09 12:43:07,772 - INFO - 127.0.0.1 - - [09/Jan/2025 12:43:07] "GET / HTTP/1.1" 200 -
+2025-01-09 12:43:07,894 - INFO - 127.0.0.1 - - [09/Jan/2025 12:43:07] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-01-09 12:43:10,262 - INFO - 127.0.0.1 - - [09/Jan/2025 12:43:10] "GET /linha/0002%20-%20ROGER HTTP/1.1" 200 -
+2025-01-09 12:43:13,558 - INFO - 127.0.0.1 - - [09/Jan/2025 12:43:13] "GET /horarios/0002%20-%20ROGER HTTP/1.1" 200 -
+2025-01-09 12:46:29,341 - INFO -  * Detected change in 'C:\\Desenvolvimento\\app-onibus-jp\\app.py', reloading
+2025-01-09 12:46:29,434 - INFO -  * Restarting with stat
+2025-01-09 12:46:30,285 - WARNING -  * Debugger is active!
+2025-01-09 12:46:30,288 - INFO -  * Debugger PIN: 881-923-362
+2025-01-09 12:46:34,215 - INFO - 127.0.0.1 - - [09/Jan/2025 12:46:34] "GET / HTTP/1.1" 200 -
+2025-01-09 12:46:34,302 - INFO - 127.0.0.1 - - [09/Jan/2025 12:46:34] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-01-09 12:46:35,591 - INFO - 127.0.0.1 - - [09/Jan/2025 12:46:35] "GET /horarios/0002%20-%20ROGER HTTP/1.1" 200 -
+2025-01-09 12:46:40,696 - INFO - 127.0.0.1 - - [09/Jan/2025 12:46:40] "GET /horarios/0003%20-%20JAGUARIBE HTTP/1.1" 200 -
+2025-01-09 12:46:50,578 - INFO -  * Detected change in 'C:\\Desenvolvimento\\app-onibus-jp\\app.py', reloading
+2025-01-09 12:46:50,641 - INFO -  * Restarting with stat
+2025-01-09 12:46:51,394 - WARNING -  * Debugger is active!
+2025-01-09 12:46:51,398 - INFO -  * Debugger PIN: 881-923-362
+2025-01-09 12:50:01,850 - INFO -  * Detected change in 'C:\\Desenvolvimento\\app-onibus-jp\\app.py', reloading
+2025-01-09 12:50:01,913 - INFO -  * Restarting with stat
