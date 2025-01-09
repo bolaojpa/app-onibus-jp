@@ -15,8 +15,7 @@ load_dotenv()
 
 # Configuração do logging
 logging.basicConfig(filename='raspagem.log', level=logging.INFO,
-                    format='%(asctime)s - %(levelname)s - %(message)s',
-                    encoding='utf-8')
+                    format='%(asctime)s - %(levelname)s - %(message)s')
 
 def raspar_com_retry(url, tentativas=3):
     headers = {
@@ -83,7 +82,6 @@ def buscar_dados_horarios(html_content):
     dados_horario = {}
     try:
         soup = BeautifulSoup(html_content, 'html.parser')
-        dados_horario["nome"] = soup.find('h2').text.strip().split('\n')[0] if soup.find('h2') else "Nome não encontrado"
 
         dias_da_semana = soup.find_all('div', class_='col-xl-4 col-lg-6 col-md-6 col-sm-12 mb-3')
         for dia in dias_da_semana:
@@ -92,6 +90,18 @@ def buscar_dados_horarios(html_content):
                 horarios = [h.text.strip() for h in dia.find_all('span', class_='badge badge-secondary badge-legenda-a')]
                 dados_horario[dia_semana.lower()] = horarios
 
+        return dados_horario # Retorna APENAS os horários
+
+    except AttributeError as e:
+        logging.error(f"Erro de atributo ao processar HTML em buscar_dados_horarios: {e}")
+        return None
+    except Exception as e:
+        logging.exception(f"Erro inesperado ao buscar horarios: {e}")
+        return None
+    
+def buscar_observacao(html_content): # Nova função para buscar a observação
+    try:
+        soup = BeautifulSoup(html_content, 'html.parser')
         observacoes = []
         for strong_tag in soup.find_all('strong'):
             if strong_tag.text.strip().lower() == "observações:":
@@ -100,14 +110,12 @@ def buscar_dados_horarios(html_content):
                     for p_tag in pai.find_all('p'):
                         observacoes.append(p_tag.text.strip())
                 break
-
-        dados_horario["observacao"] = "\n".join(observacoes).strip()
-        return dados_horario
+        return "\n".join(observacoes).strip()
     except AttributeError as e:
-        logging.error(f"Erro de atributo ao processar HTML em buscar_dados_horarios: {e}")
+        logging.error(f"Erro de atributo ao processar HTML em buscar_observacao: {e}")
         return None
     except Exception as e:
-        logging.exception(f"Erro inesperado ao buscar horarios: {e}")
+        logging.exception(f"Erro inesperado ao buscar observacao: {e}")
         return None
 
 def completar_links(dados, url_base="https://servicos.semobjp.pb.gov.br"):
@@ -145,7 +153,7 @@ def salvar_dados_bd(conn, dados):
             cursor.execute("""
                 INSERT OR REPLACE INTO linhas (codigo, itinerario_link, horario_link, nome, horarios, observacao)
                 VALUES (?, ?, ?, ?, ?, ?)
-            """, (linha["codigo"], linha.get("itinerario_link"), linha.get("horario_link"), linha.get("horarios",{}).get("nome"), horarios_json, linha.get("horarios",{}).get("observacao")))
+            """, (linha["codigo"], linha.get("itinerario_link"), linha.get("horario_link"), linha.get("nome"), horarios_json, linha.get("observacao"))) # Salva a observação separadamente
         conn.commit()
         print("Dados salvos no banco de dados.")
     except sqlite3.Error as e:
@@ -153,10 +161,10 @@ def salvar_dados_bd(conn, dados):
 
 def fazer_backup_sqlite():
     nome_arquivo_bd = 'onibus.db'
-    data_atual = datetime.datetime.now().strftime("%H%M%S_%d%m%Y") # Nome do arquivo formatado
+    data_atual = datetime.datetime.now().strftime("%Y%m%d%H%M%S")
     nome_arquivo_backup = f'backups/backup_onibus_{data_atual}.db'
 
-    os.makedirs('backups', exist_ok=True)
+    os.makedirs('backups', exist_ok=True)  # Cria o diretório se não existir
 
     try:
         conn = sqlite3.connect(nome_arquivo_bd)
@@ -168,7 +176,7 @@ def fazer_backup_sqlite():
         logging.info(f"Backup criado com sucesso: {nome_arquivo_backup}")
         print(f"Backup criado com sucesso: {nome_arquivo_backup}")
 
-        manter_apenas_ultimos_backups("backups", 5)
+        manter_apenas_ultimos_backups("backups", 5)  # Mantém apenas os 5 backups mais recentes
 
     except sqlite3.Error as e:
         logging.error(f"Erro ao criar backup: {e}")
@@ -251,15 +259,14 @@ def main():
         else:
             logging.error("Falha ao restaurar o backup. Verifique os logs.")
             print("Falha ao restaurar o backup. Verifique os logs.")
-        return #Importante para sair da função main caso a raspagem inicial falhe.
+        return
 
     logging.info(f"Número máximo de páginas: {max_pages}")
 
     while page <= max_pages:
         url = f"{url_base}?page={page}" if page > 1 else url_base
         logging.info(f"Raspando página de linhas: {url}")
-
-        try: #Adicionei um try para o raspagem das paginas
+        try:
             response = raspar_com_retry(url)
             if response:
                 data_linhas = raspar_dados_linhas(response.content)
@@ -277,7 +284,9 @@ def main():
                             response_horario = raspar_com_retry(linha['horario_link'])
                             if response_horario:
                                 dados_horarios = buscar_dados_horarios(response_horario.content)
+                                observacao = buscar_observacao(response_horario.content)
                                 linha["horarios"] = dados_horarios
+                                linha["observacao"] = observacao
                                 time.sleep(1)
                             else:
                                 logging.error(f"Falha ao obter horários para a linha: {linha['codigo']}")
@@ -296,7 +305,7 @@ def main():
             else:
                 logging.error("Falha ao restaurar o backup. Verifique os logs.")
                 print("Falha ao restaurar o backup. Verifique os logs.")
-            break #Importante para sair do loop while caso a raspagem de alguma pagina falhe.
+            break
 
         page += 1
         time.sleep(1)
