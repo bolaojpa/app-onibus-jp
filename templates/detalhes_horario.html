@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Horários da Linha {{ nome_linha }}</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+</head>
+<body>
+    <div class="container mt-4">
+        <h1>Horários da Linha {{ nome_linha }}</h1>
+
+        {% if horarios %}
+            <div class="row row-cols-1 row-cols-md-3 g-4 justify-content-center">
+                {% for dia, lista_horarios in horarios.items() %}
+                    <div class="col">
+                        <div class="card h-100"> {# Mantém os cards APENAS para os dias #}
+                            <div class="card-body text-center">
+                                <h5 class="card-title">{{ dia.capitalize() }}</h5>
+                                {% if lista_horarios %}
+                                    <div class="d-flex flex-wrap justify-content-center gap-2">
+                                        {% for horario in lista_horarios %}
+                                            <span class="badge bg-secondary">{{ horario }}</span>
+                                        {% endfor %}
+                                    </div>
+                                {% else %}
+                                    <p class="text-muted fst-italic">Não há horários para este dia.</p>
+                                {% endif %}
+                            </div>
+                        </div>
+                    </div>
+                {% endfor %}
+            </div>
+        {% else %}
+            <p class="text-center">Nenhum horário disponível para esta linha.</p>
+        {% endif %}
+
+        {% if observacao %} {# Observações como parágrafo simples #}
+            <div class="mt-4 text-center">
+                <p><strong>Observações:</strong> {{ observacao|replace('\n', '<br>')|safe }}</p>
+            </div>
+        {% endif %}
+
+        <div class="text-center mt-3">
+            <a href="{{ url_for('index') }}" class="btn btn-primary">Voltar para a lista de linhas</a>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body>
+</html>

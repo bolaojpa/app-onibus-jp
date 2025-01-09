@@ -1,0 +1,33 @@
+2025-01-09 10:28:04,134 - INFO - Agendador iniciado. Aguardando a próxima execução...
+2025-01-09 10:29:04,159 - INFO - Iniciando a raspagem e atualização do banco de dados...
+2025-01-09 10:29:04,210 - ERROR - Erro durante a execução da raspagem: Command '['C:\\Desenvolvimento\\app-onibus-jp\\.venv\\Scripts\\python.exe', 'raspagem.py']' returned non-zero exit status 1.
+Saída do subprocesso:
+  File "C:\Desenvolvimento\app-onibus-jp\raspagem.py", line 103
+    try:
+    ^
+IndentationError: expected an indented block after function definition on line 102
+
+2025-01-09 10:32:11,213 - INFO - Agendador iniciado. Aguardando a próxima execução...
+2025-01-09 10:33:11,242 - INFO - Iniciando a raspagem e atualização do banco de dados...
+2025-01-09 10:33:11,310 - ERROR - Erro durante a execução da raspagem: Command '['C:\\Desenvolvimento\\app-onibus-jp\\.venv\\Scripts\\python.exe', 'raspagem.py']' returned non-zero exit status 1.
+Saída do subprocesso:
+  File "C:\Desenvolvimento\app-onibus-jp\raspagem.py", line 103
+    try:
+    ^
+IndentationError: expected an indented block after function definition on line 102
+
+2025-01-09 10:34:11,335 - INFO - Iniciando a raspagem e atualização do banco de dados...
+2025-01-09 10:34:11,405 - ERROR - Erro durante a execução da raspagem: Command '['C:\\Desenvolvimento\\app-onibus-jp\\.venv\\Scripts\\python.exe', 'raspagem.py']' returned non-zero exit status 1.
+Saída do subprocesso:
+  File "C:\Desenvolvimento\app-onibus-jp\raspagem.py", line 103
+    try:
+    ^
+IndentationError: expected an indented block after function definition on line 102
+
+2025-01-09 10:39:41,377 - INFO - Agendador iniciado. Aguardando a próxima execução...
+2025-01-09 10:40:41,409 - INFO - Iniciando a raspagem e atualização do banco de dados...
+2025-01-09 10:42:24,527 - INFO - Raspagem e atualização concluídas com sucesso. Data e hora gravadas em last_update.txt: 09/01/2025 10:42:24
+2025-01-09 10:43:24,555 - INFO - Iniciando a raspagem e atualização do banco de dados...
+2025-01-09 10:45:07,616 - INFO - Raspagem e atualização concluídas com sucesso. Data e hora gravadas em last_update.txt: 09/01/2025 10:45:07
+2025-01-09 10:46:07,642 - INFO - Iniciando a raspagem e atualização do banco de dados...
+2025-01-09 10:47:50,509 - INFO - Raspagem e atualização concluídas com sucesso. Data e hora gravadas em last_update.txt: 09/01/2025 10:47:50

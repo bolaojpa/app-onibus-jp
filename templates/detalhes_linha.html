@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Lista de Linhas</title>
+</head>
+<body>
+    <h1>Lista de Linhas de Ônibus</h1>
+
+    <form method="GET">
+        <input type="text" name="busca" placeholder="Buscar por nome ou código">
+        <button type="submit">Buscar</button>
+    </form>
+
+    {% if linhas %}
+        <table>
+            <thead>
+                <tr>
+                    <th>Código</th>
+                    <th>Nome</th>
+                    <th>Detalhes</th>
+                    <th>Horários</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for linha in linhas %}
+                    <tr>
+                        <td>{{ linha['codigo'] }}</td>
+                        <td>{{ linha['nome'] }}</td>
+                        <td><a href="{{ url_for('detalhes_linha', codigo=linha['codigo']) }}">Ver Detalhes</a></td>
+                        <td><a href="{{ url_for('detalhes_horario', codigo=linha['codigo']) }}">Ver Horário</a></td>
+                    </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+        <div>
+            {% if pagina > 1 %}
+                <a href="{{ url_for('index', busca=busca, pagina=pagina - 1) }}">Anterior</a>
+            {% endif %}
+            <span>Página {{ pagina }} de {{ num_paginas }}</span>
+            {% if pagina < num_paginas %}
+                <a href="{{ url_for('index', busca=busca, pagina=pagina + 1) }}">Próxima</a>
+            {% endif %}
+        </div>
+    {% else %}
+        <p>Nenhuma linha encontrada.</p>
+    {% endif %}
+    <a href="{{ url_for('raspar') }}">Raspar Dados</a>
+</body>
+</html>
