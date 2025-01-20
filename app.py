@@ -1,8 +1,9 @@
-from flask import Flask, redirect, render_template, request, url_for
+from flask import Flask, redirect, render_template, request, url_for, g, logging
 import raspagem
 import sqlite3
 import os
 import json
+from urllib.parse import unquote
 
 app = Flask(__name__)
 
@@ -41,7 +42,7 @@ with app.app_context():
 def index():
     busca = request.args.get('busca')
     pagina = request.args.get('pagina', 1, type=int)
-    linhas_por_pagina = 10
+    linhas_por_pagina = 30
 
     conn = get_db_connection()
     cursor = conn.cursor()
@@ -79,22 +80,30 @@ def detalhes_linha(codigo):
         conn.close()
     return render_template("detalhes_linha.html", linha=linha)
 
-@app.route("/horarios/<string:codigo>")
+@app.route("/horarios/<path:codigo>") # Use <path:codigo> aqui
 def detalhes_horario(codigo):
+    codigo = unquote(codigo) #Decodifica a string da url
     conn = get_db_connection()
     cursor = conn.cursor()
     try:
         cursor.execute("SELECT horarios, codigo, observacao FROM linhas WHERE codigo=?", (codigo,))
         linha = cursor.fetchone()
-        horarios = json.loads(linha['horarios']) if linha and linha['horarios'] else {}
-        nome_linha = linha['codigo'] if linha else None
-        observacao = linha['observacao'] if linha else None
+        if linha: #Adicionei essa verificação para evitar erros quando a linha não existe
+            horarios = json.loads(linha['horarios']) if linha and linha['horarios'] else {}
+            nome_linha = linha['codigo'] if linha else None
+            observacao = linha['observacao'] if linha else None
+            return render_template("detalhes_horario.html", horarios=horarios, nome_linha=nome_linha, observacao=observacao)
+        else:
+            return render_template('mensagem_erro.html', mensagem=f"Horários para a linha '{codigo}' não encontrados."), 404
     except sqlite3.Error as e:
-        return f"Erro ao acessar o banco de dados: {e}"
+        logging.error(f"Erro ao acessar o banco de dados: {e}")
+        return render_template('mensagem_erro.html', mensagem="Erro ao acessar o banco de dados. Consulte os logs para mais detalhes."), 500
+    except json.JSONDecodeError as e:
+        logging.error(f"Erro ao decodificar JSON: {e}")
+        return render_template('mensagem_erro.html', mensagem="Erro ao processar os horários. Consulte os logs para mais detalhes."), 500
     finally:
         conn.close()
-    return render_template("detalhes_horario.html", horarios=horarios, nome_linha=nome_linha, observacao=observacao)
-
+        
 @app.route("/raspar")
 def raspar():
     try:

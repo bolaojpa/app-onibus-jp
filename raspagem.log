@@ -1503,3 +1503,137 @@
 2025-01-20 10:48:11,059 - INFO - 127.0.0.1 - - [20/Jan/2025 10:48:11] "[33mGET /horarios/0701%20-%20ALTO%20DO%20MATEUS%20/%20ACESSO%20OESTE HTTP/1.1[0m" 404 -
 2025-01-20 10:49:03,650 - INFO - 127.0.0.1 - - [20/Jan/2025 10:49:03] "[33mGET /horarios/0701%20-%20ALTO%20DO%20MATEUS%/%20ACESSO%20OESTE HTTP/1.1[0m" 404 -
 2025-01-20 10:49:16,677 - INFO - 127.0.0.1 - - [20/Jan/2025 10:49:16] "GET /horarios/0701%20-%20ALTO%20DO%20MATEUS%20-%20ACESSO%20OESTE HTTP/1.1" 200 -
+2025-01-20 11:04:29,765 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-01-20 11:04:29,766 - INFO - [33mPress CTRL+C to quit[0m
+2025-01-20 11:04:29,768 - INFO -  * Restarting with stat
+2025-01-20 11:04:30,534 - WARNING -  * Debugger is active!
+2025-01-20 11:04:30,538 - INFO -  * Debugger PIN: 881-923-362
+2025-01-20 11:04:35,098 - INFO - 127.0.0.1 - - [20/Jan/2025 11:04:35] "GET / HTTP/1.1" 200 -
+2025-01-20 11:04:35,218 - INFO - 127.0.0.1 - - [20/Jan/2025 11:04:35] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-01-20 11:05:33,372 - INFO -  * Detected change in 'C:\\Desenvolvimento\\app-onibus-jp\\app.py', reloading
+2025-01-20 11:05:33,435 - INFO -  * Restarting with stat
+2025-01-20 11:05:34,261 - WARNING -  * Debugger is active!
+2025-01-20 11:05:34,265 - INFO -  * Debugger PIN: 881-923-362
+2025-01-20 11:05:37,859 - INFO - 127.0.0.1 - - [20/Jan/2025 11:05:37] "GET / HTTP/1.1" 200 -
+2025-01-20 11:05:37,904 - INFO - 127.0.0.1 - - [20/Jan/2025 11:05:37] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-01-20 11:05:43,314 - INFO - 127.0.0.1 - - [20/Jan/2025 11:05:43] "GET /?pagina=2 HTTP/1.1" 200 -
+2025-01-20 11:05:43,614 - INFO - 127.0.0.1 - - [20/Jan/2025 11:05:43] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-01-20 11:05:47,665 - INFO - 127.0.0.1 - - [20/Jan/2025 11:05:47] "GET /?pagina=3 HTTP/1.1" 200 -
+2025-01-20 11:05:47,729 - INFO - 127.0.0.1 - - [20/Jan/2025 11:05:47] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-01-20 11:08:01,186 - INFO -  * Detected change in 'C:\\Desenvolvimento\\app-onibus-jp\\app.py', reloading
+2025-01-20 11:08:01,244 - INFO -  * Restarting with stat
+2025-01-20 11:08:02,077 - WARNING -  * Debugger is active!
+2025-01-20 11:08:02,082 - INFO -  * Debugger PIN: 881-923-362
+2025-01-20 11:08:04,088 - INFO - 127.0.0.1 - - [20/Jan/2025 11:08:04] "[35m[1mGET /?pagina=3 HTTP/1.1[0m" 500 -
+2025-01-20 11:08:04,198 - INFO - 127.0.0.1 - - [20/Jan/2025 11:08:04] "GET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2025-01-20 11:08:04,403 - INFO - 127.0.0.1 - - [20/Jan/2025 11:08:04] "GET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2025-01-20 11:08:04,740 - INFO - 127.0.0.1 - - [20/Jan/2025 11:08:04] "GET /?__debugger__=yes&cmd=resource&f=console.png&s=IOYszs1kh9rG5oFH2JJk HTTP/1.1" 200 -
+2025-01-20 11:08:04,992 - INFO - 127.0.0.1 - - [20/Jan/2025 11:08:04] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2025-01-20 11:08:13,671 - INFO - 127.0.0.1 - - [20/Jan/2025 11:08:13] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2025-01-20 11:08:13,969 - INFO - 127.0.0.1 - - [20/Jan/2025 11:08:13] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-01-20 11:08:13,989 - INFO - 127.0.0.1 - - [20/Jan/2025 11:08:13] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-01-20 11:08:14,300 - INFO - 127.0.0.1 - - [20/Jan/2025 11:08:14] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png&s=IOYszs1kh9rG5oFH2JJk HTTP/1.1[0m" 304 -
+2025-01-20 11:08:30,481 - INFO -  * Detected change in 'C:\\Desenvolvimento\\app-onibus-jp\\app.py', reloading
+2025-01-20 11:08:30,545 - INFO -  * Restarting with stat
+2025-01-20 11:08:31,345 - WARNING -  * Debugger is active!
+2025-01-20 11:08:31,350 - INFO -  * Debugger PIN: 881-923-362
+2025-01-20 11:12:32,432 - INFO -  * Detected change in 'C:\\Desenvolvimento\\app-onibus-jp\\app.py', reloading
+2025-01-20 11:12:32,493 - INFO -  * Restarting with stat
+2025-01-20 11:16:37,683 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-01-20 11:16:37,684 - INFO - [33mPress CTRL+C to quit[0m
+2025-01-20 11:16:37,685 - INFO -  * Restarting with stat
+2025-01-20 11:16:38,427 - WARNING -  * Debugger is active!
+2025-01-20 11:16:38,430 - INFO -  * Debugger PIN: 881-923-362
+2025-01-20 11:16:40,528 - INFO - 127.0.0.1 - - [20/Jan/2025 11:16:40] "GET / HTTP/1.1" 200 -
+2025-01-20 11:16:40,585 - INFO - 127.0.0.1 - - [20/Jan/2025 11:16:40] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-01-20 11:16:49,696 - INFO - 127.0.0.1 - - [20/Jan/2025 11:16:49] "GET /?busca=Alto HTTP/1.1" 200 -
+2025-01-20 11:16:49,996 - INFO - 127.0.0.1 - - [20/Jan/2025 11:16:49] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-01-20 11:16:59,238 - INFO - 127.0.0.1 - - [20/Jan/2025 11:16:59] "GET /?busca=701 HTTP/1.1" 200 -
+2025-01-20 11:16:59,257 - INFO - 127.0.0.1 - - [20/Jan/2025 11:16:59] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-01-20 11:18:34,951 - INFO -  * Detected change in 'C:\\Desenvolvimento\\app-onibus-jp\\app.py', reloading
+2025-01-20 11:18:35,016 - INFO -  * Restarting with stat
+2025-01-20 11:18:35,824 - WARNING -  * Debugger is active!
+2025-01-20 11:18:35,828 - INFO -  * Debugger PIN: 881-923-362
+2025-01-20 11:18:39,009 - INFO - 127.0.0.1 - - [20/Jan/2025 11:18:39] "GET / HTTP/1.1" 200 -
+2025-01-20 11:18:39,055 - INFO - 127.0.0.1 - - [20/Jan/2025 11:18:39] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-01-20 11:18:42,168 - INFO - 127.0.0.1 - - [20/Jan/2025 11:18:42] "GET /?busca=alto HTTP/1.1" 200 -
+2025-01-20 11:18:42,469 - INFO - 127.0.0.1 - - [20/Jan/2025 11:18:42] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-01-20 11:19:34,878 - INFO - 127.0.0.1 - - [20/Jan/2025 11:19:34] "GET /?busca=alto HTTP/1.1" 200 -
+2025-01-20 11:19:34,897 - INFO - 127.0.0.1 - - [20/Jan/2025 11:19:34] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-01-20 11:21:49,345 - INFO -  * Detected change in 'C:\\Desenvolvimento\\app-onibus-jp\\app.py', reloading
+2025-01-20 11:21:49,406 - INFO -  * Restarting with stat
+2025-01-20 11:21:50,160 - WARNING -  * Debugger is active!
+2025-01-20 11:21:50,164 - INFO -  * Debugger PIN: 881-923-362
+2025-01-20 11:21:53,889 - INFO - 127.0.0.1 - - [20/Jan/2025 11:21:53] "GET /?busca=alto HTTP/1.1" 200 -
+2025-01-20 11:21:53,936 - INFO - 127.0.0.1 - - [20/Jan/2025 11:21:53] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-01-20 11:25:13,889 - INFO -  * Detected change in 'C:\\Desenvolvimento\\app-onibus-jp\\app.py', reloading
+2025-01-20 11:25:13,960 - INFO -  * Restarting with stat
+2025-01-20 11:25:39,195 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-01-20 11:25:39,195 - INFO - [33mPress CTRL+C to quit[0m
+2025-01-20 11:25:39,197 - INFO -  * Restarting with stat
+2025-01-20 11:25:39,930 - WARNING -  * Debugger is active!
+2025-01-20 11:25:39,934 - INFO -  * Debugger PIN: 881-923-362
+2025-01-20 11:26:12,752 - INFO - 127.0.0.1 - - [20/Jan/2025 11:26:12] "GET /?busca=alto HTTP/1.1" 200 -
+2025-01-20 11:26:12,798 - INFO - 127.0.0.1 - - [20/Jan/2025 11:26:12] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-01-20 11:26:17,009 - INFO - 127.0.0.1 - - [20/Jan/2025 11:26:17] "GET / HTTP/1.1" 200 -
+2025-01-20 11:26:17,310 - INFO - 127.0.0.1 - - [20/Jan/2025 11:26:17] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-01-20 11:26:21,974 - INFO - 127.0.0.1 - - [20/Jan/2025 11:26:21] "GET /?busca=alto HTTP/1.1" 200 -
+2025-01-20 11:26:21,989 - INFO - 127.0.0.1 - - [20/Jan/2025 11:26:21] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-01-20 11:26:26,455 - INFO - 127.0.0.1 - - [20/Jan/2025 11:26:26] "GET /?busca=701 HTTP/1.1" 200 -
+2025-01-20 11:26:26,756 - INFO - 127.0.0.1 - - [20/Jan/2025 11:26:26] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-01-20 11:26:53,565 - INFO - 127.0.0.1 - - [20/Jan/2025 11:26:53] "GET /?busca=701 HTTP/1.1" 200 -
+2025-01-20 11:26:53,584 - INFO - 127.0.0.1 - - [20/Jan/2025 11:26:53] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-01-20 11:28:00,761 - INFO -  * Detected change in 'C:\\Desenvolvimento\\app-onibus-jp\\app.py', reloading
+2025-01-20 11:28:00,823 - INFO -  * Restarting with stat
+2025-01-20 11:28:01,601 - WARNING -  * Debugger is active!
+2025-01-20 11:28:01,605 - INFO -  * Debugger PIN: 881-923-362
+2025-01-20 11:28:11,761 - INFO -  * Detected change in 'C:\\Desenvolvimento\\app-onibus-jp\\app.py', reloading
+2025-01-20 11:28:11,827 - INFO -  * Restarting with stat
+2025-01-20 11:28:12,593 - WARNING -  * Debugger is active!
+2025-01-20 11:28:12,597 - INFO -  * Debugger PIN: 881-923-362
+2025-01-20 11:28:42,959 - INFO - 127.0.0.1 - - [20/Jan/2025 11:28:42] "GET /?busca=701 HTTP/1.1" 200 -
+2025-01-20 11:28:43,013 - INFO - 127.0.0.1 - - [20/Jan/2025 11:28:43] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-01-20 11:28:45,257 - INFO - 127.0.0.1 - - [20/Jan/2025 11:28:45] "GET / HTTP/1.1" 200 -
+2025-01-20 11:28:45,269 - INFO - 127.0.0.1 - - [20/Jan/2025 11:28:45] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-01-20 11:28:48,855 - INFO - Buscando por nome normalizado: 'alto'
+2025-01-20 11:28:48,862 - INFO - 127.0.0.1 - - [20/Jan/2025 11:28:48] "[35m[1mGET /?busca=alto HTTP/1.1[0m" 500 -
+2025-01-20 11:28:49,157 - INFO - 127.0.0.1 - - [20/Jan/2025 11:28:49] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-01-20 11:28:49,185 - INFO - 127.0.0.1 - - [20/Jan/2025 11:28:49] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-01-20 11:28:49,529 - INFO - 127.0.0.1 - - [20/Jan/2025 11:28:49] "GET /?__debugger__=yes&cmd=resource&f=console.png&s=cp35bz4obOhfMJ2SxAnf HTTP/1.1" 200 -
+2025-01-20 11:28:49,779 - INFO - 127.0.0.1 - - [20/Jan/2025 11:28:49] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2025-01-20 11:28:59,217 - INFO -  * Detected change in 'C:\\Desenvolvimento\\app-onibus-jp\\app.py', reloading
+2025-01-20 11:28:59,291 - INFO -  * Restarting with stat
+2025-01-20 11:29:00,110 - WARNING -  * Debugger is active!
+2025-01-20 11:29:00,113 - INFO -  * Debugger PIN: 881-923-362
+2025-01-20 11:29:39,982 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-01-20 11:29:39,982 - INFO - [33mPress CTRL+C to quit[0m
+2025-01-20 11:29:39,983 - INFO -  * Restarting with stat
+2025-01-20 11:29:40,758 - WARNING -  * Debugger is active!
+2025-01-20 11:29:40,763 - INFO -  * Debugger PIN: 881-923-362
+2025-01-20 11:30:09,144 - INFO -  * Detected change in 'C:\\Desenvolvimento\\app-onibus-jp\\app.py', reloading
+2025-01-20 11:30:09,218 - INFO -  * Restarting with stat
+2025-01-20 11:32:45,778 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-01-20 11:32:45,779 - INFO - [33mPress CTRL+C to quit[0m
+2025-01-20 11:32:45,780 - INFO -  * Restarting with stat
+2025-01-20 11:32:46,524 - WARNING -  * Debugger is active!
+2025-01-20 11:32:46,528 - INFO -  * Debugger PIN: 881-923-362
+2025-01-20 11:32:49,298 - INFO - 127.0.0.1 - - [20/Jan/2025 11:32:49] "GET / HTTP/1.1" 200 -
+2025-01-20 11:32:49,344 - INFO - 127.0.0.1 - - [20/Jan/2025 11:32:49] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-01-20 11:33:03,804 - INFO - 127.0.0.1 - - [20/Jan/2025 11:33:03] "[33mGET /horarios/0229%20-%20MANGABEIRA%20VII/RANGEL HTTP/1.1[0m" 404 -
+2025-01-20 11:34:25,520 - INFO - 127.0.0.1 - - [20/Jan/2025 11:34:25] "GET /horarios/0207%20-%20PENHA HTTP/1.1" 200 -
+2025-01-20 11:35:00,430 - INFO - 127.0.0.1 - - [20/Jan/2025 11:35:00] "GET /horarios/0303%20-%20CIDADE%20VERDE%20-%20PEDRO%20II HTTP/1.1" 200 -
+2025-01-20 11:35:44,417 - INFO - 127.0.0.1 - - [20/Jan/2025 11:35:44] "GET /?pagina=2 HTTP/1.1" 200 -
+2025-01-20 11:35:44,714 - INFO - 127.0.0.1 - - [20/Jan/2025 11:35:44] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-01-20 11:35:52,565 - INFO - 127.0.0.1 - - [20/Jan/2025 11:35:52] "[33mGET /horarios/0702%20-%20ALTO%20DO%20MATEUS/TIRADENTES HTTP/1.1[0m" 404 -
+2025-01-20 11:36:16,205 - INFO - 127.0.0.1 - - [20/Jan/2025 11:36:16] "[33mGET /horarios/0701%20-%20ALTO%20DO%20MATEUS/ACESSO%20OESTE HTTP/1.1[0m" 404 -
+2025-01-20 11:39:26,668 - INFO -  * Detected change in 'C:\\Desenvolvimento\\app-onibus-jp\\app.py', reloading
+2025-01-20 11:39:26,730 - INFO -  * Restarting with stat
+2025-01-20 11:39:27,546 - WARNING -  * Debugger is active!
+2025-01-20 11:39:27,550 - INFO -  * Debugger PIN: 881-923-362
+2025-01-20 11:40:12,156 - INFO -  * Detected change in 'C:\\Desenvolvimento\\app-onibus-jp\\app.py', reloading
+2025-01-20 11:40:12,216 - INFO -  * Restarting with stat
